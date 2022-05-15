@@ -13,7 +13,7 @@ In experimenting with the OpenAI API, I developed a little bot for the Signal Me
 
 <!--more-->
 
-To build the bot, I leveraged the [semparhore](https://github.com/lwesterhof/semaphore) framework, and set up the `signald` system using a spare phone number[^1].
+To build the bot, I leveraged the [semaphore](https://github.com/lwesterhof/semaphore) framework, and set up the `signald` system using a spare phone number[^1].
 After testing with the [echo bot example](https://github.com/lwesterhof/semaphore/blob/main/examples/echobot.py), which replies to every message with the same message, I then developed my own test bot.
 It reacts to every message with a 🌯 emoji.
 You can see the code below.
