@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Wee Open Source: PyTorch Lightning CIFAR"
+title:  "Open Source: PyTorch Lightning CIFAR"
 date:   2022-05-03 16:20:00 +0000
 categories: blog
 tags: ai pytorch open-source computer-vision
