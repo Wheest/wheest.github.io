@@ -7,7 +7,7 @@ tags: linux hikey edge
 excerpt_separator: <!--more-->
 ---
 
-I recently had to flash a Hikey 970 from scratch.
+I recently had to flash a Hikey 970 from scratch, as I did not get any response from `fastboot`.
 However, the official documentation does not appear to have been updated since 2018.
 Hence, this post documents the steps of how far I got.
 Unfortunately I was not able to get the whole thing working, but I will update this post if I do.
@@ -76,3 +76,13 @@ I found [this mailing list post](https://edk2-devel.narkive.com/V1bNsa5l/edk2-pa
 Therefore, beyond this point I'm not sure of the solution.
 Fortunately I had another Hikey available that did work, so I was able to continue with my work.
 As said at the start of this post, if you did manage to get it working, please get in touch so I can update this guide.
+
+#### Update
+
+I came back to this after a while, and tried to flash Lebuntu.
+Instead of the original instructions, I tried following the instructions inside the `.rar` file, `lebuntu-rfs_flashing_guide.txt`.
+There appear to be some errors in the instructurions.
+For me, I had to turn switches 1 and 3 on, and then `cd binaries`.
+Then I could run `./recovery-flash.sh`.
+Note the you need to connect the USB-C connection inbetween the USB and HDMI ports (there are two, only one can be used for flashing).
+It still did not work, but I got further this time.
