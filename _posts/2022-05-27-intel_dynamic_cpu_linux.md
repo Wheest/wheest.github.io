@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Penguin eating a Tiger(lake): "
-date:   2022-05-15 15:20:00 +0000
+title:  "Penguin eating a Tiger(lake): Fixing high battery usage on GNU/Linux+Intel"
+date:   2022-05-29 14:39:00 +0000
 categories: blog
-tags: intel cpu laptop battery
+tags: intel cpu laptop battery linux
 excerpt_separator: <!--more-->
 ---
 
