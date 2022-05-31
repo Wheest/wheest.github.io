@@ -18,7 +18,7 @@ For non-academic publications, I have a [machine generated poetry book](https://
 In 2019 I did a [research visit](https://summerofhpc.prace-ri.eu/perry-gibson/) at the [Barcelona Super Computing Centre](https://www.bsc.es), through the [PRACE Summer of HPC](https://summerofhpc.prace-ri.eu/perry-gibson/) program.
 
 I'm at home in the shell, and manage a suite of self- and cloud-hosted services.
-I like my workflows to be reproducible, through containerisation, or environment managers, but am still learning the ropes.
+I like my workflows to be reproducible, through containerisation, or environment managers.
 
 You can read more about my work on my [LinkedIn](https://www.linkedin.com/in/perry-gibson/), [GitHub](https://github.com/Wheest), or [my blog]({{ site.baseurl }}/posts).
 
