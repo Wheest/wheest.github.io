@@ -22,7 +22,7 @@ I like my workflows to be reproducible, through containerisation, or environment
 
 You can read more about my work on my [LinkedIn](https://www.linkedin.com/in/perry-gibson/), [GitHub](https://github.com/Wheest), or [my blog]({{ site.baseurl }}/posts).
 
-Feel free to get in touch with me if you want to disucss opportunities or such.
+Feel free to get in touch with me if you want to discuss opportunities or such.
 
 
 
