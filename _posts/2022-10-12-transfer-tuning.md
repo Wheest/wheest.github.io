@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Transfer-Tuning: Reusing Auto-Schedules for Efficient Tensor Program Code Generation"
-date:   2022-10-19 20:20:08 +0000
+date:   2022-10-12 20:20:08 +0000
 categories: blog
 tags: ai dnns cnns tvm compilers auto-scheduling tuning
 excerpt_separator: <!--more-->
