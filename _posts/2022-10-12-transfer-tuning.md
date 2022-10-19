@@ -7,7 +7,7 @@ tags: ai dnns cnns tvm compilers auto-scheduling tuning
 excerpt_separator: <!--more-->
 ---
 
-![](/assets/transfer_tuning.png)
+![](/assets/transfer-tuning.png)
 
 I was delighted to have our paper "Transfer-Tuning" accepted in the [PACT 2022](https://pact22.cs.illinois.edu/) conference in Chicago, where I was first author.
 You can view the paper on [arXiv here](https://arxiv.org/abs/2201.05587).
