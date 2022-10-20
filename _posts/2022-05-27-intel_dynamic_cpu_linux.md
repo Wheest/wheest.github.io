@@ -7,6 +7,8 @@ tags: intel cpu laptop battery linux
 excerpt_separator: <!--more-->
 ---
 
+![](/assets/penguin.png)
+
 I recently got a new laptop, a ThinkPad P14s, as part of a project I undertook at the university.
 However, despite an advertised 10 hour battery life, I found that it was going from 100% to 0% charge in under an hour.
 That's fine in a work-from-home situation, however I'm hoping as the world gradually opens up, I'm keen to become Mr Worldwide 😎, so an hour is not going to be enough for me.
