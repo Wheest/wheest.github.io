@@ -7,6 +7,9 @@ tags: ai pytorch open-source computer-vision
 excerpt_separator: <!--more-->
 ---
 
+![](/assets/lightning.png)
+
+
 I released my code for [PyTorch Lightning CIFAR](https://github.com/Wheest/pytorch-lightning-cifar/tree/master) on GitHub, free under the MIT License.
 It is a fork of the classic [PyTorch CIFAR](https://github.com/kuangliu/pytorch-cifar) codebase from [@kuangliu](https://github.com/kuangliu), adding support for the productive research tooling that [PyTorch Lightning](https://www.pytorchlightning.ai/) package brings.
 I also include accuracies for the models trained using 200 epochs.
