@@ -17,6 +17,14 @@ This post documents what I found, and how I fixed it.
 
 <!--more-->
 
+**Update 2022-11-08**
+
+Recent updates to components such as the BIOS and the kernel have allowed me to control the CPU and fan pressing `Fn + l` to set the fan/CPU on energy saving mode (which lowers the noise while also throttling the CPU).
+This can be reverted by pressing `Fn + h`, which sets performance mode.
+I will leave my original description of the steps I took prior to this, which may be valuable if you still have issue.s
+
+**Original post**
+
 After some searching, I found [a post from u/dathislayer](https://www.reddit.com/r/linux/comments/u7zxa0/psa_for_intel_tiger_lake_dynamic_tuning_laptops/) that discussed how the Intel Tigerlake line of CPUs have a system called "dynamic tuning".
 Namely it can vary the clock speed of the CPU while it is running, which can save battery life.
 However, upon checking my own CPU frequency, I saw that it was running at the so-called "Max Turbo" frequency of 4.80 GHz all the time, which explained the battery drain.
@@ -37,7 +45,3 @@ By changing the driver `acpi-cpufreq`, I now have the complete set of governors 
 I have set the governor to `ondemand`, and have found that my battery/performance trade-off is working well so far.
 I set the driver by adding `intel_pstate=disable acpi=force` to the `GRUB_CMDLINE_LINUX_DEFAULT` line of `/etc/default/grub`, then running `sudo update-grub` and rebooting.
 For more details on this, please refer to [this post](https://stackoverflow.com/questions/52477213/how-to-forcefully-disable-intel-pstate-intel-pstate-is-enabled-on-reboot-even-w).
-
-However, after a few weeks, I found that the fan noise was also a bit too loud for my liking, compared to when it was running Windows.
-Although I explored installing the [`thinkfan`](https://github.com/vmatare/thinkfan) package, I found on a forum somewhere that that pressing `Fn + l` set the fan on energy saving mode, which lowers the noise while also further throttling the CPU.
-This can be reverted by pressing `Fn + h`.
