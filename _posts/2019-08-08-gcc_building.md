@@ -7,6 +7,8 @@ tags: gcc compilers devops tools build
 excerpt_separator: <!--more-->
 ---
 
+![](/assets/gnu.png)
+
 Hello neighbours.  Another dry one today, intended first and foremost for myself before I wrote this post, and secondly for anyone coming after me in a similar boat.
 
 Due to working on a reproducibility study, it was necessary for me to build some old compiler versions, that no longer existed on package repositories.
@@ -153,11 +155,7 @@ I was recently contacted by a reader [Ali Abdul-Kareem](https://github.com/Haide
 > When you fix an error like: `gcc: error: gengtype-lex.c: No such file or directory`, or any other error really, and you run `make` again, it will (probably) report an error with something along the lines of: `make recipe failed`,
 and it will exit the program.
 > I encountered it multiple times and the easiest solution for me was remove everything and start again.
-> Or you can simply remove the cached files (it will report which cached files, but it will be much earlier in the terminal output). 
+> Or you can simply remove the cached files (it will report which cached files, but it will be much earlier in the terminal output).
 > I simply removed the build directory and started again.
-> I experienced an error `recipe for target bootstrab lean failed`, if you read the output there is almost nothing but scrolling way up will read (`error cached files doesn't match for gmp` or something similar). 
+> I experienced an error `recipe for target bootstrab lean failed`, if you read the output there is almost nothing but scrolling way up will read (`error cached files doesn't match for gmp` or something similar).
 > Removing the cached files seemed to fix this.
-
-
-
-
