@@ -20,8 +20,8 @@ This post documents what I found, and how I fixed it.
 **Update 2022-11-08**
 
 Recent updates to components such as the BIOS and the kernel have allowed me to control the CPU and fan pressing `Fn + l` to set the fan/CPU on energy saving mode (which lowers the noise while also throttling the CPU).
-This can be reverted by pressing `Fn + h`, which sets performance mode.
-I will leave my original description of the steps I took prior to this, which may be valuable if you still have issue.s
+This can be reverted by pressing `Fn + h`, which sets the fan/CPU to performance mode.
+I will leave my original description of the steps I took prior to this, which may be valuable if you still have issues.
 
 **Original post**
 
