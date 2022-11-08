@@ -37,3 +37,7 @@ By changing the driver `acpi-cpufreq`, I now have the complete set of governors 
 I have set the governor to `ondemand`, and have found that my battery/performance trade-off is working well so far.
 I set the driver by adding `intel_pstate=disable acpi=force` to the `GRUB_CMDLINE_LINUX_DEFAULT` line of `/etc/default/grub`, then running `sudo update-grub` and rebooting.
 For more details on this, please refer to [this post](https://stackoverflow.com/questions/52477213/how-to-forcefully-disable-intel-pstate-intel-pstate-is-enabled-on-reboot-even-w).
+
+However, after a few weeks, I found that the fan noise was also a bit too loud for my liking, compared to when it was running Windows.
+Although I explored installing the [`thinkfan`](https://github.com/vmatare/thinkfan) package, I found on a forum somewhere that that pressing `Fn + l` set the fan on energy saving mode, which lowers the noise while also further throttling the CPU.
+This can be reverted by pressing `Fn + h`.
