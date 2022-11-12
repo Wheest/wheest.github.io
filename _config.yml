@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Perry Gibson 🍍
+title: Perry Gibson 🍐
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog of Perry Gibson © 2022.
@@ -27,7 +27,7 @@ url: "https://gibsonic.org" # the base hostname & protocol for your site, e.g. h
 twitter_username: PerryGibson_
 github_username:  Wheest
 linkedin_username: perry-gibson
-author: Perry Gibson 🍍
+author: Perry Gibson 🍐
 
 # Google Analytics
 google_analytics: G-MW1X3HHQ1N

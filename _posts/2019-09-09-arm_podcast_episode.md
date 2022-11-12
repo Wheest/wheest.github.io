@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Podcast episode: ARM and HPC"
+title:  "Podcast episode: Arm and HPC"
 date:   2019-09-09 19:59:23 +0200
 categories: hpc arm
 excerpt_separator: <!--more-->
