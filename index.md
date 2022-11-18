@@ -20,7 +20,7 @@ In 2022 I undertook a research visit to Northeastern university, exploring MLIR 
 I'm at home in the shell, and manage a suite of self- and cloud-hosted services.
 I like my workflows to be reproducible, through containerisation, or environment managers.
 
-You can read more about my work on my [LinkedIn](https://www.linkedin.com/in/perry-gibson/), [GitHub](https://github.com/Wheest), [Google Scholar](https://scholar.google.com/citations?user=Bf-bR_UAAAAJ&hl=en&oi=ao), or [my blog]({{ site.baseurl }}/posts).
+You can read more about my work on my [LinkedIn](https://www.linkedin.com/in/perry-gibson/), [GitHub](https://github.com/Wheest), [Google Scholar](https://scholar.google.com/citations?user=Bf-bR_UAAAAJ&hl=en&oi=ao), or [blog]({{ site.baseurl }}/posts).
 
 Feel free to get in touch with me if you want to discuss opportunities or such.
 
