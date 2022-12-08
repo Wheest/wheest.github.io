@@ -21,9 +21,11 @@ You can also download this list as a [TeX bib file]({{ site.baseurl }}/publicati
 
 - A. Stjerngren, **P. Gibson**, and J. Cano, *‘Bifrost: End-to-End Evaluation and optimization of Reconfigurable DNN Accelerators’*, in 2022 IEEE International Symposium on Performance Analysis of Systems and Software (**ISPASS**), May 2022, pp. 288–299. doi: 10.1109/ISPASS55109.2022.00042.  [[Paper]](https://ieeexplore.ieee.org/document/9804659/) [[arXiv]](https://arxiv.org/abs/2204.12418) [[Code]](https://github.com/gicLAB/bifrost)
 
+- **P. Gibson**, J. Cano, *‘Productive Reproducible Workflows for DNNs: A Case Study for Industrial Defect Detection’*, in 4th Workshop on Accelerated Machine Learning (**AccML**) co-located with **HiPEAC**, Budapest, Hungary, June 2022. [[Paper]](https://accml.dcs.gla.ac.uk/papers/2022/4thAccML_paper_2(16).pdf)
+
 ### 2021
 
-- J. Haris, **P. Gibson**, J. Cano, N. B. Agostini, and D. Kaeli, *‘SECDA: Efficient Hardware/Software Co-Design of FPGA-based DNN Accelerators for Edge Inference’*, in 2021 IEEE 33rd International Symposium on Computer Architecture and High Performance Computing (**SBAC-PAD**), Oct. 2021, pp. 33–43. doi: 10.1109/SBAC-PAD53543.2021.00015. [[Paper]](https://ieeexplore.ieee.org/document/9651579) [[arXiv]](https://arxiv.org/abs/2110.00478) [[Code]](https://github.com/giclab/secda).
+- J. Haris, **P. Gibson**, J. Cano, N. B. Agostini, and D. Kaeli, *‘SECDA: Efficient Hardware/Software Co-Design of FPGA-based DNN Accelerators for Edge Inference’*, in 2021 IEEE 33rd International Symposium on Computer Architecture and High Performance Computing (**SBAC-PAD**), Oct. 2021, pp. 33–43. doi: 10.1109/SBAC-PAD53543.2021.00015. [[Paper]](https://ieeexplore.ieee.org/document/9651579) [[arXiv]](https://arxiv.org/abs/2110.00478) [[Code]](https://github.com/giclab/secda)
 
 ### 2020
 
