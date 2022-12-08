@@ -18,7 +18,7 @@ There, I explored optimized data placement in heterogeneous memory systems, as w
 In 2022 I undertook a research visit to Northeastern university, exploring MLIR and homomorphic encryption.
 
 I'm at home in the shell, and manage a suite of self- and cloud-hosted services.
-I like my workflows to be reproducible, through containerisation, or environment managers.
+I like my workflows to be reproducible, through containerisation, template systems (like [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)), or environment managers.
 
 You can read more about my work on my [LinkedIn](https://www.linkedin.com/in/perry-gibson/), [GitHub](https://github.com/Wheest), [Google Scholar](https://scholar.google.com/citations?user=Bf-bR_UAAAAJ&hl=en&oi=ao), or [blog]({{ site.baseurl }}/posts).
 
