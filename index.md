@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-Awright!  I'm Perry Gibson, Student of Informatics, studying for a PhD in Computing Science at the University of Glasgow supervised by [Dr José Cano Reyes](http://www.dcs.gla.ac.uk/~josecr/).
+Awright!  I'm Perry Gibson, Student of Informatics, studying for a PhD in Computing Science at the University of Glasgow supervised by [Dr José Cano Reyes](http://www.dcs.gla.ac.uk/~josecr/).  I work at the intersection of machine learning and systems.
 
 ![picture of Perry Gibson](/assets/pg_profile.jpg){: style="float: left; margin-right: 1em;"}
 
