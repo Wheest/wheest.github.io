@@ -19,6 +19,7 @@ We were featured in newspaper articles, including [The Scotsman](https://www.sco
 
 I also had my first appearance on live TV, with a quick segment on EuroNews.  With that, I think I focused too much on technical details, and missed the narrative thrust, aspects of communication which I hope to continue working on during my PhD.
 
+**Update** Robot Burns was featured in a blogpost in SC21 conference website, see more info [here](({{ site.baseurl }}/nlp/art/2021/06/08/sc_robot_burns.html)!
 <!--more-->
 
 <!-- Folk with at least a pop-sci interest in machine learning will probably have heard of GPT-2, -->
