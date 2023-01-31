@@ -7,7 +7,7 @@ tags: nlp side-projects poetry gpt flask python
 excerpt_separator: <!--more-->
 ---
 
-![](/assets/robot_burns/vinter_header.png)
+![](/assets/robot_burns/vinter_header.jpg)
 
 For Burns' Night 2023, I am pleased to announce `Robot Burns Infinite`, the follow-up to [2020's Robot Burns](({{ site.baseurl }}/nlp/art/2021/06/08/sc_robot_burns.html)!
 
