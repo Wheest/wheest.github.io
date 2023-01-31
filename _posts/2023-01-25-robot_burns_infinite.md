@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 ![](/assets/robot_burns/vinter_header.jpg)
 
-For Burns' Night 2023, I am pleased to announce `Robot Burns Infinite`, the follow-up to [2020's Robot Burns](({{ site.baseurl }}/nlp/art/2021/06/08/sc_robot_burns.html)!
+For Burns' Night 2023, I am pleased to announce `Robot Burns Infinite`, the follow-up to [2020's Robot Burns]({{ site.baseurl }}/nlp/art/2021/06/08/sc_robot_burns.html)!
 
 Robot Burns Infinite is a website that uses a GPT-3 derived model, trained on 6000 lines of Burns poetry, and will generate new ones on demand.  Buy some credits to get started, and as before all proceed go to Samaritans.
 
