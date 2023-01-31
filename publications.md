@@ -4,11 +4,11 @@ title: Publications
 permalink: /publications
 ---
 
-For the most upto-date and complete information on my publications, check out my [Google Scholar](https://scholar.google.com/citations?user=Bf-bR_UAAAAJ&hl=en&oi=ao) and [Twitter](https://twitter.com/PerryGibson_).
+For the most up-to-date and complete information on my publications, check out my [Google Scholar](https://scholar.google.com/citations?user=Bf-bR_UAAAAJ&hl=en&oi=ao) and [Twitter](https://twitter.com/PerryGibson_).
 
 You can also download this list as a [TeX bib file]({{ site.baseurl }}/publications.tex).
 
-### 2023 
+### 2023
 
 - J. Haris, **P. Gibson**, J. Cano, N. Bohm Agostini, and D. Kaeli, *‘SECDA-TFLite: A toolkit for efficient development of FPGA-based DNN accelerators for edge inference’*, Journal of Parallel and Distributed Computing (**JPDC**), vol. 173, pp. 140–151, Mar. 2023, doi: 10.1016/j.jpdc.2022.11.005. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0743731522002301) [[Code]](https://github.com/gicLAB/SECDA-TFLite)
 
@@ -32,4 +32,3 @@ You can also download this list as a [TeX bib file]({{ site.baseurl }}/publicati
 - **P. Gibson**, J. Cano, J. Turner, E. J. Crowley, M. O’Boyle, and A. Storkey, *‘Optimizing grouped convolutions on edge devices’*, in 2020 IEEE 31st international conference on application-specific systems, architectures and processors (**ASAP**), 2020, pp. 189–196. doi: 10.1109/ASAP49362.2020.00039.  [[Paper]](https://ieeexplore.ieee.org/document/9153227/) [[arXiv]](https://arxiv.org/abs/2006.09791) [[Code]](https://github.com/apache/tvm/blob/main/python/tvm/topi/x86/group_conv2d.py#L109)
 
 - **P. Gibson** and J. Cano, *‘Orpheus: A new deep learning framework for easy deployment and evaluation of edge inference’*, in 2020 IEEE international symposium on performance analysis of systems and software (**ISPASS**), 2020, pp. 229–230. doi: 10.1109/ISPASS48437.2020.00042. [[Paper]](https://ieeexplore.ieee.org/document/9238597) [[arXiv]](https://arxiv.org/abs/2007.13648)
-
