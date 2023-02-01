@@ -16,7 +16,7 @@ For non-academic publications, I have a [machine generated poetry book]({{ site.
 I've undertaken research visits at the [Barcelona Super Computing Centre](https://www.bsc.es) (2019, through the [PRACE Summer of HPC](https://summerofhpc.prace-ri.eu/perry-gibson/) program) investigating optimized data placement in heterogeneous memory systems; and Northeastern University (2022), exploring MLIR and homomorphic encryption.
 
 I'm at home in the shell, and manage a suite of self- and cloud-hosted services.
-I like my workflows to be reproducible, through containerisation, template systems (like [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)), or environment managers.
+I like my workflows to be reproducible: e.g. through containerisation, or template systems (like [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/) or [AI Assets](https://arxiv.org/abs/2206.09359)).
 
 You can read more about my work on my [LinkedIn](https://www.linkedin.com/in/perry-gibson/), [GitHub](https://github.com/Wheest), [Google Scholar](https://scholar.google.com/citations?user=Bf-bR_UAAAAJ&hl=en&oi=ao), or [blog]({{ site.baseurl }}/posts).
 
