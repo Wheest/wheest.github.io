@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-Awright!  I'm Perry Gibson, and I work at the intersection of machine learning📉 and systems🔩.  I'm working on a PhD at the [gicLAB](https://giclab.dcs.gla.ac.uk/) ([University of Glasgow](https://www.gla.ac.uk/schools/computing/)), supervised by [Dr José Cano Reyes](http://www.dcs.gla.ac.uk/~josecr/).
+Awright!  I'm Perry Gibson, working at the intersection of machine learning📉 and systems🔩.  I'm completing a PhD at the [gicLAB](https://giclab.dcs.gla.ac.uk/) ([University of Glasgow](https://www.gla.ac.uk/schools/computing/)), supervised by [Dr José Cano Reyes](http://www.dcs.gla.ac.uk/~josecr/).
 
 ![picture of Perry Gibson](/assets/pg_profile.jpg){: style="float: left; margin-right: 1em;"}
 
