@@ -11,7 +11,7 @@ Awright!  I'm Perry Gibson, and I work at the intersection of machine learning a
 I'm interested in across-stack optimisation of neural networks, especially on constrained edge-devices, with a focus on what compiler toolchains like [Apache TVM](https://tvm.apache.org/) and [MLIR](https://mlir.llvm.org/) can bring.
 
 You can find some of my research work under [Publications]({{ site.baseurl }}/publications).
-For non-academic publications, I have a [machine generated poetry book]({{ site.baseurl }}//nlp/2020/01/30/robot_burns.html) inspired by the works of Rabbie Burns (2020), an [AI Generated music video](https://gibsonic.org/side-projects/2021/11/19/music_video.html) (2021), and [web-based follow-up to Robot Burns]({{ site.baseurl }}/https://gibsonic.org/blog/2023/01/25/robot_burns_infinite.html) (2023).
+For non-academic publications, I have a [machine generated poetry book]({{ site.baseurl }}//nlp/2020/01/30/robot_burns.html) inspired by the works of Rabbie Burns (2020), an [AI Generated music video](https://gibsonic.org/side-projects/2021/11/19/music_video.html) (2021), and a [web-based follow-up to Robot Burns]({{ site.baseurl }}/https://gibsonic.org/blog/2023/01/25/robot_burns_infinite.html) (2023).
 
 I've undertaken research visits at the [Barcelona Super Computing Centre](https://www.bsc.es) (2019, through the [PRACE Summer of HPC](https://summerofhpc.prace-ri.eu/perry-gibson/) program) investigating optimized data placement in heterogeneous memory systems; and Northeastern University (2022), exploring MLIR and homomorphic encryption.
 
@@ -27,9 +27,4 @@ Feel free to get in touch with me if you want to discuss my work, opportunities,
 [![https://www.gibsonic.org](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://www.gibsonic.org)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://www.againstmalaria.com/perry-gibson)
-🔒`0x272C7D9A29B234DA`
-
-
-
-
-___
+[🔒`0x272C7D9A29B234DA`](https://keys.openpgp.org/search?q=0x272C7D9A29B234DA)
