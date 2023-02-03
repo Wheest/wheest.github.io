@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications
 ---
 
-For the most up-to-date and complete information on my publications, check out my [Google Scholar](https://scholar.google.com/citations?user=Bf-bR_UAAAAJ&hl=en&oi=ao) and [Twitter](https://twitter.com/PerryGibson_).
+For the most up-to-date information on my publications, check out my [Google Scholar](https://scholar.google.com/citations?user=Bf-bR_UAAAAJ&hl=en&oi=ao) and [Twitter](https://twitter.com/PerryGibson_).
 
 You can also download this list as a [TeX bib file]({{ site.baseurl }}/publications.tex).
 
