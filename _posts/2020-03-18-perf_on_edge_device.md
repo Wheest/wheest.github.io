@@ -6,6 +6,7 @@ categories: systems
 tags: raspberry-pi systems linux perf
 excerpt_separator: <!--more-->
 ---
+<img src="/assets/rpi3/rpi_perf_header.png" width="1024">
 
 I recently had a colleague encounter some troubles using `perf` on a new Raspberry Pi 4 device.
 
