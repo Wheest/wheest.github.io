@@ -7,7 +7,7 @@ tags: ai dnns cnns bonseyes bonsapps eu
 excerpt_separator: <!--more-->
 ---
 
-![](/assets/madrid.png)
+<img src="/assets/madrid.png" width="1024">
 
 Thanks to our success in the [AIMDDE project]({{ site.baseurl }}/blog/2022/01/25/aimdde.html), the [BonsAPPs consortium](https://bonsapps.eu/consortium/) invited [Dr Cano Reyes](https://www.dcs.gla.ac.uk/~josecr/) and I as keynotes to their ["Matchmaking and Demo Day"](https://bonsapps.eu/event/bonsapps-matchmaking-and-demo-day/).
 

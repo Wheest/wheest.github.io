@@ -6,8 +6,7 @@ categories: hpc
 tags: hpc containerisation docker
 excerpt_separator: <!--more-->
 ---
-
-![](/assets/shipping_container_prace.jpg)
+<img src="/assets/shipping_container_prace.jpg" width="1024">
 
 For my reproducibility work I have recently been introduced to the Singularity containerisation workflow, which has some key differences from Docker, especially regarding the permissions that processes run at.
 

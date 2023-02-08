@@ -7,7 +7,7 @@ tags: gpt3 rpi circuits
 excerpt_separator: <!--more-->
 ---
 
-![Header image](/assets/rpi3/header.png)
+<img src="/assets/rpi3/header.png" width="1024">
 
 
 As a weekend project, I thought I would try to do something with an old Raspberry Pi 3 I had lying around.

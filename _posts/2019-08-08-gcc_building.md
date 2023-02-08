@@ -7,7 +7,7 @@ tags: gcc compilers devops tools build
 excerpt_separator: <!--more-->
 ---
 
-![](/assets/gnu.png)
+<img src="/assets/gnu.png" width="1024">
 
 Hello neighbours.  Another dry one today, intended first and foremost for myself before I wrote this post, and secondly for anyone coming after me in a similar boat.
 

@@ -7,7 +7,6 @@ tags: ai dnns cnns mooc learning teaching
 excerpt_separator: <!--more-->
 ---
 
-![]()
 <img src="/assets/bonsapps/bonsapps_header.png" width="1024">
 
 [Dr Cano Reyes](https://www.dcs.gla.ac.uk/~josecr/) and I were invited to produce an online course (MOOC) for the [BonsAPPs consortium](https://bonsapps.eu/).

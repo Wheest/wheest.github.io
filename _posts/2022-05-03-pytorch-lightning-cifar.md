@@ -6,8 +6,7 @@ categories: blog
 tags: ai pytorch open-source computer-vision
 excerpt_separator: <!--more-->
 ---
-
-![](/assets/lightning.png)
+<img src="/assets/lightning.png" width="1024">
 
 
 I released my code for [PyTorch Lightning CIFAR](https://github.com/Wheest/pytorch-lightning-cifar/tree/master) on GitHub, free under the MIT License.

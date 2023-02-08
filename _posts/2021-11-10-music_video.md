@@ -4,10 +4,10 @@ title:  "AI Generated Music Video: SENGA 'Bloodshot'"
 date:   2021-11-19 20:20:08 +0000
 categories: side-projects
 tags: art side-projects ai
-excerpt_separator: <!--more--> 
+excerpt_separator: <!--more-->
 ---
 
-![](/assets/sean_video/red_sun.png)
+<img src="/assets/sean_video/red_sun.png" width="1024">
 
 I recently had the opportunity to help produce a music video for the upcoming album from [SENGA](https://soundcloud.com/supersenga) AKA [Sean Cosgrove](https://twitter.com/seancosgrxve).
 

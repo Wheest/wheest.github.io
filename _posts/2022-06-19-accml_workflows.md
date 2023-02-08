@@ -7,7 +7,7 @@ tags: ai dnns cnns
 excerpt_separator: <!--more-->
 ---
 
-![](/assets/cyber_whale.png)
+<img src="/assets/cyber_whale.png" width="1024">
 
 I was delighted to have our paper "Productive Reproducible Workflows for DNNs: A Case Study for Industrial Defect Detection" accepted in the [AccML 2022](https://accml.dcs.gla.ac.uk/) workshop at the [HiPEAC 2022 conference](https://www.hipeac.net/2022/budapest/#/), where I was first author.
 You can view the paper on [arXiv here](https://arxiv.org/abs/2206.09359).
