@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 <img src="/assets/thesis.png" width="1024">
 
-I'll be starting hardcore thesis writing in a month or so.  For measurement and motivation reasons, I've been advised to track progress.  Therefore, I have open sourced a "thesis-o-meter" tool, which I hope will help me.
+I'll be starting hardcore thesis writing in a month or so.  For measurement and motivation reasons, I've been advised to keep track of progress (e.g. word count added per day).  Therefore, I have open sourced a "thesis-o-meter" tool, which I hope will help me.
 
 <https://github.com/Wheest/thesis-o-meter>
 
