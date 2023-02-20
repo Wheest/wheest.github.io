@@ -13,6 +13,6 @@ I'll be starting hardcore thesis writing in a month or so.  For measurement and 
 
 <https://github.com/Wheest/thesis-o-meter>
 
-There a few other metrics and analysis tools that I'll add to it as time goes on, however if anyone else wants to use or improve it, feel free.
+There are a few other metrics and analysis tools that I'll add to it as time goes on, however if anyone else wants to use or improve it, feel free.
 
 The [README](https://github.com/Wheest/thesis-o-meter) has a roadmap, as well as system critique.
