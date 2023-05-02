@@ -8,20 +8,19 @@ Awright!?  I'm Perry Gibson, working at the intersection of machine learning📉
 
 ![picture of Perry Gibson](/assets/pg_profile.jpg){: style="float: left; margin-right: 1em;"}
 
-I'm interested in across-stack optimisation of neural networks, with a compiler-centric perspective. For example, toolchains such as [Apache TVM](https://tvm.apache.org/) and [MLIR](https://mlir.llvm.org/).
+I'm interested in across-stack optimisation of neural networks, especially with a compiler-centric perspective. For example, toolchains such as [Apache TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/), and tensor compilers in general.
 
 You can find some of my research work under [/Publications]({{ site.baseurl }}/publications).
-For non-academic publications, I have a [machine generated poetry book]({{ site.baseurl }}/nlp/2020/01/30/robot_burns.html) inspired by the works of Rabbie Burns (2020), an [AI Generated music video]({{ site.baseurl }}/side-projects/2021/11/19/music_video.html) (2021), and a [web-based follow-up to Robot Burns]({{ site.baseurl }}/blog/2023/01/25/robot_burns_infinite.html) (2023).
+For non-academic publications, I've made [various small open source tools](https://github.com/Wheest), a [machine generated poetry book]({{ site.baseurl }}/nlp/2020/01/30/robot_burns.html) inspired by the works of Rabbie Burns (2020), an [AI Generated music video]({{ site.baseurl }}/side-projects/2021/11/19/music_video.html) (2021), and a [web-based follow-up to Robot Burns]({{ site.baseurl }}/blog/2023/01/25/robot_burns_infinite.html) (2023).
 
 I've undertaken research visits at the [Barcelona Super Computing Centre](https://www.bsc.es) (2019, through the [PRACE Summer of HPC](https://summerofhpc.prace-ri.eu/perry-gibson/) program) investigating optimized data placement in heterogeneous memory systems; and [Northeastern University](https://ece.northeastern.edu/groups/nucar/) (2022, Boston, USA), exploring MLIR and homomorphic encryption.
 
 I'm at home in the shell, and manage a suite of self- and cloud-hosted services.
-I like my workflows to be reproducible: e.g. through containerisation, or template systems (like [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/) or [AI Assets](https://arxiv.org/abs/2206.09359)).
+I like my workflows to be reproducible: e.g. through containerisation, or template systems (like [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/) or [AI Assets](https://arxiv.org/abs/2206.09359)).  I try to learn from and teach those on my team, and leave a trail of documentation like footprints.
 
 You can read more about my work on my [LinkedIn](https://www.linkedin.com/in/perry-gibson/), [GitHub](https://github.com/Wheest), [Google Scholar](https://scholar.google.com/citations?user=Bf-bR_UAAAAJ&hl=en&oi=ao), or [blog]({{ site.baseurl }}/posts).
 
 Feel free to get in touch with me if you want to discuss my work, opportunities, or such.
-
 
 
 [![https://www.gibsonic.org](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://www.gibsonic.org)
