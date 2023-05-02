@@ -19,7 +19,7 @@ See more info by expanding this post.
 
 Here's what that month of thesis writing looked like:
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/RyBp20dV-Qo" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RyBp20dV-Qo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 I've [open-sourced the tool](https://github.com/Wheest/desk-cheese) I made to produce the video under an MIT license.  `desk-cheese` takes periodic webcam photos, and uses the [YOLOv3 DNN model](https://arxiv.org/abs/1804.02767) to filter out pictures which don't have people in them.
 
