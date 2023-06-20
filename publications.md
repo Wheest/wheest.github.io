@@ -4,6 +4,12 @@ title: Publications
 permalink: /publications
 ---
 
+<style>
+  .custom-image {
+    font-size: 1em;
+  }
+</style>
+
 For the most up-to-date information on my publications, check out my [Google Scholar](https://scholar.google.com/citations?user=Bf-bR_UAAAAJ&hl=en&oi=ao) and [Twitter](https://twitter.com/PerryGibson_).
 
 You can also download this list as a [TeX bib file]({{ site.baseurl }}/publications.tex).
@@ -19,7 +25,13 @@ You can also download this list as a [TeX bib file]({{ site.baseurl }}/publicati
 
 - N. Louloudakis, **P. Gibson**, J. Cano, A. Rajan, *‘Assessing Robustness of Image Recognition Models to Changes in the Computational Environment’*, in NeurIPS ML Safety Workshop (**MLSW**) co-located with NeurIPS, Hybrid Conference, November-December 2022. [[Paper]](https://openreview.net/forum?id=-7DjNGvdpx)
 
-- **P. Gibson**, J. Cano, *‘Transfer-Tuning: Reusing Auto-Schedules for Efficient Tensor Program Code Generation’*, in 31st International Conference on Parallel Architectures and Compilation Techniques (**PACT**), Chicago, USA, October 2022. [[Paper]](https://dl.acm.org/doi/10.1145/3559009.3569682) [[arXiv]](https://arxiv.org/abs/2201.05587) [[Code artifact]](https://github.com/gicLAB/transfer-tuning)
+- **P. Gibson**, J. Cano, *‘Transfer-Tuning: Reusing Auto-Schedules for Efficient Tensor Program Code Generation’*, in 31st International Conference on Parallel Architectures and Compilation Techniques (**PACT**), Chicago, USA, October 2022. [[Paper]](https://dl.acm.org/doi/10.1145/3559009.3569682) [[arXiv]](https://arxiv.org/abs/2201.05587) [[Code artifact <span class="custom-image">
+  <img src="/assets/pics/acm_artifacts_evaluated_reusable_v1_1.png" style="height: 1em;">
+</span><span class="custom-image">
+  <img src="/assets/pics/acm_available_1.1.png" style="height: 1em;">
+</span><span class="custom-image">
+  <img src="/assets/pics/acm_results_reproduced_v1_1.png" style="height: 1em;">
+</span>]](https://github.com/gicLAB/transfer-tuning)
 
 - A. Stjerngren, **P. Gibson**, and J. Cano, *‘Bifrost: End-to-End Evaluation and optimization of Reconfigurable DNN Accelerators’*, in 2022 IEEE International Symposium on Performance Analysis of Systems and Software (**ISPASS**), May 2022, pp. 288–299. doi: 10.1109/ISPASS55109.2022.00042.  [[Paper]](https://ieeexplore.ieee.org/document/9804659/) [[arXiv]](https://arxiv.org/abs/2204.12418) [[Code]](https://github.com/gicLAB/bifrost)
 
