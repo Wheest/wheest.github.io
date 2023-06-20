@@ -16,7 +16,7 @@ You can also download this list as a [TeX bib file]({{ site.baseurl }}/publicati
 
 ### 2023
 
-- W. Hu, **P. Gibson**, and J. Cano, *‘ICE-Pick: Iterative Cost-Efficient Pruning for DNNs’*, to appear in [ICML](https://icml.cc/) ([Neural Compression Workshop](https://neuralcompression.github.io/workshop23)).
+- W. Hu, **P. Gibson**, and J. Cano, *‘ICE-Pick: Iterative Cost-Efficient Pruning for DNNs’*, to appear in 40th International Conference on Machine Learning ([**ICML**](https://icml.cc/)) ([Neural Compression Workshop (**NCW**)](https://neuralcompression.github.io/workshop23)).
 
 - J. Haris, **P. Gibson**, J. Cano, N. Bohm Agostini, and D. Kaeli, *‘SECDA-TFLite: A toolkit for efficient development of FPGA-based DNN accelerators for edge inference’*, Journal of Parallel and Distributed Computing (**JPDC**), vol. 173, pp. 140–151, Mar. 2023, doi: 10.1016/j.jpdc.2022.11.005. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0743731522002301) [[Code]](https://github.com/gicLAB/SECDA-TFLite)
 
