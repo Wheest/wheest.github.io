@@ -16,14 +16,20 @@ You can also download this list as a [TeX bib file]({{ site.baseurl }}/publicati
 
 ### 2023
 
-- W. Hu, **P. Gibson**, and J. Cano, *‘ICE-Pick: Iterative Cost-Efficient Pruning for DNNs’*, to appear in 40th International Conference on Machine Learning ([**ICML**](https://icml.cc/)) ([Neural Compression Workshop (**NCW**)](https://neuralcompression.github.io/workshop23)).
+- N. Louloudakis, **P. Gibson**, J. Cano, and A. Rajan
+    *'DeltaNN: Assessing the Impact of Computational Environment Parameters on the Performance of Image Recognition Models'**, to appear in IEEE International Conference on Software Maintenance and Evolution ([ICSME 2023](https://conf.researchr.org/home/icsme-2023)).
+
+- W. Hu, **P. Gibson**, and J. Cano, *‘ICE-Pick: Iterative Cost-Efficient Pruning for DNNs’*, in 40th International Conference on Machine Learning ([**ICML**](https://icml.cc/)) ([Neural Compression Workshop (**NCW**)](https://neuralcompression.github.io/workshop23)). [[Paper]](https://openreview.net/forum?id=fWYKVtf7lu))
+
+- N. Louloudakis, **P. Gibson**, J. Cano, and A. Rajan
+    *'Fault Localization for Buggy Deep Learning Framework Conversions in Image Recognition'**, to appear in IEEE/ACM International Conference on Automated Software Engineering ([ASE 2023](https://conf.researchr.org/home/ase-2023)).
 
 - J. Haris, **P. Gibson**, J. Cano, N. Bohm Agostini, and D. Kaeli, *‘SECDA-TFLite: A toolkit for efficient development of FPGA-based DNN accelerators for edge inference’*, Journal of Parallel and Distributed Computing (**JPDC**), vol. 173, pp. 140–151, Mar. 2023, doi: 10.1016/j.jpdc.2022.11.005. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0743731522002301) [[Code]](https://github.com/gicLAB/SECDA-TFLite)
 
 
 ### 2022
 
-- N. Louloudakis, **P. Gibson**, J. Cano, A. Rajan, *‘Assessing Robustness of Image Recognition Models to Changes in the Computational Environment’*, in Conference on Neural Information Processing Systems (**NeurIPS**), ML Safety Workshop (**MLSW**), Hybrid Conference, November-December 2022. [[Paper]](https://openreview.net/forum?id=-7DjNGvdpx)
+- N. Louloudakis, **P. Gibson**, J. Cano, and A. Rajan, *‘Assessing Robustness of Image Recognition Models to Changes in the Computational Environment’*, in Conference on Neural Information Processing Systems (**NeurIPS**), ML Safety Workshop (**MLSW**), Hybrid Conference, November-December 2022. [[Paper]](https://openreview.net/forum?id=-7DjNGvdpx)
 
 - **P. Gibson**, J. Cano, *‘Transfer-Tuning: Reusing Auto-Schedules for Efficient Tensor Program Code Generation’*, in 31st International Conference on Parallel Architectures and Compilation Techniques (**PACT**), Chicago, USA, October 2022. [[Paper]](https://dl.acm.org/doi/10.1145/3559009.3569682) [[arXiv]](https://arxiv.org/abs/2201.05587) [[Code artifact <span class="custom-image">
   <img src="/assets/pics/acm_artifacts_evaluated_reusable_v1_1.png" style="height: 1em;">
