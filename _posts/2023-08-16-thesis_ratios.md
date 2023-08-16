@@ -12,7 +12,7 @@ excerpt_separator: <!--more-->
 I recently submitted my PhD thesis, in which I cited 1741 authors (1392 unique authors) over 319 papers.
 I was interested in the composition of my bibliography; therefore I've cobbled together [some code](https://github.com/Wheest/bib-boi/blob/main/bib_stats.py) to analyse it.
 The first analysis I have run estimates the gender ratio of the authors I cite.
-The most reliable estimate of my gender ratio is 11.6:1 for men:women.
+The most reliable estimate of my gender ratio is 11.6-to-1 for men-to-women.
 I discuss my methodology more below.
 
 <!--more-->
@@ -66,7 +66,7 @@ I cannot say definitely that this is more accurate, however it correctly guesses
 Therefore, I consider this method to be more the more reliable one, even if this designation is not based on solid metrics.
 
 Now, let's compare against my field, to see if I beat the average.
-According to the British Computer Society, the gender ratio of people starting computer science degrees in the UK was 4.3:1 in 2022 [[source]](https://www.bcs.org/articles-opinion-and-research/women-choosing-computing-degrees-in-record-numbers/), which is significantly lower from the ratio of my thesis bibliography.
+According to the British Computer Society, the gender ratio of people starting computer science degrees in the UK was 4.3-to-1 in 2022 [[source]](https://www.bcs.org/articles-opinion-and-research/women-choosing-computing-degrees-in-record-numbers/), which is significantly lower from the ratio of my thesis bibliography.
 
 
 However, I am working in a specific research field, and current undergrad statistics may not reflect the current research community.
