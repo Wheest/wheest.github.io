@@ -23,7 +23,7 @@ This has a number of limitations.
 On an individual basis, a first name is not a reliable estimate of gender for a variety of reasons.
 The most reliable method of determining someone’s gender is self-identification.
 Further, for the purposes of this basic analysis, I will be only considering male, female, ambiguous, and unknown.
-This leaves out a variety of other designations across a range of cultures — as any C programmer can tell you, you can fit a lot more than two values in boolean.
+This leaves out a variety of other designations across a range of cultures — as any C programmer can tell you, you can fit a lot more than two values in a boolean.
 That said, for the sake of this casual project, I will assume that on average, first names tend to be associated with gender, and that a majority of the authors cited fall into the aforementioned categories.
 This is an estimate, and not a definitive measurement!
 
