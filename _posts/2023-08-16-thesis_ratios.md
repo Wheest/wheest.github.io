@@ -48,7 +48,7 @@ As an alternative, I also made a version which uses an LLM (large language model
 My hope is that a neural network trained using recent web data will be able to draw from a wider cultural base of data.
 For this purpose I use OpenAI's [`gpt-3.5-turbo-16k` model](https://community.openai.com/t/gpt-3-5-turbo-0613-function-calling-16k-context-window-and-lower-prices/263263), which has a large enough context window for my purposes, as well as what is considered good performance on other language tasks.
 Note that many LLMs are not deterministic, and although I set the temperature value to 0, I still observe differences using the LLM between runs.
-Therefore, I run the model 5 times and take the average, rounded to the integer.
+Therefore, I run the model 5 times and take the average, rounded to the nearest integer.
 
 You can see the results for the LLM approach below:
 
@@ -62,7 +62,8 @@ You can see the results for the LLM approach below:
 | Male-Female ratio (est)   | 11.6077    |
 
 As you can see, we have significantly fewer unknown and ambiguous names, however most of these names have been filed as men, thus our male-female ratio has increased.
-I cannot say definitely that this is more accurate, however it correctly guesses names which I know the gender-guesser method got wrong.
+I cannot say definitely that this is more accurate, however it correctly guesses names which I know the `gender-guesser` method got wrong.
+Therefore, I consider this method to be more the more reliable one, even if this designation is not based on solid metrics.
 
 Now, let's compare against my field, to see if I beat the average.
 According to the British Computer Society, the gender ratio of people starting computer science degrees in the UK was 4.3:1 in 2022 [[source]](https://www.bcs.org/articles-opinion-and-research/women-choosing-computing-degrees-in-record-numbers/), which is significantly lower from the ratio of my thesis bibliography.
@@ -75,13 +76,13 @@ I found that across the 1112 authors in my list for PACT, the ratios were 8.17 a
 Therefore, I am still citing relatively fewer women than there are in my research community, at least according to this analysis.
 
 Overall, it appears that the authors which I cite in my thesis bibliography are by-and-large male.
-It is outwith my area of expertise to say why this is, both in terms of the composition of the research community I operate in, and my own selection choices of papers.
+It is outwith my area of expertise to say why this is, both in terms of the composition of the research community I operate in, and my own selection of papers.
 My literature review strategies tend to target popular conferences, and I choose papers based on the relevance of their titles and abstracts.
 I rarely read the names.
 I also look at papers that cite papers I am interested in using [Google Scholar](https://scholar.google.com/citations?user=Bf-bR_UAAAAJ&hl=en&oi=ao).
 
 While writing my thesis, I generated a lot of data, and I am simply analysing what I have.
-This particular analysis could be improved by doing comparisons between the gender-guesser and LLM approach to see where they disagree, as well as validating the information by confirming the genders of the authors included.
+This particular analysis could be improved by doing comparisons between the `gender-guesser` and LLM approach to see where they disagree, as well as validating the information by confirming the genders of the authors included.
 Given most papers include contact details for the author, I could, for example, automatically parse email addresses and send out a survey to ask the authors directly.
 However, I am unsure if 1) this would be at all appropriate, 2) what the response rate would be, and 3) if this would create a GDPR headache for me.
 Overall, I am satisfied with my basic analysis, and I encourage others to use and adapt my code, as part of my wider [bib-boi bibliography toolkit](https://github.com/Wheest/bib-boi/blob/main/bib_stats.py).
