@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Thesis Analysis: Gender Ratios"
-date:   2023-08-16 12:00:00 +0000
+date:   2023-08-16 10:00:00 +0000
 categories: blog
 tags: thesis python open-source llm
 excerpt_separator: <!--more-->
