@@ -43,6 +43,7 @@ Overall, here are the results of the `gender-guesser` approach:
 
 Overall, the ratio is 9.2 men for every woman.
 There are 336 unknown names of ambiguous gender and 348 names of unknown gender.
+
 As an alternative, I also made a version which uses an LLM (large language model).
 My hope is that a neural network trained using recent web data will be able to draw from a wider cultural base of data.
 For this purpose I use OpenAI's [`gpt-3.5-turbo-16k` model](https://community.openai.com/t/gpt-3-5-turbo-0613-function-calling-16k-context-window-and-lower-prices/263263), which has a large enough context window for my purposes, as well as what is considered good performance on other language tasks.
