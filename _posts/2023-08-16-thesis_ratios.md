@@ -7,7 +7,7 @@ tags: thesis python open-source llm
 excerpt_separator: <!--more-->
 ---
 
-<!-- <img src="/assets/pics/thesis_investigation.png" width="1024"> -->
+<img src="/assets/pics/thesis_investigation.png" width="1024">
 
 I recently submitted my PhD thesis, in which I cited 1741 authors (1392 unique authors) over 319 papers.
 I was interested in the composition of my bibliography; therefore I've cobbled together [some code](https://github.com/Wheest/bib-boi/blob/main/bib_stats.py) to analyse it.
