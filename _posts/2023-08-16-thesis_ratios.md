@@ -31,6 +31,7 @@ This is an estimate, and not a definitive measurement!
 My first technique uses the [`gender-guesser` Python library](https://pypi.org/project/gender-guesser/), which does a lookup from a predefined list. However, I found that it didn't handle names from colleagues with South or East Asian names reliably (European names appear to be reliable, though I am unsure of other regions).
 
 Overall, here are the results of the `gender-guesser` approach:
+
 | **Stat**                  | **Number** |
 |---------------------------|------------|
 | Number of authors         | 1741       |
@@ -49,6 +50,7 @@ Note that many LLMs are not deterministic, and although I set the temperature va
 Therefore, I run the model 5 times and take the average, rounded to the integer.
 
 You can see the results for the LLM approach below:
+
 | **Stat**                  | **Number** |
 |---------------------------|------------|
 | Number of authors         | 1741       |
