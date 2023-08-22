@@ -2,6 +2,7 @@
 layout: page
 title: Courses
 permalink: /
+exclude: true
 ---
 
 As a strong believer in continuous learning and development, I have completed several Massive Open Online Courses (MOOCs) to enhance my skills and knowledge in various areas.
