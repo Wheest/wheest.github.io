@@ -10,7 +10,7 @@ These courses have provided me with valuable insights and practical experience, 
 By continuously investing in my personal and professional growth through MOOCs, I strive to stay ahead of the curve and expand my expertise in various domains.
 
 Below are some of the MOOCs I have successfully completed, along with a brief summary and the outcomes achieved.
-These have complemented my formal education, of a Masters of Informatics at the University of Edinburgh, and a PhD in computing science at the University of Glasgow.
+These have complemented my formal education, of a [Masters of Informatics](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=G500) at the University of Edinburgh, and a PhD in computing science at the University of Glasgow.
 
 ## 2022
 
