@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Courses
-permalink: /
+permalink: /certs
 exclude: true
 ---
 
