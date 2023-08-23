@@ -27,6 +27,7 @@ Using these tools I published [a case study at the AccML 2022 workshop at HiPEAC
 
 - [Software Product Management Specialization](https://www.coursera.org/account/accomplishments/specialization/LP4GPCSMMGWY): This six course specialization provided me with a comprehensive understanding of the principles and best practices for effective software product management.
 I gained skills in developing product strategies, conducting market research, and managing product lifecycle.
+The course finished with a peer reviewed capstone project, where I scoped out a simulated project, and managed it to completion.
 I have been able to successfully apply and develop these principles to real projects in my career.
 
 
