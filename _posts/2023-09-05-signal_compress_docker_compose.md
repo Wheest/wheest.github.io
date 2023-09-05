@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Open Source: signal-compress, semi-secure LLM compression of Signal chats"
-date:   2023-08-05 12:00:00 +0000
+date:   2023-09-05 12:00:00 +0000
 categories: blog
 tags: python docker dnn signal open-source gpt llm security
 excerpt_separator: <!--more-->
@@ -26,12 +26,22 @@ See below for more technical details and design rationale.
 <!--more-->
 
 I was keen to explore the [Llama 2 family of models](https://ai.meta.com/llama/), since I've got a keen interest in generative models, and try to integrate them into my group chats so my pals and I can pick and poke at them.
-As a first test, I considered chat log summarisation.
+As a first test, I considered chat log summarization.
+To achieve this project, I followed 5 steps, which I expand on in the following sections:
 
+1. access the encrypted Signal database.
+2. an environment to execute the DNN model.
+3. an Docker environment to simplify the Signal data processing.
+4. a container orchestration configuration to combine the two components.
+5. a reasoned approach to data management.
+
+I am not a security professional, but I have attempted to make sensible design decisions to reduce the attack surface, and anticipate additional risks.
+If I was making something production ready, further collaboration and design refinement would be needed.
+Feel free to get in touch if you think of any other security risks that I haven't covered!
 
 ### Signal Database Access
 
-Signal encryption uses [SQLCipher](https://github.com/sqlcipher/sqlcipher), which uses 256 bit AES encryption of SQLite database files.
+Signal encrypts its local database using [SQLCipher](https://github.com/sqlcipher/sqlcipher), which uses 256 bit AES encryption of SQLite database files.
 The Signal developers maintain an implementation of SQLite in Node.js called [better-sqlite3](https://github.com/signalapp/better-sqlite3), for which they are currently using [v4.5.2 of SQLCipher](https://github.com/signalapp/Signal-Desktop/commit/e33bcd80b7544f46abfc628c8109f7a3deaf78c0).
 All of Signal's data is stored in a single database file.
 Depending on your OS, you can find the database at:
@@ -40,6 +50,7 @@ Depending on your OS, you can find the database at:
 - Windows: `C:\Users\<YourName>\AppData\Roaming\Signal\sql\db.sqlite`
 Let's say the path is `$SIGNAL_DB_PATH`.
 I'm not sure where it is stored on iOS or Android, but my project is intended to work with Signal desktop.
+
 You also need the decryption key for the database, which is stored in the Signal directory in the `config.json` file, which will look something like this:
 
 ```json
@@ -68,6 +79,9 @@ I've been working with it for a number of years, for example in 2019 [when I was
 I also [co-developed an online course](https://gibsonic.org/blog/2023/02/08/bonsapps_mooc.html) for [BonsAPPs](https://bonsapps.eu/) about how container and codebase templates can help improve productivity and reproducibility for developing AI applications.
 Hence, it makes sense for this project.
 
+Docker is an open-source platform that enables developers to automate the deployment, scaling, and management of applications using containerization.
+It allows for efficient and isolated packaging of software, enabling consistent and reproducible deployments across different environments.
+
 Key terms:
 - **image**: A lightweight, standalone, executable package that includes code, runtime, libraries, tools, and settings needed to run an application.
 - **container**: An isolated and standardized runtime environment where an image can be executed, with its own set of processes, memory, and hardware resources.  An instance of an image.
@@ -79,13 +93,14 @@ Key terms:
 For running the LLM, I would ideally like to use something like [Apache TVM](https://tvm.apache.org/), a machine learning compiler that I've used a lot in my PhD.
 However, I've been hearing good things about the [`llama.cpp`](https://github.com/ggerganov/llama.cpp), a community project focused on efficient inference of transformer models such as Llama.
 In particular, they support very high levels of quantization (such as 4 bits), which can be applied with a single command.
-Extended quantization support in TVM is under active development, however in its current state `llama.cpp` seems like it will provide a reduced time-to-prototype.
+Extended quantization support in TVM is under active development, however in its current state.
+Therefore, `llama.cpp` seems like it will provide a reduced time-to-prototype, which is why I use it in this project.
 
-You can build `llama.cpp` from scratch, however there is a pre-compiled Docker image available as `ghcr.io/ggerganov/llama.cpp`, which encapsulates all of the dependencies required, as well as providing a simple CLI using [its `tools.sh` script](https://github.com/ggerganov/llama.cpp/blob/master/.devops/tools.sh).
+You can build `llama.cpp` from scratch for a variety of platforms (see [its README](https://github.com/ggerganov/llama.cpp)), however there is a pre-compiled Docker image available as `ghcr.io/ggerganov/llama.cpp`, which encapsulates all of the dependencies required, as well as providing a simple CLI using [its `tools.sh` script](https://github.com/ggerganov/llama.cpp/blob/master/.devops/tools.sh).
 
 Assuming that you have downloaded the pre-trained weights to the directory `$MODELS_PATH`, with your target model `${TARGET_MODEL}` given its own subdirectory, we can begin the initial conversion to the `llama.cpp` format.
-At time of writing, `llama.cpp` uses [the GGUF file format](https://github.com/ggerganov/ggml/pull/302).
-The conversion can be performed with:
+I got the weights for the Llama 2 models from Meta [here](https://github.com/facebookresearch/llama).
+At time of writing, `llama.cpp` uses [the GGUF file format](https://github.com/ggerganov/ggml/pull/302), which you can convert to using the following command:
 
 ```sh
 docker run -v $MODELS_PATH:/models ghcr.io/ggerganov/llama.cpp:full --convert "/models/${TARGET_MODEL}"
@@ -113,14 +128,14 @@ The next section discusses how I developed this integration.
 
 
 
-### Signal Container Orchestration
+### Signal Docker Image
 
 Next, we want to automate the extraction of our Signal database.
 Therefore we will make a 2nd Docker container which sets up the SQLCipher dependencies.
 Below you can see part of our Dockerfile:
 
 ```docker
-FROM python:3
+FROM python:3 # use official Python base image
 
 # Set the working directory
 WORKDIR /app
@@ -137,23 +152,25 @@ RUN cd sqlcipher \
 CMD ["python3", "extract.py"]
 ```
 
-We are using the Python base image, since it has most of the configuration and dependencies we need (which might be overkill), and is popular enough that we could consider it to be more trustworthy.
+We are using the official Python base image, since it has most of the configuration and dependencies we need (which might be overkill), and is popular enough that we could consider it to be more trustworthy.
 When we execute this container, we will execute some Python code which processes the Signal database, and pass the prompt to the LLM.
 `CMD ["python3", "extract.py"]` runs our script automatically when the container launches.
-
+You can see the Dockerfile, `extract.py`, and the rest of the code from this project on [my GitHub repo](https://github.com/Wheest/signal-compress).
 
 ### Container Orchestration
 
-Now we have our LLM container workflow, as well as our Signal database extractor in a separate container.
+Now we have our LLM container workflow, as well as our Signal database extractor in a separate image.
 However, how are we going to simplify and automate our application?
 Docker Compose is well suited for this, at least at the scale that we are operating at, i.e., running on a single host, which is a desirable feature for our security model.
-
 But how are we going to connect the Signal container and the `llama.cpp` container?
 This is where Docker Compose comes in.
+
 Docker Compose allows us to run multiple Docker containers at once, and define their configuration in a single file.
 This helps with reproducibility, since we have "infrastructure-as-code", rather than having to copy-and-paste multiple `docker run` commands for each of our containers, which can be tedious and error prone.
-This configuration is done in a YAML file `docker-compose.yml`.
-A basic annotated Docker Compose file is given below.
+It also simplifies the process of cross-container communication.
+
+This configuration of Docker Compose is defined in a [YAML](https://en.wikipedia.org/wiki/YAML) file `docker-compose.yml`.
+A basic annotated Docker Compose file is given below, to illustrate some of the core concepts.
 Docker Compose calls distinct containers `services`, and here we have two, `llama` and `signal`.
 
 ```yaml
@@ -170,10 +187,13 @@ services: # two services, llama and signal
       - llama
 ```
 
-If we run `docker compose up`, this will launch both containers.
-As part of Docker Compose, containers can access open ports from each other by using the service name as a domain name.
+If we run `docker compose up`, this will launch both containers automatically!
+
+
+As part of Docker Compose, containers can access open ports from other containers.
+They do this by using the service name of the target container as a domain name.
 For example, from the Signal container we can access the Llama server running on port 9090 using `http://llama:9090/completion`.
-This automatic network configuration can be very handy.
+As you can imagine, this automatic network configuration can be very handy.
 
 There are a few additional things that our Docker Compose configuration needs to include.
 Namely, how do we give our container access to our Signal data, ideally in a trust-minimised fashion?
@@ -258,7 +278,7 @@ You can see how you can create a non-root user, as well as some of the caveats, 
 
 2. If the Python program `extract.py` crashes, it will not delete the unencrypted Signal files with `shutil.rmtree(output_dir)`.
 This could be mitigated by having the program in a `try-except` block which runs the clean-up code in most crash scenarios.
-It may be better to keep our data in memory rather than writing it to disk, since there are arguably more exfiltration opportunities.
+Also, consider that it may be better to keep our data in memory rather than writing it to disk, since there are arguably more exfiltration opportunities (e.g., is file deletion secure?).
 However, since our chat logs could be very large, I am writing to disk as a default.
 
 3. Our Dockerfiles do not pin the versions of the packages and base images used.
