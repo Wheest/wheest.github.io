@@ -24,6 +24,9 @@ layout: default
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
+           {% if post.excerpt != post.content %}
+        <a href="{{ post.url | prepend: site.baseurl }}" title="Read more about {{ post.title }}">Read more</a>
+        {% endif %}
         {%- endif -%}
       </li>
       {%- endfor -%}
