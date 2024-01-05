@@ -14,10 +14,19 @@ For the most up-to-date information on my publications, check out my [Google Sch
 
 You can also download this list as a [TeX bib file]({{ site.baseurl }}/publications.tex).
 
+### 2024
+
+- *'AXI4MLIR: User-Driven Automatic Host Code Generation for Custom AXI-Based Accelerators'*, to appear in IEEE International Symposium on Code Generation and Optimization [(**CGO**)](https://conf.researchr.org/home/cgo-2024). [[arXiv]](https://arxiv.org/abs/2312.14821)   <span class="custom-image"><img src="/assets/pics/acm_artifacts_evaluated_reusable_v1_1.png" style="height: 1em;">
+</span><span class="custom-image">
+  <img src="/assets/pics/acm_available_1.1.png" style="height: 1em;">
+</span><span class="custom-image">
+  <img src="/assets/pics/acm_results_reproduced_v1_1.png" style="height: 1em;">
+</span>
+
 ### 2023
 
 - N. Louloudakis, **P. Gibson**, J. Cano, and A. Rajan
-    *'DeltaNN: Assessing the Impact of Computational Environment Parameters on the Performance of Image Recognition Models'*, to appear in IEEE International Conference on Software Maintenance and Evolution ([**ICSME**](https://conf.researchr.org/home/icsme-2023)).
+    *'DeltaNN: Assessing the Impact of Computational Environment Parameters on the Performance of Image Recognition Models'*, in IEEE International Conference on Software Maintenance and Evolution ([**ICSME**](https://conf.researchr.org/home/icsme-2023)) [[Paper]](https://ieeexplore.ieee.org/abstract/document/10336258) [[arXiv]](https://arxiv.org/abs/2306.06208).
 
 - W. Hu, **P. Gibson**, and J. Cano, *‘ICE-Pick: Iterative Cost-Efficient Pruning for DNNs’*, in 40th International Conference on Machine Learning ([**ICML**](https://icml.cc/)) ([Neural Compression Workshop (**NCW**)](https://neuralcompression.github.io/workshop23)). [[Paper]](https://openreview.net/forum?id=fWYKVtf7lu)
 
