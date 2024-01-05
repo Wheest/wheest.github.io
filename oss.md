@@ -4,6 +4,15 @@ title: Open Source Contributions
 permalink: /oss
 ---
 
+<style>
+.sidebar__right {
+  text-align: left;
+}
+.page__content {
+  text-align: justify;
+}
+</style>
+
 This page tracks open source contributions I've made over the years.
 It is incomplete, but should paint a picture.
 For open source projects which I have made myself, see the "Own Projects" heading below.
@@ -15,14 +24,16 @@ For open source projects which I have made myself, see the "Own Projects" headin
 [GitHub PR #2876](https://github.com/openai/triton/pull/2876).
 This PR came from my initial reading of the documentation, and identification of a few spelling errors that impacted readability.
 After a suggestion from one of the maintainers, I used the automated spell checking tool [`codespell`](https://github.com/codespell-project/codespell) to do a more general cleanup of the codebase.
+
 I was conservative in my correction criteria:
-    - codespell provided suggestions, but I used my own discretion when applying them
-    - I ignored anything in the third-party directory
-    - Corrections were only on comments and docs, no code (even if a variable name was clearly a typo). Exceptions to this include:
-      - An error message string in `AxisInfo.cpp`
-      - An error message string in `hip.c`
-      - An error message string in `WSPipeline.cpp`
-      - Docstrings in tablegen files (still documentation, but is compiled)
+
+- codespell provided suggestions, but I used my own discretion when applying them
+- I ignored anything in the third-party directory
+- Corrections were only on comments and docs, no code (even if a variable name was clearly a typo). Exceptions to this include:
+  - An error message string in `AxisInfo.cpp`
+  - An error message string in `hip.c`
+  - An error message string in `WSPipeline.cpp`
+  - Docstrings in tablegen files (still documentation, but is compiled)
 
 ### 2023
 
