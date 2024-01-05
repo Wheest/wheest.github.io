@@ -16,7 +16,7 @@ You can also download this list as a [TeX bib file]({{ site.baseurl }}/publicati
 
 ### 2024
 
-- *'AXI4MLIR: User-Driven Automatic Host Code Generation for Custom AXI-Based Accelerators'*, to appear in IEEE International Symposium on Code Generation and Optimization [(**CGO**)](https://conf.researchr.org/home/cgo-2024). [[arXiv]](https://arxiv.org/abs/2312.14821)   <span class="custom-image"><img src="/assets/pics/acm_artifacts_evaluated_reusable_v1_1.png" style="height: 1em;">
+- N. Agostini, J. Haris, **P. Gibson**,  Malith Jayaweera, Norm Rubin, Antonino Tumeo, José L. Abellán, José Cano, and David Kaeli *'AXI4MLIR: User-Driven Automatic Host Code Generation for Custom AXI-Based Accelerators'*, to appear in IEEE International Symposium on Code Generation and Optimization [(**CGO**)](https://conf.researchr.org/home/cgo-2024). [[arXiv]](https://arxiv.org/abs/2312.14821)   <span class="custom-image"><img src="/assets/pics/acm_artifacts_evaluated_reusable_v1_1.png" style="height: 1em;">
 </span><span class="custom-image">
   <img src="/assets/pics/acm_available_1.1.png" style="height: 1em;">
 </span><span class="custom-image">
