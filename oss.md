@@ -2,6 +2,7 @@
 layout: page
 title: Open Source Contributions
 permalink: /oss
+exclude: true
 ---
 
 <style>
