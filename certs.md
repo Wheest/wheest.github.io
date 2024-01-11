@@ -13,12 +13,21 @@ By continuously investing in my personal and professional growth through MOOCs, 
 Below are some of the MOOCs I have successfully completed, along with a brief summary and the outcomes achieved.
 These have complemented my formal education, of a [Masters of Informatics](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=G500) at the University of Edinburgh, and a [PhD in computing science at the University of Glasgow](https://gibsonic.org/blog/2023/12/01/phd_completiton.html).
 
+I also [produced a MOOC in 2023 with Dr Cano Reyes and BonsAPPs](https://gibsonic.org/blog/2023/02/08/bonsapps_mooc.html).
+
 ## 2023
 
-- [Google Project Management course](https://coursera.org/share/62136e90fbf8f49bfb90f805712fc11c): This certification program comprised of six modules over six months.
+- [Google Project Management specialization](https://coursera.org/share/62136e90fbf8f49bfb90f805712fc11c): This certification program comprised of six modules over six months.
 Although I have gained significant experienced in managing projects during my time at [gicLAB](giclab.dcs.gla.ac.uk/), as well as my other professional endeavours, I felt that re-familiarising myself with the terminology and best practices of the field would serve me well.
 Outcomes: I was able to apply these skills for developing grant proposals during my time at gicLAB.
 For example, I was instrumental in developing gicLAB's contribution to the [dAIedge](https://daiedge.eu/) consortium application to the EU, which was awarded over 14 million euros.  I applied techniques from the course to ensure that our planned contributions were achievable and well document.  I elected to not continue with a post-doc with gicLAB, and thus had to plan out the project in more detail for a new start.  This required me translating a lot of my institutional and project knowledge into additional documentation to help them.  For example, a stakeholder management plan, and a more detailed task breakdown.
+
+- [GPU Programming Specialization](https://coursera.org/share/62136e90fbf8f49bfb90f805712fc11c): This four course certification program comprised of four modules.
+Although I have gained significant experienced in working with GPUs over the past few years, [completing a PhD in Compiler-centric Across-stack Deep Learning Acceleration](https://gibsonic.org/blog/2023/12/01/phd_completiton.html), it has been a while since I've worked with several aspects of GPU programming directly --- after all I've been trying automate this using tensor compilers!
+With some spare time over the winter break, this seemed like the perfect opportunity to refresh myself on the core concepts.
+It also provided an opportunity to use some tools/libraries that I hadn't had occasion to use before (e.g., cuFFT, compute-santizer, Thrust).
+The final project was an opportunity to make something that interested me.
+I elected to implement the attention mechanism from scratch, with a few implementations, including hand-written kernels with varying configurations and leveraging cuBLAS.
 
 ## 2022
 

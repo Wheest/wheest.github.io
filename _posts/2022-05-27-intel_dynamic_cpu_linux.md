@@ -17,6 +17,11 @@ This post documents what I found, and how I fixed it.
 
 <!--more-->
 
+**Update 2023-12**
+
+Further Linux kernel updates appear to have improved power management for this CPU architecture significantly.
+Although I cannot say which version(s) introduced the improvement, nor have I got the data to compare the improvement, subjectively I can say that at kernel version 6.1 the battery life is way better.
+
 **Update 2022-11-08**
 
 Recent updates to components such as the BIOS and the kernel have allowed me to control the CPU and fan pressing `Fn + l` to set the fan/CPU on energy saving mode (which lowers the noise while also throttling the CPU).
