@@ -68,7 +68,7 @@ include "mlir/Interfaces/SideEffectInterfaces.td"
 ```
 
 These two files will generate some C++ files that can be included elsewhere in the project.
-For example, in our build directory (once we've set up the rest of our code), we will get the file `./tools/mlir/include/mlir/Dialect/Foo/FooOps.h.inc`.
+For example, in our build directory (once we've set up the rest of our code), we will generate the file `./tools/mlir/include/mlir/Dialect/Foo/FooOps.h.inc`.
 This will look something like this, actually defining the C++ class of our dialect.
 
 ```cpp
