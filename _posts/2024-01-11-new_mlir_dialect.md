@@ -209,3 +209,4 @@ You should see `foo` amongst them.
 
 And that's us done.
 You can extend this example to make a more fully featured dialect.
+Now you have a working dialect, now might be the time to revisit the [dialect definition tutorial](https://mlir.llvm.org/docs/Tutorials/CreatingADialect/).
