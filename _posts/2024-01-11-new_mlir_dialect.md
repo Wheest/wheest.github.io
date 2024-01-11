@@ -142,7 +142,7 @@ add_mlir_dialect(FooOps foo)
 add_mlir_doc(FooOps FooOps Dialects/ -gen-dialect-doc -dialect foo)
 ```
 
-This ensures our TableGen is created properly.
+This ensures our TableGen is executed properly.
 
 **Step 6**: Finally, an optional step is to ensure that our dialect is registered globally, otherwise we will need to add it to the registry of whatever tool we need it for manually.
 If you open the file `mlir/include/mlir/InitAllDialects.h`, you will see where this is done.
