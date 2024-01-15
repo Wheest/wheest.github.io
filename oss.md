@@ -23,9 +23,9 @@ For open source projects which I have made myself, see the "Own Projects" headin
 #### **Triton**:  [TESTING] Added precision option to benchmark CSV data saving
 
 [GitHub PR #2933](https://github.com/openai/triton/pull/2933).
-Triton has a built in benchmarking suite, however I discovered that it was not saving data with an unusually low level of precision (`.1f`).
+Triton has a built in benchmarking suite, however I discovered that it was saving data with an unusually low level of precision (`.1f`).
 In this patch, I made the precision user-configurable, and set the default to 6.
-I do not think the downsides of higher precision, namely larger file sizes for the CSVs is relevant compared to the downsides of losing data.
+I do not think the downsides of higher precision, namely larger file sizes for the CSVs, is relevant compared to the downsides of losing data.
 By making the value configurable, this gives us the best of both worlds.
 
 #### **Triton**: [CLEANUP] Fix typos across the project
