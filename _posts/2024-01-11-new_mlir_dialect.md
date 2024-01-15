@@ -21,7 +21,7 @@ I hope to update the latter with some of the steps described below.
 Note that MLIR/LLVM often has API breaking changes, and this guide may not by entirely correct or best practice when reading.
 My code builds on `42204c9`.
 
-If you just want to see the code/diff for a complete working example, [checkout the `new_dialect` branch on GitHub](https://github.com/Wheest/llvm-project/tree/new_dialect).
+If you just want to see the code/diff for a complete working example, [checkout commit `7c89cfe` on the `new_dialect` branch on  GitHub](https://github.com/Wheest/llvm-project/commit/7c89cfe150c6508d7f436be12c460c4d31236975).
 Overall, to add the new dialect I changed three files and created six new ones.
 If you're unfamiliar with MLIR, I recommend you check out the [docs](https://mlir.llvm.org/), and [the full Toy tutorial](https://mlir.llvm.org/docs/Tutorials/Toy/Ch-1/) is worth doing too.
 
@@ -210,3 +210,50 @@ You should see `foo` amongst them.
 And that's us done.
 You can extend this example to make a more fully featured dialect.
 Now you have a working dialect, now might be the time to revisit the [dialect definition tutorial](https://mlir.llvm.org/docs/Tutorials/CreatingADialect/).
+
+### Bonus! Adding an operation
+
+Clearly, the next step to creating a dialect is to start adding operations to it!
+You can see in [the Toy tutorial](https://mlir.llvm.org/docs/Tutorials/Toy/Ch-2/#using-the-operation-definition-specification-ods-framework) how we can do that, but what does this look like in our stripped down Foo dialect?
+
+We defined an initial `FooOps.td` ODS file above, but we didn't actually include any operations.
+
+Let's update this file:
+
+```tablegen
+include "mlir/Dialect/Foo/FooBase.td"
+include "mlir/Interfaces/FunctionInterfaces.td"
+include "mlir/IR/SymbolInterfaces.td"
+include "mlir/Interfaces/SideEffectInterfaces.td"
+
+class Foo_Op<string mnemonic, list<Trait> traits = []> :
+    Op<Foo_Dialect, mnemonic, traits>;
+
+def BarOp : Foo_Op<"bar"> {
+    let summary = "bar operation";
+}
+```
+
+We define a high-level `Foo_Op`, which all of the operations in our Foo dialect are derived from.
+Then, we have our operation, which we will call `bar`.
+Right now it takes not arguments and returns nothing, and we have our definition under `BarOp`.
+Much like before, TableGen will create the necessary header files and implementations for our operation.
+
+The other thing we need to add is the appropriate inclusion of our op classes.
+Add the following to the end of our `FooDialect.cpp` file:
+
+```cpp
+#define GET_OP_CLASSES
+#include "mlir/Dialect/Foo/FooOps.cpp.inc"
+```
+
+If you don't include the `FooOps.cpp.inc` file with `GET_OP_CLASSES`, then you may encounter compile errors such as:
+
+```
+ld.lld: error: undefined symbol: mlir::detail::TypeIDResolver<mlir::foo::BarOp, void>::id
+ld.lld: error: undefined symbol: mlir::foo::BarOp::verifyInvariantsImpl()
+```
+
+Essentially we can't find all of the definitions that TableGen creates for our op, such as `TypeIDResolver` and `verifyInvariantsImpl`.
+
+You can see the changes on commit [`0cd014c`](https://github.com/Wheest/llvm-project/commit/0cd014c269cf12de9579e082def427539737ac7e).
