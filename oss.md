@@ -20,6 +20,17 @@ For open source projects which I have made myself, see the "Own Projects" headin
 
 ### 2024
 
+#### **MLIR/LLVM**: [mlir][docs] Clarified Dialect creation tutorial + fixed typos
+
+[GitHub PR #77820](https://github.com/llvm/llvm-project/pull/77820).
+This PR adds clarification to the ["Creating a Dialect" tutorial](https://mlir.llvm.org/docs/Tutorials/CreatingADialect/) regarding how to register a dialect (especially globally).
+ The motivation for this came from trying to add my own dialect, and experiencing some friction since it had been a while.
+ [This forum post](https://discourse.llvm.org/t/how-to-register-a-dialect/66848/2) discusses the issue, but doesn't talk about the global reigstration approach.
+
+ [I created my own blogpost](https://gibsonic.org/blog/2024/01/11/new_mlir_dialect.html) which goes through a minimum working example in more detail, with stripped down TableGen files, but this level of detail might be overkill for the docs tutorial.
+
+ This PR also includes some spelling corrections across the `mlir` directory.  The methodology for this was conservative, using the [codespell tool](https://github.com/codespell-project/codespell), and using my own discretion for correction.  Corrections were only on comments and docs.  To keep the PR small, only a fraction of the identified errors were corrected
+
 #### **Triton**:  [TESTING] Added precision option to benchmark CSV data saving
 
 [GitHub PR #2933](https://github.com/openai/triton/pull/2933).
