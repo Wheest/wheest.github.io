@@ -99,10 +99,18 @@ I fixed the bug, and added a test case.
 
 ### Own Projects
 
+#### 2024
+
+[Triton Samples](https://github.com/Wheest/triton_samples):  Some home-brewed Triton kernels, with varying degrees of optimisation
+
+#### 2023
 - [Desk Cheese](https://github.com/Wheest/desk-cheese)
 - [bib-boi](https://github.com/Wheest/bib-boi)
 - [thesis-o-meter](https://github.com/Wheest/thesis-o-meter)
 - [Glasgow-Thesis-Template](https://github.com/Wheest/Glasgow-Thesis-Template)
+
+#### 2022
+
 - [pytorch-lightning-cifar](https://github.com/Wheest/pytorch-lightning-cifar)
 - [transfer-tuning](https://github.com/gicLAB/transfer-tuning)
 - [StyleGAN2-ADA](https://github.com/Wheest/stylegan2-ada-pytorch)
