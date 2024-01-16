@@ -15,7 +15,7 @@ I collaborated with Scottish illustrator, Alasdair Currie, who has provided thei
 
 We're selling a pamphlet of some of the system's output at [robotburns.com](https://www.robotburns.com/), for £10+P&P.  All proceeds go to [Samaritans](https://www.samaritans.org/scotland/samaritans-in-scotland/).
 
-We were featured in newspaper articles, including [The Scotsman](https://www.scotsman.com/news/politics/robot-burns-poems-created-by-artificial-intelligence-1-5078792), [Digit News](https://web.archive.org/save/https://www.digit.fyi/glasgow-student-creates-robert-burns-ai-poem-generator/), and [The Glasgow Times](https://www.glasgowtimes.co.uk/news/18176105.robot-burns-artificial-intelligence-celebrating-robert-burns/).
+We were featured in newspaper articles, including [The Scotsman](https://web.archive.org/web/20200123135330/https://www.scotsman.com/news/politics/robot-burns-poems-created-by-artificial-intelligence-1-5078792), [Digit News](https://web.archive.org/save/https://www.digit.fyi/glasgow-student-creates-robert-burns-ai-poem-generator/), and [The Glasgow Times](https://www.glasgowtimes.co.uk/news/18176105.robot-burns-artificial-intelligence-celebrating-robert-burns/).
 
 I also had my first appearance on live TV, with a quick segment on EuroNews.  With that, I think I focused too much on technical details, and missed the narrative thrust, aspects of communication which I hope to continue working on during my PhD.
 
