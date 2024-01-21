@@ -35,7 +35,7 @@ Next, select Mouse on the left panel, and then select Miscellaneous ribbon at th
 Next, you should select the "Underline files" option, as well as the "Open files/links by direct click".
 Finally, edit the "Text Editor Command" to match your text editor of choice.
 
-<img src="/assets/pics/2024_konsole_1.png", alt="Configured settings ">
+<img src="/assets/pics/2024_konsole_1.png" alt="Configured settings">
 
 For me, it had to be Custom, as there's some additional arguments I needed to configure.
 Editing the default command (which should look something like `kate PATH:LINE:COLUMN`), we see some documentation of the variables we have available:
