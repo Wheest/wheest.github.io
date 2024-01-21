@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to Instantly Open Files at Specific Positions in KDE Konsole."
+title:  "How to Instantly Open Files at Specific Positions in KDE Konsole"
 date:   2024-01-21 12:00:00 +0000
 categories: blog
 tags: dev workflow
@@ -30,20 +30,27 @@ Our solution is configured on a per-profile basis, so select the profile you wan
 
 Next, select Mouse on the left panel, and then select Miscellaneous ribbon at the top (see screenshot below):
 
-<img src="/assets/pics/2024_console_0.png">
+<img src="/assets/pics/2024_konsole_0.png">
 
 Next, you should select the "Underline files" option, as well as the "Open files/links by direct click".
 Finally, edit the "Text Editor Command" to match your text editor of choice.
+
+<img src="/assets/pics/2024_konsole_1.png", alt="Configured settings ">
 
 For me, it had to be Custom, as there's some additional arguments I needed to configure.
 Editing the default command (which should look something like `kate PATH:LINE:COLUMN`), we see some documentation of the variables we have available:
 
 
 > The format is e.g. 'editorExec PATH:LINE:COLUMN'
+>
 > PATH will be replaced by the path to the text file
+>
 > LINE will be replaced by the line number
+>
 > COLUMN (optional) will be replaced by the column number Note: you will need to replace 'PATH:LINE:COLUMN by the actual syntax the editor you want to use supports; e.g.:
+>
 > gedit +LINE:COLUMN PATH
+>
 > If PATH or LINE aren't present in the command, this setting will be ignored and the file will be opened by the default text editor.
 
 For me, that is `emacsclient +LINE:COLUMN -n PATH`.
