@@ -17,6 +17,13 @@ This post documents what I found, and how I fixed it.
 
 <!--more-->
 
+**Update 2024-02**
+
+Another factor that appears to influence the thermal profile of the machine is the Nvidia GPU.
+I had an issue that disabled the Nvidia drivers, and the average temparture over the next few days shot up significantly.
+Downloading and installing the newest drivers again (from the [Nvidia website](correct), signing the kernel modules) reduced the temperature significantly.
+I hypothesise that without properly correct drivers the GPU is idling at high power draw, which heats up the whole board.
+
 **Update 2023-12**
 
 Further Linux kernel updates appear to have improved power management for this CPU architecture significantly.
