@@ -20,6 +20,14 @@ For open source projects which I have made myself, see the "Own Projects" headin
 
 ### 2024
 
+#### **MLIR/LLVM**: [mlir] Retain original identifier names for debugging
+
+[GitHub PR #79704](https://github.com/llvm/llvm-project/pull/77820).
+Currently under active development, with a [high volume of discussion on the LLVM developer forums](https://discourse.llvm.org/t/retain-original-identifier-names-for-debugging/76417/23).
+This feature aims to add a flag to `mlir-opt` to keep the original names, which can be helpful for debugging compiler pipelines.
+Right now, identifier names are made anonymous, e.g., `%my_input` becomes `%arg0`.  Meaningful variable names can make it easy to reason about behaviour, hence why this feature is valuable.
+[Three designs are under consideration](https://discourse.llvm.org/t/retain-original-identifier-names-for-debugging/76417/24?u=wheest), although since this touches the core of MLIR, it is key that caution and careful consideration is used before merging.
+
 <!-- #### **MLIR/LLVM**: [mlir][docs] Clarified Dialect creation tutorial + fixed typos -->
 
 <!-- [GitHub PR #77820](https://github.com/llvm/llvm-project/pull/77820). -->
