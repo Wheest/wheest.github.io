@@ -20,6 +20,13 @@ For open source projects which I have made myself, see the "Own Projects" headin
 
 ### 2024
 
+#### **Docker Suno API**:  Improved docker compose integration
+[GitHub PR #115](https://github.com/gcui-art/suno-api/pull/115).
+This repo provides an API to the [Suno AI music generation tool](https://suno.com/).
+I used it as part of another project I was working on.
+However, this project used a containerised approach (for better modularity and security controls/clear trust boundaries).
+This PR made the project more ammendable to this goal.
+
 #### **MLIR/LLVM**: [mlir] Retain original identifier names for debugging
 
 [GitHub PR #79704](https://github.com/llvm/llvm-project/pull/77820).
