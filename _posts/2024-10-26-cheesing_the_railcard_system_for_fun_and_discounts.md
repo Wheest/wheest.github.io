@@ -94,7 +94,7 @@ Will the Railcard website validation handle this okay?
 It doesn't document this as an option, but it's worth a try.
 
 And... it worked, and all it took was some knowledge of the machine readable passport number format.
-Something that I'm sure any Belgian would have known (😉).
+Something that I'm sure everyone is expected to know /s.
 
 ### Conclusion
 
@@ -105,4 +105,4 @@ Overall, this was a fun little "exploit", as it gave me the satisfaction of usin
 Crucial to this was that the underlying validation system _was_ able to handle the `<` workaround, but really it should have been documented, or ideally the form should have been more flexible.
 For example, it could have asked for the different parts separately.
 
-I'm glad I was able to help my darling partner get a discount on their train journey.
+I'm glad I was able to help my lovely partner get a discount on their train journey.
