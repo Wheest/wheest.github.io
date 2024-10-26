@@ -133,7 +133,9 @@ I fixed the bug, and added a test case.
 
 #### 2024
 
-[Triton Samples](https://github.com/Wheest/triton_samples):  Some home-brewed Triton kernels, with varying degrees of optimisation
+- [RSPL Examples](https://github.com/Wheest/rspl_examples/):  Examples of using the RSPL language for the N64 RSP GPU.
+- [Triton Samples](https://github.com/Wheest/triton_samples):  Some home-brewed Triton kernels, with varying degrees of optimisation
+
 
 #### 2023
 - [Desk Cheese](https://github.com/Wheest/desk-cheese)
