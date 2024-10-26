@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cheesing the Railcard System for Fun and Discounts"
-date:   2024-10-26 11:00:00 +0000
+date:   2024-10-26 10:00:00 +0000
 categories: blog
 tags: hack rail disclosure
 excerpt_separator: <!--more-->
