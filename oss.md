@@ -20,12 +20,18 @@ For open source projects which I have made myself, see the "Own Projects" headin
 
 ### 2024
 
+#### **MLIR/LLVM**:  [mlir] Fix remove-dead-values pass throws error when module has a name
+
+[GitHub PR #109990](https://github.com/llvm/llvm-project/pull/109990).
+Encountered a bug when using [OpenXLA's StableHLO](https://openxla.org/stablehlo), which gives MLIR modules names (`module @IrToHlo.6443`).
+This caused the `remove-dead-values` pass to throw an error, since it was expecting a module without a name.  Could not find a good reason for this, so I fixed it, providing a test case to ensure it doesn't regress.
+
 #### **Docker Suno API**:  Improved docker compose integration
 [GitHub PR #115](https://github.com/gcui-art/suno-api/pull/115).
 This repo provides an API to the [Suno AI music generation tool](https://suno.com/).
 I used it as part of another project I was working on.
 However, this project used a containerised approach (for better modularity and security controls/clear trust boundaries).
-This PR made the project more ammendable to this goal.
+This PR made the project more amenable to this goal.
 
 #### **MLIR/LLVM**: [mlir] Retain original identifier names for debugging
 
