@@ -20,6 +20,12 @@ For open source projects which I have made myself, see the "Own Projects" headin
 
 ### 2024
 
+#### **MLIR/LLVM**:  [mlir,python] Expose replaceAllUsesExcept to Python bindings
+
+[GitHub PR #115850](https://github.com/llvm/llvm-project/pull/115850).
+MLIR's Python bindings are great for quickly hacking and exploring IR transformations.
+However, I found that a useful method [`Value.replaceAllUsesExcept()`](https://mlir.llvm.org/doxygen/classmlir_1_1Value.html#a9ec8d5c61f8a6aada4062f609372cce4) was not exposed.  I added this, with appropriate tests.
+
 #### **MLIR/LLVM**:  [mlir] Fix remove-dead-values pass throws error when module has a name
 
 [GitHub PR #109990](https://github.com/llvm/llvm-project/pull/109990).
