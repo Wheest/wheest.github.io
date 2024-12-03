@@ -20,6 +20,11 @@ For open source projects which I have made myself, see the "Own Projects" headin
 
 ### 2024
 
+#### **MLIR/LLVM**:   [mlir,python] Fix case when FuncOp.arg_attrs is not set
+
+[GitHub PR #117188](https://github.com/llvm/llvm-project/pull/117188).  In the MLIR Python API, there was a `KeyError` that was raised if one tried to access the `arg_attr`s of a `FuncOp` that did not have any.
+This PR fixed this, by returning an empty dictionary in this case, rather than raising an error.  An alternative could have been to return `None`, but I felt that an empty dictionary was more consistent with the behaviour of the rest of the API, and better suited the requirements of the Python API.
+
 #### **MLIR/LLVM**:  [mlir,python] Expose replaceAllUsesExcept to Python bindings
 
 [GitHub PR #115850](https://github.com/llvm/llvm-project/pull/115850).
