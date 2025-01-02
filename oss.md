@@ -110,7 +110,7 @@ My PR updated the documentation to reflect how the debugger can actually be used
 
 #### **MLIR/LLVM**: [mlir][docs] Broken link in MLIR Toy docs
 
-[Phabricator #D133977](https://reviews.llvm.org/D133977)
+[Phabricator #D133977](https://reviews.llvm.org/D133977).
 A minor documentation fix, such that the Toy tutorial (many user's first experience of MLIR, and a common reference point for MLIR developers) correctly linked to the correct location.
 
 
