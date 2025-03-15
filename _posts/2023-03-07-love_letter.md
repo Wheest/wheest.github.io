@@ -7,7 +7,7 @@ tags: thesis phd
 excerpt_separator: <!--more-->
 ---
 
-<img src="/assets/headers/love_letter.png" width="1024">
+<img src="{{site.url}}/assets/headers/2023-03-love_letter.png" width="1024">
 
 On a whim I made a submission to the University of Glasgow's "Love Letter to your Thesis" competition. I managed to win in the "Most Inspiring" category!
 
