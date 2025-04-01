@@ -18,6 +18,13 @@ This page tracks open source contributions I've made over the years.
 It is incomplete, but should paint a picture.
 For open source projects which I have made myself, see the "Own Projects" heading below.
 
+### 2025
+
+
+#### **HuggingFace Transformers**:  fix: Fully remove legacy cache from Llama
+
+[GitHub PR #36958](https://github.com/huggingface/transformers/pull/36958).  In the popular HuggingFace Transformers library, I found that the `Llama` model still had partial support for the legacy cache system (a list of tensors), rather than the new system (a specialised class).  This PR fully removed the legacy cache system, since attempting to use it would fail in a confusing way.
+
 ### 2024
 
 #### **MLIR/LLVM**:   [mlir,python] Fix case when FuncOp.arg_attrs is not set
