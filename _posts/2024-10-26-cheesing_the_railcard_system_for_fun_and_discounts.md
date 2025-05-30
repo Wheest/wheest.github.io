@@ -106,3 +106,5 @@ Crucial to this was that the underlying validation system _was_ able to handle t
 For example, it could have asked for the different parts separately.
 
 I'm glad I was able to help my lovely partner get a discount on their train journey.
+
+**2025 Update**: A Czech colleague informed me that they have a similar issue with their passport number, and were able to use the same `<` trick to get a Railcard for their children.
