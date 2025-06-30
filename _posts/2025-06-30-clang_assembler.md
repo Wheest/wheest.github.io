@@ -7,7 +7,7 @@ tags: c++ compilers llvm clang assembler
 excerpt_separator: <!--more-->
 ---
 
-<img src="{{site.url}}/assets/headers/2025-04-petit-pois.png" width="1024">
+<img src="{{site.url}}/assets/headers/2025-06-asm.png" width="1024">
 
 LLVM is a collection of modular and reusable compiler and toolchain technologies.
 It provides a set of libraries and tools for building compilers, assemblers, linkers, and other related tools.
