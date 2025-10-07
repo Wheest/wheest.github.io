@@ -1,24 +1,30 @@
 ---
 layout: post
-title:  "Simple Workflow for Scientific Python Projects"
-date:   2025-10-05 16:20:08 +0200
+title: "Simple Workflow Tweaks for Scientific Python Projects"
+date: 2025-10-05 16:20:08 +0200
 categories: python
 tags: python science reproducibility testing github-actions pre-commit
 excerpt_separator: <!--more-->
 ---
 
-I've recently been chatting with a couple of mates who are doing scientific research using Python.
-I've found that found in my own experience of writing and reviewing research
-code using Python, Jupyter notebooks are invaluable tools, however can be
-difficult to reuse, reproduce, or collaborate with.
+I've recently been chatting with a couple of mates who are doing scientific
+research using Python.
+Answering specific code questions is a lot of fun, as I try and figure out
+enough of their domain to see how if/how I can help.
 
+However, there are some general workflow improvements which I
 In this post, I’ll share a lightweight workflow for scientific Python projects.
 
 <!--more-->
 
 Research code is often different from production software. It doesn't need to be
 as robust or maintainable, because we have different needs, goals, and priorities.
-However, a few simple practices can make it far more reproducible and maintainable.
+However, a few simple practices can make it far more reproducible and
+maintainable.
+
+I've found that found in my own experience of writing and reviewing research
+code using Python, Jupyter notebooks are invaluable tools, however can be
+difficult to reuse, reproduce, or collaborate with.
 
 Here, we're going to see what steps we can do to improve **reproducibility, collaboration, and confidence in your
 results** - without overcomplicating your code.
@@ -34,13 +40,13 @@ We'll go through a few simple steps:
 
 ## The Project
 
-Let's say we're using [Astropy](https://www.astropy.org/) to do some cosmology calculations.  This
+Let's say we're using [Astropy](https://www.astropy.org/) to do some cosmology calculations. This
 isn't my area of expertise, I've just made some bullshit code that shows the
 development practices: apologies if it offends your sensibilities!
 
 Initially, we explored these calculations in a Jupyter notebook. While notebooks
 are great for experimentation, they aren't ideal for **sharing, testing, or
-reusing code**.  I've seen people have functions they copy between every
+reusing code**. I've seen people have functions they copy between every
 notebook, making slight changes each time, and then lose track of which version
 is "the good one".
 
@@ -96,7 +102,7 @@ To avoid "it worked on my machine" problems, we can specify exact package
 versions using a `requirements.txt` file.
 
 This is a simple text file listing all the Python packages your project depends
-on, along with their versions.  For our project, you can see it [here](https://github.com/Wheest/cosmole-example/blob/main/requirements.txt).
+on, along with their versions. For our project, you can see it [here](https://github.com/Wheest/cosmole-example/blob/main/requirements.txt).
 
 You can install these dependencies with:
 
@@ -141,7 +147,6 @@ also mean you automatically reload your package whenever you edit any of your
 
 ## Testing Your Code
 
-
 This outcome of this section can be seen on commit `9905048` of the [the
 repository](https://github.com/Wheest/cosmole-example/tree/99050481d5165109625f5c3f18eef9442d1ea4ab).
 
@@ -182,19 +187,18 @@ is giving the expected results, and will raise an error if it doesn't.
 
 From your project root, run:
 
-``` sh
+```sh
 pytest
 ```
 
 You should see output like this:
 
-``` sh
+```sh
 tests/test_angular_separation.py .                                                               [ 33%]
 tests/test_convert_equatorial_to_galactic.py .                                                   [ 66%]
 tests/test_redshift_to_distance.py .
 [100%]
 ```
-
 
 ### Pre-commit Hooks
 
@@ -234,10 +238,10 @@ pre-commit run --all-files
 
 In our existing code, there are a multiple automatic refomatting steps that were
 applied: none of which should change our functionality, only the neatness of our
-code.  For example, removing unused `import`s, making sure lines don't get too
+code. For example, removing unused `import`s, making sure lines don't get too
 long, being consistent with the use of whitespace, etc.
 
-However, there are also some issues that need manual review.  For example, Ruff complained that
+However, there are also some issues that need manual review. For example, Ruff complained that
 we had an ambiguous variable name `l` (lowercase L).
 
 ```
@@ -252,7 +256,7 @@ tests/test_convert_equatorial_to_galactic.py:8:5: E741 Ambiguous variable name: 
    |
 ```
 
-Normally, I'd recommend following whatever the rules suggest.  They're
+Normally, I'd recommend following whatever the rules suggest. They're
 opinionated, but are usually sensible.
 
 However, we can tell Ruff to ignore this specific warning by adding a comment to the
@@ -292,6 +296,6 @@ and answer our research questions.
 However, small software engineering standards can pay dividends if applied in a
 sensible way.
 
-There are more things you may want to explore, for  example Ruff can more you to
+There are more things you may want to explore, for example Ruff can more you to
 add documentation to all of your functions.
 There are also similar workflows if you work with other programming languages.
