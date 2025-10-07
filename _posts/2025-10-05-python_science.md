@@ -12,13 +12,18 @@ I've found that found in my own experience of writing and reviewing research
 code using Python, Jupyter notebooks are invaluable tools, however can be
 difficult to reuse, reproduce, or collaborate with.
 
-Research code is often different from production software. It doesn't always need to be industrial-strength, but a few simple practices can make it far more reproducible and maintainable.
+In this post, I’ll share a lightweight workflow for scientific Python projects.
 
-In this post, I’ll show a lightweight workflow for scientific Python projects
-that improves **reproducibility, collaboration, and confidence in your
+<!--more-->
+
+Research code is often different from production software. It doesn't need to be
+as robust or maintainable, because we have different needs, goals, and priorities.
+However, a few simple practices can make it far more reproducible and maintainable.
+
+Here, we're going to see what steps we can do to improve **reproducibility, collaboration, and confidence in your
 results** - without overcomplicating your code.
 
-This workflow assumes you’re using GitHub (or a similar platform like GitLab or Gitea) for version control. If you're not yet using a VCS, I highly recommend starting there.
+This post assumes you're using GitHub (or a similar platform like GitLab or Gitea) for version control. If you're not yet using a VCS, I highly recommend starting there.
 
 We'll go through a few simple steps:
 
@@ -27,19 +32,25 @@ We'll go through a few simple steps:
 - Using pre-commit hooks to maintain code quality automatically.
 - Setting up GitHub Actions to run tests on every push.
 
-<!--more-->
-
 ## The Project
 
-Let's say we're using Astropy and SciPy to do some cosmology calculations.  This
+Let's say we're using [Astropy](https://www.astropy.org/) to do some cosmology calculations.  This
 isn't my area of expertise, I've just made some bullshit code that shows the
-development practices, apologies if it offends your sensibilities!
+development practices: apologies if it offends your sensibilities!
 
-Initially, we explored these calculations in a Jupyter notebook. While notebooks are great for experimentation, they aren’t ideal for **sharing, testing, or reusing code**.
+Initially, we explored these calculations in a Jupyter notebook. While notebooks
+are great for experimentation, they aren't ideal for **sharing, testing, or
+reusing code**.  I've seen people have functions they copy between every
+notebook, making slight changes each time, and then lose track of which version
+is "the good one".
 
-Our goal is to take some commonly used functions from the notebook and turn them into a **small, reusable Python package** that we can import into any notebook or script.
+Our first goal is to take some commonly used functions from the notebook and turn them into a **small, reusable Python package** that we can import into any notebook or script.
 
 ## Common Package
+
+This outcome of this section can be seen on commit `ed941a` of the [this
+repository](https://github.com/Wheest/cosmole-example/tree/ed941aee1683f3be44d3a497437f221986b86acd).
+I'll walk through the steps below.
 
 When you have functions that you want to reuse across multiple notebooks or scripts, it’s best to put them in a **common package** rather than copying and pasting.
 Copying code can quickly lead to inconsistencies and bugs as your code evolves.
@@ -67,7 +78,7 @@ from .angular_separation import angular_separation
 from .convert_equatorial_to_galactic import convert_equatorial_to_galactic
 ```
 
-Now, from any notebook or script in the project, you can do:
+Now (once we've finished the following steps), from any notebook or script in the project, you can do:
 
 ```python
 from cosmole import redshift_to_distance, angular_separation, convert_equatorial_to_galactic
@@ -75,15 +86,17 @@ from cosmole import redshift_to_distance, angular_separation, convert_equatorial
 
 ### Requirements
 
-In scientific projects, it's easy for code to stop working later if dependencies change.
-To avoid "it worked on my machine" problems, we can specify exact package versions using a `requirements.txt` file.
+In scientific projects, it's easy for code to stop working later if dependencies
+change.
+I remember when writing up my PhD, I had to regenerate some plots I'd made in
+first year, and had issues because the `matplotlib` had changed in the meantime,
+I wasn't sure which version I'd used originally.
 
-For our `cosmole` project, the `requirements.txt` might look like this:
+To avoid "it worked on my machine" problems, we can specify exact package
+versions using a `requirements.txt` file.
 
-```
-astropy==7.1.0
-scipy==1.16.2
-```
+This is a simple text file listing all the Python packages your project depends
+on, along with their versions.  For our project, you can see it [here](https://github.com/Wheest/cosmole-example/blob/main/requirements.txt).
 
 You can install these dependencies with:
 
@@ -97,20 +110,14 @@ Or with conda:
 conda install --file requirements.txt
 ```
 
-This ensures anyone cloning the repository can reproduce your environment and run your code without surprises.
-
-To help with this, we can use a `requirements.txt` file to specify the exact
-versions of packages we want to use.
-
-
-
-
+This ensures anyone cloning the repository can reproduce your environment and
+run your code without surprises.
 
 ### Setting up the package
 
 To make Python aware of your `cosmole` package, we need a **`setup.py`** file at
 the root of the project. This file tells Python how to install your package and
-its dependencies. You can see an example here.
+its dependencies. In our example project, [you can see it here](https://github.com/Wheest/cosmole-example/blob/ed941aee1683f3be44d3a497437f221986b86acd/setup.py).
 
 To make the package immediately usable while you continue developing it, install
 it in editable mode:
@@ -122,7 +129,9 @@ pip install -e .
 - The `-e` flag means editable — any changes you make to the source code are reflected immediately when you import the package.
 - This is especially handy when working interactively in notebooks.
 
-Adding these lines at the top of your notebook will also mean you automatically reload the package whenever you run a cell:
+Additionally, adding and executing these lines at the top of your notebooks will
+also mean you automatically reload your package whenever you edit any of your
+`.py` files:
 
 ```python
 # Enable autoreload so that changes in imported modules are reflected automatically
@@ -132,12 +141,27 @@ Adding these lines at the top of your notebook will also mean you automatically 
 
 ## Testing Your Code
 
-Once you have shared functions in your package, it's a good idea to write tests.
+
+This outcome of this section can be seen on commit `9905048` of the [the
+repository](https://github.com/Wheest/cosmole-example/tree/99050481d5165109625f5c3f18eef9442d1ea4ab).
+
+Once you have refactored your functions into your package, it's a good idea to
+write tests.
+Actually, often we might want to write the tests _first_ as we're making our
+initial implementation of our functions (a practice known as test-driven
+development).
+
 Tests help ensure that your code behaves as expected, which is especially useful when making changes or refactoring.
 
-Even if your research code is exploratory, having a few **basic automated tests** can catch obvious bugs early and give you confidence that updates don’t break existing functionality.
+Even if your research code is exploratory, having a few **basic automated
+tests** can catch obvious bugs early and give you confidence that updates don't
+break existing functionality.
 
-We can use `pytest` to write and run tests. For example, let’s test our `convert_equatorial_to_galactic` function:
+You might find that a test you wrote was incorrect, or you have changed the
+intended functionality of a function.
+In which case, update the test --- make them work for you!
+
+We can use the `pytest` package to write and run tests. For example, let's test our `convert_equatorial_to_galactic` function:
 
 ```python
 import pytest
@@ -153,7 +177,8 @@ def test_convert_equatorial_to_galactic():
     assert pytest.approx(b, rel=1e-6) == coord.b.degree
 ```
 
-Running the Tests
+Those `assert pytest.approx` lines are checking that our function we're testing
+is giving the expected results, and will raise an error if it doesn't.
 
 From your project root, run:
 
@@ -190,6 +215,8 @@ For example, a simple configuration might include:
 - **Ruff** — a fast Python linter and code formatter.
 - **Prettier** — for formatting notebooks, Markdown, and JSON.
 
+In our example project, you can see the configuration file [here](https://github.com/Wheest/cosmole-example/blob/main/.pre-commit-config.yaml).
+
 You can install pre-commit and set it up with:
 
 ```bash
@@ -198,7 +225,42 @@ pre-commit install
 ```
 
 Now, every time you make a commit, the hooks defined in your configuration file
-will run automatically.
+will run automatically on any files that have changed.
+You can also run them manually on all files with:
+
+```bash
+pre-commit run --all-files
+```
+
+In our existing code, there are a multiple automatic refomatting steps that were
+applied: none of which should change our functionality, only the neatness of our
+code.  For example, removing unused `import`s, making sure lines don't get too
+long, being consistent with the use of whitespace, etc.
+
+However, there are also some issues that need manual review.  For example, Ruff complained that
+we had an ambiguous variable name `l` (lowercase L).
+
+```
+tests/test_convert_equatorial_to_galactic.py:8:5: E741 Ambiguous variable name: `l`
+   |
+ 6 | def test_convert_equatorial_to_galactic():
+ 7 |     ra, dec = 83.82208, -5.39111  # Approx location of Orion Nebula
+ 8 |     l, b = convert_equatorial_to_galactic(ra, dec)
+   |     ^ E741
+ 9 |     coord = SkyCoord(ra=ra*u.deg, dec=dec*u.deg, frame='icrs').galactic
+10 |     assert pytest.approx(l, rel=1e-6) == coord.l.degree
+   |
+```
+
+Normally, I'd recommend following whatever the rules suggest.  They're
+opinionated, but are usually sensible.
+
+However, we can tell Ruff to ignore this specific warning by adding a comment to the
+end of the line.
+
+```python
+l, b = convert_equatorial_to_galactic(ra, dec)  # noqa: E741
+```
 
 #### Editor Integration
 
@@ -208,7 +270,7 @@ commit time.
 
 ### GitHub Actions
 
-Now, we have tests and pre-commit hooks, which is great for local development. However, we also want to make sure that our code is tested when we push changes,
+Now, we have tests and pre-commit hooks, which are great for local development. However, we also want to make sure that our code is tested when we push changes,
 especially if we're collaborating with others.
 
 GitHub offers a feature called GitHub Actions, which allows us to run workflows
@@ -220,4 +282,16 @@ hooks on every push to the repository.
 Let's do this by creating a file `.github/workflows/ci.yml` as shown here.
 
 Now, every time you push changes or create a pull request, GitHub Actions will automatically run your tests and hooks.
-This adds an extra layer of confidence and helps maintain a reliable, reproducible scientific codebase.
+This adds an extra layer of confidence and helps maintain a reliable,
+reproducible scientific codebase.
+
+## Conclusion
+
+Ultimately, our goal in research code is to make systems that help us explore
+and answer our research questions.
+However, small software engineering standards can pay dividends if applied in a
+sensible way.
+
+There are more things you may want to explore, for  example Ruff can more you to
+add documentation to all of your functions.
+There are also similar workflows if you work with other programming languages.
