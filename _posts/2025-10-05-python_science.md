@@ -149,6 +149,25 @@ also mean you automatically reload your package whenever you edit any of your
 %autoreload 2
 ```
 
+#### Note to Conda users
+
+If you use Conda, you _might_ need an additional file `pyproject.toml` in your
+project to ensure
+that the package installs correctly.
+
+E.g.,
+
+```toml
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+```
+
+This is because modern versions of `pip` build packages in **isolated
+environments**.
+So you need to specify that `setuptools` and `wheel` are required to build the
+package (which then installs the dependencies from `requirements.txt`).
+
 ## Testing Your Code
 
 The outcome of this section can be seen on commit [`9905048`](https://github.com/Wheest/cosmole-example/tree/99050481d5165109625f5c3f18eef9442d1ea4ab).
