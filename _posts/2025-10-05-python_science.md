@@ -2,7 +2,7 @@
 layout: post
 title: "Simple Workflow Tweaks for Scientific Python Projects"
 date: 2025-10-05 16:20:08 +0200
-categories: python
+categories: blog
 tags: python science reproducibility testing github-actions pre-commit
 excerpt_separator: <!--more-->
 ---
