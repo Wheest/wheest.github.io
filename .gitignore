@@ -3,3 +3,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+.bundle
+.aider*
+Gemfile.lock
+.DS_Store
+node_modules/
+*.gem
