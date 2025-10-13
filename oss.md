@@ -20,35 +20,40 @@ For open source projects which I have made myself, see the "Own Projects" headin
 
 ### 2025
 
+#### **MLIR/LLVM**: [mlir][python] add dict-style to IR attributes
+
+[GitHub PR #163200](https://github.com/llvm/llvm-project/pull/163200).
+Improving the usability of the MLIR Python bindings, by allowing attributes to be accessed in a dictionary-like way.
+
 #### **dvc**: [cli,lock] Allow wait_for_lock
 
-[GitHub PR #10784(https://github.com/iterative/dvc/pull/10784).  DVC's purpose is to act as a more robust version of git LFS.  However, I was integrating it in Bazel, meaning I was running multiple `dvc` processes in parallel (to pull data from a repo).  DVC crashed in this case, as it generates a lock file that other processes crash if they encounter.  This PR added a flag that means that other DVC processes _can_ wait for the lock to free.
+[GitHub PR #10784(https://github.com/iterative/dvc/pull/10784). DVC's purpose is to act as a more robust version of git LFS. However, I was integrating it in Bazel, meaning I was running multiple `dvc` processes in parallel (to pull data from a repo). DVC crashed in this case, as it generates a lock file that other processes crash if they encounter. This PR added a flag that means that other DVC processes _can_ wait for the lock to free.
 
+#### **HuggingFace Transformers**: fix: Fully remove legacy cache from Llama
 
-#### **HuggingFace Transformers**:  fix: Fully remove legacy cache from Llama
-
-[GitHub PR #36958](https://github.com/huggingface/transformers/pull/36958).  In the popular HuggingFace Transformers library, I found that the `Llama` model still had partial support for the legacy cache system (a list of tensors), rather than the new system (a specialised class).  This PR fully removed the legacy cache system, since attempting to use it would fail in a confusing way.
+[GitHub PR #36958](https://github.com/huggingface/transformers/pull/36958). In the popular HuggingFace Transformers library, I found that the `Llama` model still had partial support for the legacy cache system (a list of tensors), rather than the new system (a specialised class). This PR fully removed the legacy cache system, since attempting to use it would fail in a confusing way.
 
 ### 2024
 
-#### **MLIR/LLVM**:   [mlir,python] Fix case when FuncOp.arg_attrs is not set
+#### **MLIR/LLVM**: [mlir,python] Fix case when FuncOp.arg_attrs is not set
 
-[GitHub PR #117188](https://github.com/llvm/llvm-project/pull/117188).  In the MLIR Python API, there was a `KeyError` that was raised if one tried to access the `arg_attr`s of a `FuncOp` that did not have any.
-This PR fixed this, by returning an empty dictionary in this case, rather than raising an error.  An alternative could have been to return `None`, but I felt that an empty dictionary was more consistent with the behaviour of the rest of the API, and better suited the requirements of the Python API.
+[GitHub PR #117188](https://github.com/llvm/llvm-project/pull/117188). In the MLIR Python API, there was a `KeyError` that was raised if one tried to access the `arg_attr`s of a `FuncOp` that did not have any.
+This PR fixed this, by returning an empty dictionary in this case, rather than raising an error. An alternative could have been to return `None`, but I felt that an empty dictionary was more consistent with the behaviour of the rest of the API, and better suited the requirements of the Python API.
 
-#### **MLIR/LLVM**:  [mlir,python] Expose replaceAllUsesExcept to Python bindings
+#### **MLIR/LLVM**: [mlir,python] Expose replaceAllUsesExcept to Python bindings
 
 [GitHub PR #115850](https://github.com/llvm/llvm-project/pull/115850).
 MLIR's Python bindings are great for quickly hacking and exploring IR transformations.
-However, I found that a useful method [`Value.replaceAllUsesExcept()`](https://mlir.llvm.org/doxygen/classmlir_1_1Value.html#a9ec8d5c61f8a6aada4062f609372cce4) was not exposed.  I added this, with appropriate tests.
+However, I found that a useful method [`Value.replaceAllUsesExcept()`](https://mlir.llvm.org/doxygen/classmlir_1_1Value.html#a9ec8d5c61f8a6aada4062f609372cce4) was not exposed. I added this, with appropriate tests.
 
-#### **MLIR/LLVM**:  [mlir] Fix remove-dead-values pass throws error when module has a name
+#### **MLIR/LLVM**: [mlir] Fix remove-dead-values pass throws error when module has a name
 
 [GitHub PR #109990](https://github.com/llvm/llvm-project/pull/109990).
 Encountered a bug when using [OpenXLA's StableHLO](https://openxla.org/stablehlo), which gives MLIR modules names (`module @IrToHlo.6443`).
-This caused the `remove-dead-values` pass to throw an error, since it was expecting a module without a name.  Could not find a good reason for this, so I fixed it, providing a test case to ensure it doesn't regress.
+This caused the `remove-dead-values` pass to throw an error, since it was expecting a module without a name. Could not find a good reason for this, so I fixed it, providing a test case to ensure it doesn't regress.
 
-#### **Docker Suno API**:  Improved docker compose integration
+#### **Docker Suno API**: Improved docker compose integration
+
 [GitHub PR #115](https://github.com/gcui-art/suno-api/pull/115).
 This repo provides an API to the [Suno AI music generation tool](https://suno.com/).
 I used it as part of another project I was working on.
@@ -60,7 +65,7 @@ This PR made the project more amenable to this goal.
 [GitHub PR #79704](https://github.com/llvm/llvm-project/pull/77820).
 Currently under active development, with a [high volume of discussion on the LLVM developer forums](https://discourse.llvm.org/t/retain-original-identifier-names-for-debugging/76417/23).
 This feature aims to add a flag to `mlir-opt` to keep the original names, which can be helpful for debugging compiler pipelines.
-Right now, identifier names are made anonymous, e.g., `%my_input` becomes `%arg0`.  Meaningful variable names can make it easy to reason about behaviour, hence why this feature is valuable.
+Right now, identifier names are made anonymous, e.g., `%my_input` becomes `%arg0`. Meaningful variable names can make it easy to reason about behaviour, hence why this feature is valuable.
 [Three designs are under consideration](https://discourse.llvm.org/t/retain-original-identifier-names-for-debugging/76417/24?u=wheest), although since this touches the core of MLIR, it is key that caution and careful consideration is used before merging.
 
 <!-- #### **MLIR/LLVM**: [mlir][docs] Clarified Dialect creation tutorial + fixed typos -->
@@ -74,7 +79,7 @@ Right now, identifier names are made anonymous, e.g., `%my_input` becomes `%arg0
 
 <!--  This PR also includes some spelling corrections across the `mlir` directory.  The methodology for this was conservative, using the [codespell tool](https://github.com/codespell-project/codespell), and using my own discretion for correction.  Corrections were only on comments and docs.  To keep the PR small, only a fraction of the identified errors were corrected -->
 
-#### **Triton**:  [TESTING] Added precision option to benchmark CSV data saving
+#### **Triton**: [TESTING] Added precision option to benchmark CSV data saving
 
 [GitHub PR #2933](https://github.com/openai/triton/pull/2933).
 Triton has a built in benchmarking suite, however I discovered that it was saving data with an unusually low level of precision (`.1f`).
@@ -100,7 +105,7 @@ I was conservative in my correction criteria:
 
 ### 2023
 
-####  **Apache TVM** [fix][relay][qnn] Bug fix for 8-bit quantized mul
+#### **Apache TVM** [fix][relay][qnn] Bug fix for 8-bit quantized mul
 
 [GitHub PR #14286](https://github.com/apache/tvm/pull/14286).
 I identified that there was a case where operations within quantized CNN models were not being supported adequately.
@@ -111,23 +116,21 @@ I fixed the bug.
 
 ### 2022
 
-#### **Apache TVM**:  [docs] Update debugger.rst
+#### **Apache TVM**: [docs] Update debugger.rst
 
 [GitHub PR #11231](https://github.com/apache/tvm/pull/11231).
 TVM's debugger and profiler is a very powerful tool, but was/is quite new and underutilised.
 The documentation did not reflect its correct usage, and I [had to reverse engineer how it was implemented](https://discuss.tvm.apache.org/t/runnig-a-model-with-tvm-debugger/9869/8?u=wheest).
 My PR updated the documentation to reflect how the debugger can actually be used.
 
-
 #### **MLIR/LLVM**: [mlir][docs] Broken link in MLIR Toy docs
 
 [Phabricator #D133977](https://reviews.llvm.org/D133977).
 A minor documentation fix, such that the Toy tutorial (many user's first experience of MLIR, and a common reference point for MLIR developers) correctly linked to the correct location.
 
-
 ### 2021
 
-#### **Apache TVM**:  Better grouped convolution for CPU targets
+#### **Apache TVM**: Better grouped convolution for CPU targets
 
 [GitHub PR #6137](https://github.com/apache/tvm/pull/6137).
 This pull request replaced the original grouped convolution algorithm in TVM for x86 and Arm targets, with the faster Grouped Spatial Pack Convolutions (GSPC) algorithm.
@@ -155,11 +158,11 @@ I fixed the bug, and added a test case.
 
 #### 2024
 
-- [RSPL Examples](https://github.com/Wheest/rspl_examples/):  Examples of using the RSPL language for the N64 RSP GPU.
-- [Triton Samples](https://github.com/Wheest/triton_samples):  Some home-brewed Triton kernels, with varying degrees of optimisation
-
+- [RSPL Examples](https://github.com/Wheest/rspl_examples/): Examples of using the RSPL language for the N64 RSP GPU.
+- [Triton Samples](https://github.com/Wheest/triton_samples): Some home-brewed Triton kernels, with varying degrees of optimisation
 
 #### 2023
+
 - [Desk Cheese](https://github.com/Wheest/desk-cheese)
 - [bib-boi](https://github.com/Wheest/bib-boi)
 - [thesis-o-meter](https://github.com/Wheest/thesis-o-meter)
