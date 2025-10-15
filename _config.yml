@@ -38,7 +38,17 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 show_excerpts: true
+
+# Add automatic redirects from .html URLs to clean URLs
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      redirect_from:
+        - /:year/:month/:day/:title.html
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
