@@ -27,7 +27,7 @@ Improving the usability of the MLIR Python bindings, by allowing attributes to b
 
 #### **dvc**: [cli,lock] Allow wait_for_lock
 
-[GitHub PR #10784(https://github.com/iterative/dvc/pull/10784). DVC's purpose is to act as a more robust version of git LFS. However, I was integrating it in Bazel, meaning I was running multiple `dvc` processes in parallel (to pull data from a repo). DVC crashed in this case, as it generates a lock file that other processes crash if they encounter. This PR added a flag that means that other DVC processes _can_ wait for the lock to free.
+[GitHub PR #10784](https://github.com/iterative/dvc/pull/10784). DVC's purpose is to act as a more robust version of git LFS. However, I was integrating it in Bazel, meaning I was running multiple `dvc` processes in parallel (to pull data from a repo). DVC crashed in this case, as it generates a lock file that other processes crash if they encounter. This PR added a flag that means that other DVC processes _can_ wait for the lock to free.
 
 #### **HuggingFace Transformers**: fix: Fully remove legacy cache from Llama
 
