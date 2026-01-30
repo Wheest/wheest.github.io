@@ -15,6 +15,9 @@ which I've gradually refined to my liking.
 
 Here's an inconvenient truth --- these machines are not designed to meet my needs.
 Being able to modify them to meet those needs has been a challenge.
+In an attempt to not alienate my readers, this doesn't mean that folk with
+other needs are wrong. Apple clearly has a particular set of users in mind; I'm
+just not one of them.
 
 My philosophy is that the tools I use should behave the way I tell them to.
 This post describes some of the issues I've encountered trying to achieve that, and how I've worked around them.
