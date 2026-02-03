@@ -61,9 +61,9 @@ semi-autobiographical._
 
 **Auch aye, I think we watched that together a few years back.**
 
-<figure>
-  <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/Almost_famous_poster1.jpg" alt="Almost Famous film poster">
-  <figcaption>Via <a href="https://en.wikipedia.org/wiki/File:Almost_famous_poster1.jpg">Wikipedia</a></figcaption>
+<figure style="max-width: 50%; margin: 0 auto;">
+  <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/Almost_famous_poster1.jpg" alt="Almost Famous film poster" style="width: 100%;">
+  <figcaption>Almost Famous (2000), directed by Cameron Crowe. Via <a href="https://en.wikipedia.org/wiki/File:Almost_famous_poster1.jpg">Wikipedia</a></figcaption>
 </figure>
 
 _He was just somebody who was a big music fan. And he sent them articles he'd
