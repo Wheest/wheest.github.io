@@ -137,10 +137,6 @@ early rock and roll. The British beat groups of the 1960s were actually quite
 'punk' in their way—like The Who, The Animals, and Them. With "Them", the
 singer was Van Morrison who is still very successful._
 
-<blockquote style="border-left: 4px solid #c00; margin: 1.5em 0; padding: 0.5em 1em; font-size: 1.15em; font-style: italic; background: #f9f9f9;">
-"They'd get like £10 and there might be four or five people in the band, and they had to hire a van which might cost them about £70—so they were making a loss."
-</blockquote>
-
 _It was fairly simple, thus it's something that people who were just teaching
 themselves how to play guitar or bass or drums could play. It was a reaction to
 progressive rock, which can be very complicated and long and was all about
@@ -218,6 +214,10 @@ source material.**
 
 _Right, the other side of that, is that the several people I can think of that
 did that, they all died quite young. In their early 60s and some even younger._
+
+<blockquote style="border-left: 4px solid #c00; margin: 1.5em 0; padding: 0.5em 1em; font-size: 1.15em; font-style: italic; background: #f9f9f9;">
+"They'd get like £10 and there might be four or five people in the band, and they had to hire a van which might cost them about £70—so they were making a loss."
+</blockquote>
 
 **Is that what a lifetime of substandard heating will do to ye?**
 
