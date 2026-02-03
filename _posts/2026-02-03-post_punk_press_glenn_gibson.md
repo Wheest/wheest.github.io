@@ -49,7 +49,7 @@ underground thing._
 
 **They employed the likes of Hunter S. Thompson for articles?**
 
-_Aye, actually mad people. One person they employed was Cameron Crowe, who went
+_Yes, some real mavericks. One person they employed was Cameron Crowe, who went
 on to become a film director. A film he wrote, 'Almost Famous,' was
 semi-autobiographical._
 
@@ -188,7 +188,7 @@ people who went on to write for the local newspapers, doing the pop column._
 **Which is a bit more of a reliable income.**
 
 _Yes, [John Dingwall](https://www.thetimes.com/profile/john-dingwall), for instance, he started off with a fanzine and then wrote
-for Record Mirror, which was much less cool than the NME._
+for Record Mirror._
 
 <figure style="max-width: 50%; margin: 0 auto 1.5em;">
   <img src="{{ '/assets/pics/2026-02-stand_and_deliver.jpg' | relative_url }}" alt="Stand and Deliver fanzine cover" style="width: 100%;">
@@ -196,7 +196,10 @@ for Record Mirror, which was much less cool than the NME._
 </figure>
 
 _When he was just doing Record Mirror he probably wasn't getting that much, but
-he went on to work for the Daily Record and he did that for a long time. Making
+he went on to work for the Evening Times and Daily Record and he did that for a
+long time, and has been a core part of Scottish journalism since._
+
+_Making
 money from journalism at that time, even if you were employed by a Scottish
 newspaper which was predominantly sold in Scotland, you were paid quite well.
 The circulation of newspapers today has plummeted since then._
@@ -228,8 +231,7 @@ a coincidence._
 
 _Yes, I obviously have nothing definite about it but you know, it happened to
 one photographer I worked with. He moved to London and got a job working for
-"Sounds" which was quite a good magazine. It was not quite as cool as the NME,
-but not bad. Quite well regarded. And I think after that, he even got a job
+"Sounds" which was quite a good magazine. Quite well regarded. And I think after that, he even got a job
 working for Marvel._
 
 _I used to go and stay with him sometimes in London, but I kind of lost track
