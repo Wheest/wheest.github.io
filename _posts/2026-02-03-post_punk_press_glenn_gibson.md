@@ -67,10 +67,11 @@ semi-autobiographical._
 </figure>
 
 _He was just somebody who was a big music fan. And he sent them articles he'd
-written, and they liked them. And I don't think they found out until later that
-he was 15\. They were setting him off to interview big-time stars and he became
+written, and they liked them. I don't think they found out until later that
+he was 15. They were sending him off to interview big-time stars and he became
 really successful. "Almost Famous" is arguably one of the best music business
-films ever made. I would say that and "24 Hour Party People"._
+films ever made. I would say that and "[24 Hour Party
+People](https://en.wikipedia.org/wiki/24_Hour_Party_People)" (2002)._
 
 _And Cameron Crowe has actually just published his autobiography, [“The Uncool”
 (2025)](https://www.goodreads.com/book/show/224004354-the-uncool), because part
@@ -109,11 +110,7 @@ not getting back home from Edinburgh until five in the morning. And then getting
 up to go to work. Out constantly at gigs and interviews, and also needing the
 time to write up._
 
-**Aye, I can imagine doing it well would take a good chunk of time. Did you find
-the acts you were being sent off to check out was aligning with your tastes, or
-were you seeing a load of pish? Originally you were choosing what to write
-about—once they started commissioning, were they selecting what you covered, or
-were you still influencing the choices?**
+**Aye, I can imagine that took a good chunk of time. Did the acts you were sent to cover align with your tastes, or were you seeing a load of pish? Once they started commissioning, were they picking what you covered, or did you still have a say?**
 
 _Well, a mixture, because I wasn't doing exclusively what was happening in
 Scotland. I was being sent to review other bands who were touring who could be
@@ -135,7 +132,7 @@ _Well, the music business was always very centred in London. This was after
 punk. One thing punk did was give people the message: “you can do it too.” And
 what they were playing was relatively simple. That simplicity had origins in
 early rock and roll. The British beat groups of the 1960s were actually quite
-'punk' in their way—like The Who and The Animals, and Them. With Them, the
+'punk' in their way—like The Who, The Animals, and Them. With "Them", the
 singer was Van Morrison who is still very successful._
 
 _It was fairly simple, thus it's something that people who were just teaching
@@ -213,6 +210,7 @@ somebody's spare room, or flats with only cold water and broken windows._
 **I guess in a sense that's quite punk. You're getting an appreciation of your
 source material.
 **
+
 _Right, the other side of that, is that the several people I can think of that
 did that, they all died quite young. In their early 60s and some even younger._
 
@@ -255,8 +253,9 @@ _I never really collected a lot of memorabilia, but there were some things I
 had. Part of the reason for it is that a lot of people in the past have been
 asked to lend things of that type and never got them back. Thus a lot of people
 who were asked to lend things would say "nah, not doing that". But with the
-National Museum of Scotland they were quite reliable, and you did get everything
-back. So it ended up being quite extensive._
+National Museum of Scotland they were known for being quite reliable, and you did get everything
+back. So it ended up being quite extensive, and showing off a lot of items
+never seen before._
 
 ---
 
@@ -270,6 +269,7 @@ matter where it's from. But things like music, comedy, et cetera, are such a
 specific product of the people and the culture, you can't get that anywhere
 else.
 **
+
 _For a very long time pop and rock music that was listened to internationally
 was almost exclusively from Britain and America. And that has been changing.
 There were certain countries, like Germany, that became quite successful, or at
@@ -295,6 +295,7 @@ quite early on._
 around the world. I've also been seeing the influence of some of the genres
 around Afro-house in recent years.
 **
+
 _Africa has so many different countries with their own traditions and own
 styles, but certainly around that time they would have had a lot of influence
 from what was coming out of Britain and America._
@@ -332,6 +333,7 @@ self-belief, so he just did it anyway._
 **This was all well before my time, did it seem like the boycott was a significant
 part of how the apartheid came to an end?
 **
+
 _Probably yes, but there are lots of factors beyond that._
 
 **Well, thanks for this chat — there are plenty of other threads we could pull on.
@@ -340,6 +342,7 @@ you've met over the years, or when a random band or a track comes up in
 conversation it seems like you're able to bring in some anecdotes just off the
 cuff.
 **
+
 _I think for certain things I have quite a good memory. There's this common
 thing that for some people, there's certain types of music that they liked when
 they were in their late teens and that's what they like forever. Whereas I've
@@ -353,6 +356,7 @@ me. I do go out and find stuff on my own but I think it is more through
 happenstance rather than getting any magazines just because of the lifestyle I'm
 living right now.
 **
+
 _I think if you're interested in music quite a lot, it ties in with so many
 other things. That would lead you into particular types of books or films or
 art. It's all tied together._
