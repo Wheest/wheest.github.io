@@ -21,10 +21,7 @@ other bits and pieces.
 
 ---
 
-**I've noticed you have interesting stories about both your experiences and
-general knowledge of the music industry and related culture. I think it would be
-good to get some snippets of them. As a starting point: you were doing some
-music writing—how did you get into that?**
+**You've got interesting stories about the music industry—I thought it'd be good to capture some of them. How did you get into music writing?**
 
 _It was the New Musical Express, which was well-established when I started._
 _It's a music paper dating back to the 50s, and they were credited with
@@ -257,17 +254,15 @@ National Museum of Scotland they were known for being quite reliable, and you di
 back. So it ended up being quite extensive, and showing off a lot of items
 never seen before._
 
----
+**Speaking of Scottish pop history being museum-worthy, what place do you think
+this sort of thing should have in our collective consciousness?**
 
 _Occasionally in YouGov questionnaires they'll ask things like "What does
 Britain do best?" I'm not saying things like industrial products—I'd say music,
 comedy, acting, writing, and the arts in general. And it's hard to think of
 things that Britain does better than those kinds of things._
 
-**Aye, a lump of steel, production processes notwithstanding, is fungible no
-matter where it's from. But things like music, comedy, et cetera, are such a
-specific product of the people and the culture, you can't get that anywhere
-else.
+**Aye, a lump of steel is more-or-less the same wherever it's from. But music, comedy—that's a product of the people and the culture. You can't get that anywhere else.
 **
 
 _For a very long time pop and rock music that was listened to internationally
@@ -310,13 +305,16 @@ give it a boost. Paul Simon recorded an album with African musicians in the
 South Africa had apartheid going on and there were supposed to be cultural
 boycotts._
 
+<figure style="max-width: 50%; margin: 0 auto 1.5em;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Graceland_cover_-_Paul_Simon.jpg" alt="Graceland album cover by Paul Simon" style="width: 100%;">
+  <figcaption>Graceland by Paul Simon. Via <a href="https://commons.wikimedia.org/wiki/File:Graceland_cover_-_Paul_Simon.jpg">Wikimedia Commons</a></figcaption>
+</figure>
+
 _However, I think his point was more that “this is the cultural bit and we're
 actually paying people quite a lot more than the going rate”; and some of them
 got successful careers out of it internationally._
 
-**I also wonder how many of the musicians he was collaborating with were hitting
-oot with "I love apartheid, now here's Wonderwall". It could well have been
-people that were not okay with the regime.**
+**I wonder how many of those musicians were hitting oot with 'I love apartheid, now here's Wonderwall.' Probably not fans of the regime themselves.**
 
 _Most of the South African musicians involved were Black artists who had lived
 under apartheid and whose careers were constrained by it — but I think the
@@ -324,11 +322,6 @@ boycott of South Africa was for the whole country. Therefore, even if you were
 working with people who were victims of it, it was still frowned upon in many
 ways. That being said, I think Paul Simon was quite a tough guy with a lot of
 self-belief, so he just did it anyway._
-
-<figure style="max-width: 50%; margin: 0 auto 1.5em;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Graceland_cover_-_Paul_Simon.jpg" alt="Graceland album cover by Paul Simon" style="width: 100%;">
-  <figcaption>Graceland by Paul Simon. Via <a href="https://commons.wikimedia.org/wiki/File:Graceland_cover_-_Paul_Simon.jpg">Wikimedia Commons</a></figcaption>
-</figure>
 
 **This was all well before my time, did it seem like the boycott was a significant
 part of how the apartheid came to an end?
@@ -351,10 +344,7 @@ think that's the minority because you have to put some effort into it, and you
 do have to be interested. And if you're interested enough you will remember
 these things._
 
-**I think to this day you are probably the main input of interesting new music to
-me. I do go out and find stuff on my own but I think it is more through
-happenstance rather than getting any magazines just because of the lifestyle I'm
-living right now.
+**I think to this day you're my main source of interesting new music. I find stuff on my own, but it's more through happenstance than actively seeking it out.
 **
 
 _I think if you're interested in music quite a lot, it ties in with so many
