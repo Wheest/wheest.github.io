@@ -191,8 +191,8 @@ for Record Mirror, which was much less cool than the NME._
 </figure>
 
 _When he was just doing Record Mirror he probably wasn't getting that much, but
-he went on working for the Daily Record and he did that for a long time. Making
-money from journalism at that time, even if you were employed by even a Scottish
+he went on to work for the Daily Record and he did that for a long time. Making
+money from journalism at that time, even if you were employed by a Scottish
 newspaper which was predominantly sold in Scotland, you were paid quite well.
 The circulation of newspapers today has plummeted since then._
 
@@ -229,10 +229,9 @@ after a while. Anyway, he got a brain aneurysm. He came back to Scotland a
 number of years ago and I think he's in a care home._
 
 _The singer from the Bluebells, Ken McCluskey, who we knew, discovered that this
-guy Harry Papadopoulos was back in Scotland. And the reason he found out about
+guy Harry Papadopoulos was back in Scotland. And the reason Ken found out about
 it, was because Harry's brother was an electrician or a tradesman of some kind
-and went and did a job in this house. The subject must have come up, and he
-found out about it. Ken from the Bluebells went to visit him, and they managed
+and went and did a job in his house. The subject must have come up. Ken went to visit him, and they managed
 to get a hold of his old negatives. They've been on display in several art
 galleries and so forth. And there was a book published._
 
@@ -248,7 +247,7 @@ of things you contributed.**
 
 _I never really collected a lot of memorabilia, but there were some things I
 had. Part of the reason for it is that a lot of people in the past have been
-asked to lend things of that type and never got them back. Thus a lot of people
+asked to lend things of that type and never got them back. So a lot of people
 who were asked to lend things would say "nah, not doing that". But with the
 National Museum of Scotland they were known for being quite reliable, and you did get everything
 back. So it ended up being quite extensive, and showing off a lot of items
@@ -282,24 +281,23 @@ catch-all term of "World Music".**
 
 _Yes, there were phases—African music was a thing for a while, and reggae
 especially — Jamaica was close to America which may have helped with discovery
-and distribution. It very much had its own sound; and it developed over the
-years from ska, blue beat, and reggae, and they had their own version of rap
+and distribution. It very much had its own sound, developing over the years from
+ska to blue beat to reggae, and they had their own version of rap
 quite early on._
 
-**And one sees how things like dub and whatnot influenced other musical genres
-around the world. I've also been seeing the influence of some of the genres
-around Afro-house in recent years.
+**Aye, and you see how dub influenced music worldwide. I've been noticing Afro-house having a similar reach lately.
 **
 
 _Africa has so many different countries with their own traditions and own
 styles, but certainly around that time they would have had a lot of influence
 from what was coming out of Britain and America._
 
-**Yes, they had a lot more access to the mass production and outreach to get their
+**I suppose folk in Britain and America had a lot more access to the mass
+production and distribution required to get their
 music heard internationally.**
 
-_A lot of these things are very popular in their own country and there are only
-certain ones which go internationally. There are certainly people that can help
+_A lot of these things are very popular in their own country and only certain
+ones that break through internationally. There are certainly people that can help
 give it a boost. Paul Simon recorded an album with African musicians in the
 “Graceland” album a number of years ago. And he got a lot of criticism because
 South Africa had apartheid going on and there were supposed to be cultural
@@ -329,12 +327,7 @@ part of how the apartheid came to an end?
 
 _Probably yes, but there are lots of factors beyond that._
 
-**Well, thanks for this chat — there are plenty of other threads we could pull on.
-For example, the Virgin Megastores opening, or other bits and pieces, people
-you've met over the years, or when a random band or a track comes up in
-conversation it seems like you're able to bring in some anecdotes just off the
-cuff.
-**
+**Well, thanks for this chat—there are plenty of other threads we could pull on. The Virgin Megastores opening, people you've met over the years. Whenever a random track comes up you seem to have an anecdote ready.**
 
 _I think for certain things I have quite a good memory. There's this common
 thing that for some people, there's certain types of music that they liked when
