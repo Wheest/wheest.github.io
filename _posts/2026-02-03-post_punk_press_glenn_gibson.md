@@ -9,12 +9,9 @@ excerpt_separator: <!--more-->
 
 <img src="{{site.url}}/assets/headers/2026-02-glenn.png" width="1024">
 
-This conversation explores experiences in music journalism during the 1970s-80s,
-focusing on work with New Musical Express (NME) and the development of
-Scotland's music scene during the punk and post-punk era.
-
-I speak with a former NME writer Glenn Gibson (aka, my da) about his experiences
-breaking into music journalism, the evolution of music publications, and various
+In this post, I chat with a former New Musical Express (NME) writer Glenn Gibson (aka, my da) about his experiences
+breaking into music journalism in the 1970s-80s, the evolution of music publications, the development of
+Scotland's music scene during the punk and post-punk era, and various
 other bits and pieces.
 
 <!--more-->
@@ -45,7 +42,7 @@ prog rock, glam rock, and punk. Around 1976/77 they wanted music publications
 that would reflect that — written by people who were close to the movement, who
 were really part of that._
 
-_And they were probably copying what was happening in America because in the
+_They were probably copying what was happening in America because in the
 60s, Rolling Stone magazine started. Rolling Stone is now well-established, I
 believe it's quite a corporate thing now. But it started as a counterculture
 underground thing._
@@ -63,7 +60,7 @@ semi-autobiographical._
   <figcaption>Almost Famous (2000), written/directed by Cameron Crowe. Via <a href="https://en.wikipedia.org/wiki/File:Almost_famous_poster1.jpg">Wikipedia</a></figcaption>
 </figure>
 
-_He was just somebody who was a big music fan. And he sent them articles he'd
+_He was just somebody who was a big music fan. He sent them articles he'd
 written, and they liked them. I don't think they found out until later that
 he was 15. They were sending him off to interview big-time stars and he became
 really successful. "Almost Famous" is arguably one of the best music business
@@ -90,7 +87,7 @@ it to them. They published it._
   <figcaption>Ivor Cutler in 1973, photo by Alan Messer. <a href="https://commons.wikimedia.org/wiki/File:Ivor_Cutler_1973.jpg">CC BY-SA 3.0</a></figcaption>
 </figure>
 
-_And they came back and said, would you like to do more? I sent them quite a few
+_They came back and said "would you like to do more?" I sent them quite a few
 things, and they didn't publish any of them. But then the person in charge of
 the live review section changed and a new guy came in and he said, "Don't do
 that anymore. What you should do is phone me every week and say what's coming up
@@ -116,12 +113,12 @@ was happening in Scotland was developing, and gaining national attention._
 
 **Starting to develop its own scene?**
 
-_Yes. Simple Minds was one of the first ones. I went to see them playing in
+_Yes. Simple Minds were one of the first ones. I went to see them playing in
 bars. I think they had already signed a contract with a record company at this
 point, so they were starting to move beyond that, but there were a lot of other
 ones coming up behind them._
 
-**There are probably quite a lot of bands that people would be surprised to hear
+**There are probably quite a lot of bands that folk would be surprised to hear
 came out of the Scottish scene because the accent or dialect doesn't necessarily
 come across.**
 
@@ -182,7 +179,7 @@ people who went on to write for the local newspapers, doing the pop column._
 
 **Which is a bit more of a reliable income.**
 
-_Yes, John Dingwall, for instance, he started off with a fanzine and then wrote
+_Yes, [John Dingwall](https://www.thetimes.com/profile/john-dingwall), for instance, he started off with a fanzine and then wrote
 for Record Mirror, which was much less cool than the NME._
 
 <figure style="max-width: 50%; margin: 0 auto 1.5em;">
@@ -205,8 +202,7 @@ music magazines, they were very often living in cheap accommodation: squats,
 somebody's spare room, or flats with only cold water and broken windows._
 
 **I guess in a sense that's quite punk. You're getting an appreciation of your
-source material.
-**
+source material.**
 
 _Right, the other side of that, is that the several people I can think of that
 did that, they all died quite young. In their early 60s and some even younger._
@@ -261,8 +257,7 @@ Britain do best?" I'm not saying things like industrial products—I'd say music
 comedy, acting, writing, and the arts in general. And it's hard to think of
 things that Britain does better than those kinds of things._
 
-**Aye, a lump of steel is more-or-less the same wherever it's from. But music, comedy—that's a product of the people and the culture. You can't get that anywhere else.
-**
+**Aye, a lump of steel is more-or-less the same wherever it's from. But music, comedy—that's a product of the people and the culture. You can't get that anywhere else.**
 
 _For a very long time pop and rock music that was listened to internationally
 was almost exclusively from Britain and America. And that has been changing.
@@ -285,8 +280,7 @@ and distribution. It very much had its own sound, developing over the years from
 ska to blue beat to reggae, and they had their own version of rap
 quite early on._
 
-**Aye, and you see how dub influenced music worldwide. I've been noticing Afro-house having a similar reach lately.
-**
+**Aye, and you see how dub influenced music worldwide. I've been noticing Afro-house having a similar reach lately.**
 
 _Africa has so many different countries with their own traditions and own
 styles, but certainly around that time they would have had a lot of influence
@@ -322,8 +316,7 @@ ways. That being said, I think Paul Simon was quite a tough guy with a lot of
 self-belief, so he just did it anyway._
 
 **This was all well before my time, did it seem like the boycott was a significant
-part of how the apartheid came to an end?
-**
+part of how the apartheid came to an end?**
 
 _Probably yes, but there are lots of factors beyond that._
 
@@ -337,8 +330,7 @@ think that's the minority because you have to put some effort into it, and you
 do have to be interested. And if you're interested enough you will remember
 these things._
 
-**I think to this day you're my main source of interesting new music. I find stuff on my own, but it's more through happenstance than actively seeking it out.
-**
+**I think to this day you're my main source of interesting new music. I find stuff on my own, but it's more through happenstance than actively seeking it out.**
 
 _I think if you're interested in music quite a lot, it ties in with so many
 other things. That would lead you into particular types of books or films or
