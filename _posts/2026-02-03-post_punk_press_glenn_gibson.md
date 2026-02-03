@@ -71,6 +71,10 @@ _And Cameron Crowe has actually just published his autobiography, [“The Uncool
 (2025)](https://www.goodreads.com/book/show/224004354-the-uncool), because part
 of “Almost Famous” was that he was never cool._
 
+<blockquote style="border-left: 4px solid #c00; margin: 1.5em 0; padding: 0.5em 1em; font-size: 1.15em; font-style: italic; background: #f9f9f9;">
+"That's when I started getting published—and paid."
+</blockquote>
+
 _Anyway, that's the kind of thing that the NME were trying to copy, and it
 worked. They got a big audience and it became very cool, internationally as
 well. It was very well liked in America too. They seemed open to taking on
@@ -111,6 +115,10 @@ Scotland. I was being sent to review other bands who were touring who could be
 American, but as well as covering what was happening in Scotland because what
 was happening in Scotland was developing, and gaining national attention._
 
+<blockquote style="border-left: 4px solid #c00; margin: 1.5em 0; padding: 0.5em 1em; font-size: 1.15em; font-style: italic; background: #f9f9f9;">
+"One thing punk did was give people the message: 'you can do it too.'"
+</blockquote>
+
 **Starting to develop its own scene?**
 
 _Yes. Simple Minds were one of the first ones. I went to see them playing in
@@ -128,6 +136,10 @@ what they were playing was relatively simple. That simplicity had origins in
 early rock and roll. The British beat groups of the 1960s were actually quite
 'punk' in their way—like The Who, The Animals, and Them. With "Them", the
 singer was Van Morrison who is still very successful._
+
+<blockquote style="border-left: 4px solid #c00; margin: 1.5em 0; padding: 0.5em 1em; font-size: 1.15em; font-style: italic; background: #f9f9f9;">
+"They'd get like £10 and there might be four or five people in the band, and they had to hire a van which might cost them about £70—so they were making a loss."
+</blockquote>
 
 _It was fairly simple, thus it's something that people who were just teaching
 themselves how to play guitar or bass or drums could play. It was a reaction to
@@ -291,7 +303,7 @@ production and distribution required to get their
 music heard internationally.**
 
 _A lot of these things are very popular in their own country and only certain
-ones that break through internationally. There are certainly people that can help
+ones break through internationally. There are certainly people that can help
 give it a boost. Paul Simon recorded an album with African musicians in the
 “Graceland” album a number of years ago. And he got a lot of criticism because
 South Africa had apartheid going on and there were supposed to be cultural
