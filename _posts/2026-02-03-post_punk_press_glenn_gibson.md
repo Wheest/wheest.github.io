@@ -7,7 +7,7 @@ tags: music interviews
 excerpt_separator: <!--more-->
 ---
 
-<img src="{{site.url}}/assets/headers/2025-10-bwd.png" width="1024">
+<img src="{{site.url}}/assets/headers/2026-02-glenn.png" width="1024">
 
 This conversation explores experiences in music journalism during the 1970s-80s,
 focusing on work with New Musical Express (NME) and the development of
