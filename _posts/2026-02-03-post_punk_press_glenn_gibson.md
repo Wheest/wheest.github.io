@@ -61,9 +61,9 @@ semi-autobiographical._
 
 **Auch aye, I think we watched that together a few years back.**
 
-<figure style="max-width: 50%; margin: 0 auto;">
+<figure style="max-width: 30%; margin: 0 auto;">
   <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/Almost_famous_poster1.jpg" alt="Almost Famous film poster" style="width: 100%;">
-  <figcaption>Almost Famous (2000), directed by Cameron Crowe. Via <a href="https://en.wikipedia.org/wiki/File:Almost_famous_poster1.jpg">Wikipedia</a></figcaption>
+  <figcaption>Almost Famous (2000), written/directed by Cameron Crowe. Via <a href="https://en.wikipedia.org/wiki/File:Almost_famous_poster1.jpg">Wikipedia</a></figcaption>
 </figure>
 
 _He was just somebody who was a big music fan. And he sent them articles he'd
@@ -85,8 +85,10 @@ it to them. They published it._
 
 **Oh, crackin'**
 
-<figure style="max-width: 50%; margin: 0 auto;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Ivor_Cutler_1973.jpg" alt="Ivor Cutler in 1973" style="width: 100%;">
+<figure style="max-width: 30%; margin: 0 auto;">
+  <div style="overflow: hidden;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Ivor_Cutler_1973.jpg" alt="Ivor Cutler in 1973" style="width: 100%; margin-top: -25%;">
+  </div>
   <figcaption>Ivor Cutler in 1973, photo by Alan Messer. <a href="https://commons.wikimedia.org/wiki/File:Ivor_Cutler_1973.jpg">CC BY-SA 3.0</a></figcaption>
 </figure>
 
@@ -162,11 +164,11 @@ _But they were just trying to get their own music out there._
 
 _It was an interesting dynamic but that message about "you can do it too" was
 quite widespread. And more than just music. For instance, my friend Martin
-Miller was very influenced by that ethos to become a writer. Actors, writers,
+Millar was very influenced by that ethos to become a writer. Actors, writers,
 people across the creative arts—a lot of people were influenced by that, and
 still are today._
 
-<figure style="max-width: 50%; margin: 0 auto;">
+<figure style="max-width: 30%; margin: 0 auto;">
   <img src="https://covers.openlibrary.org/b/id/8779561-L.jpg" alt="Lonely Werewolf Girl book cover" style="width: 100%;">
   <figcaption>Lonely Werewolf Girl by Martin Millar. Via <a href="https://openlibrary.org/works/OL20126859W/Lonely_Werewolf_Girl">Open Library</a></figcaption>
 </figure>
