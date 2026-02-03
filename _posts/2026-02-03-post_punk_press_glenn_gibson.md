@@ -85,11 +85,10 @@ it to them. They published it._
 
 **Oh, crackin'**
 
-<figure> <img
-  src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Ivor_Cutler_1973.jpg"
-  alt="Ivor Cutler in 1973"> <figcaption>Photo by Alan Messer, 1973. <a
-  href="https://commons.wikimedia.org/wiki/File:Ivor_Cutler_1973.jpg">CC BY-SA
-  3.0</a></figcaption> </figure>
+<figure style="max-width: 50%; margin: 0 auto;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Ivor_Cutler_1973.jpg" alt="Ivor Cutler in 1973" style="width: 100%;">
+  <figcaption>Ivor Cutler in 1973, photo by Alan Messer. <a href="https://commons.wikimedia.org/wiki/File:Ivor_Cutler_1973.jpg">CC BY-SA 3.0</a></figcaption>
+</figure>
 
 _And they came back and said, would you like to do more? I sent them quite a few
 things, and they didn't publish any of them. But then the person in charge of
@@ -167,11 +166,10 @@ Miller was very influenced by that ethos to become a writer. Actors, writers,
 people across the creative arts—a lot of people were influenced by that, and
 still are today._
 
-<figure> <img src="https://covers.openlibrary.org/b/id/8779561-L.jpg"
-  alt="Lonely Werewolf Girl book cover"> <figcaption>Lonely Werewolf Girl by
-  Martin Millar. Via <a
-  href="https://openlibrary.org/works/OL20126859W/Lonely_Werewolf_Girl">Open
-  Library</a></figcaption> </figure>
+<figure style="max-width: 50%; margin: 0 auto;">
+  <img src="https://covers.openlibrary.org/b/id/8779561-L.jpg" alt="Lonely Werewolf Girl book cover" style="width: 100%;">
+  <figcaption>Lonely Werewolf Girl by Martin Millar. Via <a href="https://openlibrary.org/works/OL20126859W/Lonely_Werewolf_Girl">Open Library</a></figcaption>
+</figure>
 
 _I got to do \[the writing\] for a number of years and earned a reasonable
 amount of money and got to travel around and meet a lot of people. And with
@@ -191,9 +189,10 @@ people who went on to write for the local newspapers, doing the pop column._
 _Yes, John Dingwall, for instance, he started off with a fanzine and then wrote
 for Record Mirror, which was much less cool than the NME._
 
-<figure> <img src="{{ '/assets/pics/2026-02-stand_and_deliver.jpg' |
-  relative_url }}" alt="Stand and Deliver fanzine cover"> <figcaption>Stand and
-  Deliver, John Dingwall's fanzine</figcaption> </figure>
+<figure style="max-width: 50%; margin: 0 auto;">
+  <img src="{{ '/assets/pics/2026-02-stand_and_deliver.jpg' | relative_url }}" alt="Stand and Deliver fanzine cover" style="width: 100%;">
+  <figcaption>Stand and Deliver, John Dingwall's fanzine</figcaption>
+</figure>
 
 _When he was just doing Record Mirror he probably wasn't getting that much, but
 he went on working for the Daily Record and he did that for a long time. Making
@@ -240,11 +239,10 @@ found out about it. Ken from the Bluebells went to visit him, and they managed
 to get a hold of his old negatives. They've been on display in several art
 galleries and so forth. And there was a book published._
 
-<figure> <img src="https://covers.openlibrary.org/b/id/14693456-L.jpg" alt="What
-  Presence! book cover"> <figcaption>What Presence!: The Rock Photography of
-  Harry Papadopoulos. Via <a
-  href="https://openlibrary.org/works/OL35700027W/What_Presence!">Open
-  Library</a></figcaption> </figure>
+<figure style="max-width: 50%; margin: 0 auto;">
+  <img src="https://covers.openlibrary.org/b/id/14693456-L.jpg" alt="What Presence! book cover" style="width: 100%;">
+  <figcaption>What Presence!: The Rock Photography of Harry Papadopoulos. Via <a href="https://openlibrary.org/works/OL35700027W/What_Presence!">Open Library</a></figcaption>
+</figure>
 
 **There was the “[Rip It Up: The Story of Scottish
 Pop](https://www.nms.ac.uk/past-exhibitions/rip-it-up-the-story-of-scottish-pop)”
@@ -324,12 +322,10 @@ working with people who were victims of it, it was still frowned upon in many
 ways. That being said, I think Paul Simon was quite a tough guy with a lot of
 self-belief, so he just did it anyway._
 
-<figure> <img
-  src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Graceland_cover_-_Paul_Simon.jpg"
-  alt="Graceland album cover by Paul Simon"> <figcaption>Graceland by Paul
-  Simon. Via <a
-  href="https://commons.wikimedia.org/wiki/File:Graceland_cover_-_Paul_Simon.jpg">Wikimedia
-  Commons</a></figcaption> </figure>
+<figure style="max-width: 50%; margin: 0 auto;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Graceland_cover_-_Paul_Simon.jpg" alt="Graceland album cover by Paul Simon" style="width: 100%;">
+  <figcaption>Graceland by Paul Simon. Via <a href="https://commons.wikimedia.org/wiki/File:Graceland_cover_-_Paul_Simon.jpg">Wikimedia Commons</a></figcaption>
+</figure>
 
 **This was all well before my time, did it seem like the boycott was a significant
 part of how the apartheid came to an end?
