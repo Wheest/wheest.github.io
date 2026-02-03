@@ -61,7 +61,7 @@ semi-autobiographical._
 
 **Auch aye, I think we watched that together a few years back.**
 
-<figure style="max-width: 30%; margin: 0 auto;">
+<figure style="max-width: 30%; margin: 0 auto 1.5em;">
   <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/Almost_famous_poster1.jpg" alt="Almost Famous film poster" style="width: 100%;">
   <figcaption>Almost Famous (2000), written/directed by Cameron Crowe. Via <a href="https://en.wikipedia.org/wiki/File:Almost_famous_poster1.jpg">Wikipedia</a></figcaption>
 </figure>
@@ -86,7 +86,7 @@ it to them. They published it._
 
 **Oh, crackin'**
 
-<figure style="max-width: 30%; margin: 0 auto;">
+<figure style="max-width: 30%; margin: 0 auto 1.5em;">
   <div style="overflow: hidden;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Ivor_Cutler_1973.jpg" alt="Ivor Cutler in 1973" style="width: 100%; margin-top: -25%;">
   </div>
@@ -165,7 +165,7 @@ Millar was very influenced by that ethos to become a writer. Actors, writers,
 people across the creative arts—a lot of people were influenced by that, and
 still are today._
 
-<figure style="max-width: 30%; margin: 0 auto;">
+<figure style="max-width: 30%; margin: 0 auto 1.5em;">
   <img src="https://covers.openlibrary.org/b/id/8779561-L.jpg" alt="Lonely Werewolf Girl book cover" style="width: 100%;">
   <figcaption>Lonely Werewolf Girl by Martin Millar. Via <a href="https://openlibrary.org/works/OL20126859W/Lonely_Werewolf_Girl">Open Library</a></figcaption>
 </figure>
@@ -188,7 +188,7 @@ people who went on to write for the local newspapers, doing the pop column._
 _Yes, John Dingwall, for instance, he started off with a fanzine and then wrote
 for Record Mirror, which was much less cool than the NME._
 
-<figure style="max-width: 50%; margin: 0 auto;">
+<figure style="max-width: 50%; margin: 0 auto 1.5em;">
   <img src="{{ '/assets/pics/2026-02-stand_and_deliver.jpg' | relative_url }}" alt="Stand and Deliver fanzine cover" style="width: 100%;">
   <figcaption>Stand and Deliver, John Dingwall's fanzine</figcaption>
 </figure>
@@ -239,7 +239,7 @@ found out about it. Ken from the Bluebells went to visit him, and they managed
 to get a hold of his old negatives. They've been on display in several art
 galleries and so forth. And there was a book published._
 
-<figure style="max-width: 50%; margin: 0 auto;">
+<figure style="max-width: 50%; margin: 0 auto 1.5em;">
   <img src="https://covers.openlibrary.org/b/id/14693456-L.jpg" alt="What Presence! book cover" style="width: 100%;">
   <figcaption>What Presence!: The Rock Photography of Harry Papadopoulos. Via <a href="https://openlibrary.org/works/OL35700027W/What_Presence!">Open Library</a></figcaption>
 </figure>
@@ -325,7 +325,7 @@ working with people who were victims of it, it was still frowned upon in many
 ways. That being said, I think Paul Simon was quite a tough guy with a lot of
 self-belief, so he just did it anyway._
 
-<figure style="max-width: 50%; margin: 0 auto;">
+<figure style="max-width: 50%; margin: 0 auto 1.5em;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Graceland_cover_-_Paul_Simon.jpg" alt="Graceland album cover by Paul Simon" style="width: 100%;">
   <figcaption>Graceland by Paul Simon. Via <a href="https://commons.wikimedia.org/wiki/File:Graceland_cover_-_Paul_Simon.jpg">Wikimedia Commons</a></figcaption>
 </figure>
