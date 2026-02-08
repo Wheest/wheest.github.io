@@ -7,16 +7,20 @@ permalink: /
 Awright!? I'm Perry Gibson, working at the intersection of machine learning📉 and systems🔩.<br>
 
 I currently work at [Fractile](https://www.fractile.ai/) as a Member of
-Technical of Staff, with a focus on ML Compilers.
+Technical Staff, with a focus on ML Compilers.
 
 In 2024 I completed a PhD at the [gicLAB](https://giclab.dcs.gla.ac.uk/) ([University of Glasgow](https://www.gla.ac.uk/schools/computing/)), supervised by [Dr José Cano Reyes](http://www.dcs.gla.ac.uk/~josecr/).
 
 ![picture of Perry Gibson](/assets/pg_profile.jpg){: style="float: left; margin-right: 1em;"}
 
-I'm interested in across-stack optimisation of neural networks, especially with a compiler-centric perspective. For example, [Apache TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/), and tensor compilers in general. In fact, [that's what my PhD was all about](https://theses.gla.ac.uk/83959/)!
+I'm interested in across-stack optimisation of neural networks, especially with
+a compiler-centric perspective. For example, using
+[MLIR](https://mlir.llvm.org/), [Apache TVM](https://tvm.apache.org/), , and
+tensor compilers in general. In fact, [that's what my PhD was all
+about](https://theses.gla.ac.uk/83959/)!
 
 You can find some of my research work under [/Publications]({{ site.baseurl }}/publications).
-And other publications and posts under [/Posts]([/Publications]({{ site.baseurl }}/posts)), and open source contributions under [/oss]({{ site.baseurl }}/oss).
+And other publications and posts under [/Posts]({{ site.baseurl }}/posts)), and open source contributions under [/oss]({{ site.baseurl }}/oss).
 
 I've undertaken research visits at the [Barcelona Super Computing Centre](https://www.bsc.es) (2019, through the [PRACE Summer of HPC](https://summerofhpc.prace-ri.eu/perry-gibson/) program) investigating optimized data placement in heterogeneous memory systems; and [Northeastern University](https://ece.northeastern.edu/groups/nucar/) (2022, Boston, USA), exploring MLIR and homomorphic encryption.
 
