@@ -14,7 +14,7 @@ discussion at the [CODAI workshop](https://www.codai-workshop.com/home)
 (Workshop on Compilers, Deployment, and Tooling for AI) at HiPEAC 2026 (Kraków,
 Poland).
 
-The talk was titled "The Compiler Before The Horse: Design Space Exploration at
-Fractile". There, I discussed how working on the compiler early in our hardware
-design process has been crucial for us to explore the design space effectively
-and make informed decisions.
+My talk, titled “The Compiler Before the Horse: Design Space Exploration at
+Fractile,” focused on how investing in compiler development early in our
+hardware design process has been essential for effective design space
+exploration and for making well-informed architectural decisions.
