@@ -5,6 +5,7 @@ repos:
     rev: v5.0.0
     hooks:
       - id: check-json
+        exclude: ^search\.json$
       - id: check-merge-conflict
       - id: check-symlinks
       - id: check-yaml

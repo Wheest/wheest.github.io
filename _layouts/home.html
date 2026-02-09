@@ -2,39 +2,138 @@
 layout: default
 ---
 
+<style>
+  .search-container {
+    margin-bottom: 1.5em;
+  }
+  .search-container input {
+    width: 100%;
+    padding: 0.5em 0.75em;
+    font-size: 1em;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    font-family: inherit;
+    box-sizing: border-box;
+  }
+  .search-container input:focus {
+    outline: none;
+    border-color: #828282;
+  }
+  .search-status {
+    margin-top: 0.5em;
+    font-size: 0.875em;
+    color: #828282;
+  }
+  .search-results {
+    display: none;
+  }
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25em;
+    margin: 2em 0 1em;
+    flex-wrap: wrap;
+  }
+  .pagination-controls a,
+  .pagination-controls span {
+    display: inline-block;
+    padding: 0.4em 0.75em;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #111;
+    font-size: 0.875em;
+  }
+  .pagination-controls a:hover {
+    background-color: #e8e8e8;
+  }
+  .pagination-controls .current {
+    background-color: #424242;
+    color: #fff;
+    border-color: #424242;
+  }
+  .pagination-controls .disabled {
+    color: #c0c0c0;
+    pointer-events: none;
+  }
+  .pagination-controls .ellipsis {
+    border: none;
+    padding: 0.4em 0.25em;
+    color: #828282;
+  }
+</style>
+
 <div class="home">
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%} {{ content }} {%- if site.posts.size > 0 -%}
-  <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
-  <!-- <h2>List of all entries, with small excerpt, click the title to open the full blogpost</h2> -->
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-    <li>
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
-      -%}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      {%- if site.show_excerpts -%} {{ post.excerpt }} {% if post.excerpt !=
-      post.content %}
-      <a
-        href="{{ post.url | prepend: site.baseurl }}"
-        title="Read more about {{ post.title }}"
-        >[Read more]</a
-      >
-      {% endif %} {%- endif -%}
-    </li>
-    {%- endfor -%}
-  </ul>
+  {%- endif -%} {{ content }}
+
+  <div class="search-container">
+    <input
+      type="text"
+      id="search-input"
+      placeholder="Search posts..."
+      aria-label="Search posts"
+    />
+    <div class="search-status" id="search-status"></div>
+  </div>
+
+  <div id="search-results" class="search-results">
+    <ul class="post-list" id="search-results-list"></ul>
+  </div>
+
+  {%- if paginator.posts.size > 0 -%}
+  <div id="paginated-posts">
+    <ul class="post-list">
+      {%- for post in paginator.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+        -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%} {{ post.excerpt }} {% if post.excerpt !=
+        post.content %}
+        <a
+          href="{{ post.url | prepend: site.baseurl }}"
+          title="Read more about {{ post.title }}"
+          >[Read more]</a
+        >
+        {% endif %} {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    {% if paginator.total_pages > 1 %}
+    <nav class="pagination-controls" aria-label="Pagination">
+      {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">Prev</a>
+      {% else %}
+      <span class="disabled">Prev</span>
+      {% endif %} {% for trail in paginator.page_trail %} {% if trail.num ==
+      paginator.page %}
+      <span class="current">{{ trail.num }}</span>
+      {% else %}
+      <a href="{{ trail.path | relative_url }}">{{ trail.num }}</a>
+      {% endif %} {% endfor %} {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Next</a>
+      {% else %}
+      <span class="disabled">Next</span>
+      {% endif %}
+    </nav>
+    {% endif %}
+  </div>
 
   <p class="rss-subscribe">
     subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a>
   </p>
-
   {%- endif -%}
 </div>
+
+<script src="https://unpkg.com/lunr/lunr.min.js"></script>
+<script src="/assets/js/search.js"></script>
 <script src="/assets/js/pronouns.js"></script>
