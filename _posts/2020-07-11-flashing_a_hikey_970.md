@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Flashing a Hikey 970 in 2020"
-date:   2020-07-11 16:20:00 +0000
+title: "Flashing a Hikey 970 in 2020"
+date: 2020-07-11 16:20:00 +0000
 categories: blog
 tags: linux hikey edge
 excerpt_separator: <!--more-->
@@ -81,8 +81,8 @@ As said at the start of this post, if you did manage to get it working, please g
 
 I came back to this after a while, and tried to flash Lebuntu.
 Instead of the original instructions, I tried following the instructions inside the `.rar` file, `lebuntu-rfs_flashing_guide.txt`.
-There appear to be some errors in the instructurions.
+There appear to be some errors in the instructions.
 For me, I had to turn switches 1 and 3 on, and then `cd binaries`.
 Then I could run `./recovery-flash.sh`.
-Note the you need to connect the USB-C connection inbetween the USB and HDMI ports (there are two, only one can be used for flashing).
+Note that you need to connect the USB-C connection inbetween the USB and HDMI ports (there are two, only one can be used for flashing).
 It still did not work, but I got further this time.

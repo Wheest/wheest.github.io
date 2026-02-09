@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "AI Generated Music Video: SENGA 'Bloodshot'"
-date:   2021-11-19 20:20:08 +0000
+title: "AI Generated Music Video: SENGA 'Bloodshot'"
+date: 2021-11-19 20:20:08 +0000
 categories: side-projects
 tags: art side-projects ai
 excerpt_separator: <!--more-->
@@ -15,14 +15,12 @@ You can read about the track, and the album in this piece in [DJ Mag](https://dj
 
 The video is AI generated, and I thought I'd take this opportunity to give a brief overview of how I put it together.
 
-
 <!--more-->
 
 Recent months have seen an explosion of AI generated visual art.
-This has been enabled by a couple of key innovations.  Firstly, the introduction of [OpenAI's CLIP model](https://openai.com/blog/clip/), which is trained to generate captions from images.
-It learns this by being showing millions of images with text captions, and being trained to predict the captions from just the image.
+This has been enabled by a couple of key innovations. Firstly, the introduction of [OpenAI's CLIP model](https://openai.com/blog/clip/), which is trained to generate captions from images.
+It learns this by being shown millions of images with text captions, and being trained to predict the captions from just the image.
 An example of this kind of dataset is [Google's Conceptual Captions](https://ai.google.com/research/ConceptualCaptions/).
-
 
 ![](/assets/sean_video/clip_labeling.png)
 
@@ -30,6 +28,7 @@ Secondly, was the public release of the BigSleep and LatentVisions systems by [@
 The contribution of this work was to take neural network models which can generate images (such as GANs [[basics](https://developers.google.com/machine-learning/gan/gan_structure)], [[state-of-the-art](https://nvlabs.github.io/stylegan3/)]), and connect them to the OpenAI clip model.
 
 In practical terms, this meant:
+
 1. specifying a text prompt of what you wanted to be generated (e.g. a pineapple wearing sunglasses)
 2. using the image generation model (let's call it **G**) to generate some random noise
 3. Get CLIP to look at the generated image, and give it a caption
@@ -38,7 +37,6 @@ In practical terms, this meant:
 6. Generate a new image, and repeat steps 3-6 until you're happy with the results
 
 ![](/assets/sean_video/pineapple.png)
-
 
 In May 2021, I came across the notebook versions of BigSleep and LatentVisions, and wondered what would happen if one changed the prompt midway through, and collected all of the generated images together into a video.
 I made a proof-of-concept, which I discussed and demonstrated in [this Twitter thread](https://twitter.com/PerryGibson_/status/1388492677285662722).
@@ -49,10 +47,9 @@ As demonstrated in the above video, I started with the prompt "a city during the
 The model training takes the path of least resistance, and thus we see some continuity between the images.
 I also added some code that messed around with learning rate decay, but this is outside of the scope of this casual blog.
 
-
 Next, I wanted more fine-grained control of the generated video.
 Thus, I devised a system where the user could define how long they wanted a given prompt to be generated for.
-I decided to use the [LRC file format](https://en.wikipedia.org/wiki/LRC_(file_format)), which is a simple plain-text file format used for setting the lyrics of a song.
+I decided to use the [LRC file format](<https://en.wikipedia.org/wiki/LRC_(file_format)>), which is a simple plain-text file format used for setting the lyrics of a song.
 You need only prefix each line with the timestamp it begins, for example:
 
 ```

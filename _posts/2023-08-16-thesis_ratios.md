@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Thesis Analysis: Gender Ratios"
-date:   2023-08-16 10:00:00 +0000
+title: "Thesis Analysis: Gender Ratios"
+date: 2023-08-16 10:00:00 +0000
 categories: blog
 tags: thesis python open-source llm
 excerpt_separator: <!--more-->
@@ -27,15 +27,14 @@ This leaves out a variety of other designations across a range of cultures — a
 That said, for the sake of this casual project, I will assume that on average, first names tend to be associated with gender, and that a majority of the authors cited fall into the aforementioned categories.
 This is an estimate, and not a definitive measurement!
 
-
 My first technique uses the [`gender-guesser` Python library](https://pypi.org/project/gender-guesser/), which does a lookup from a predefined list. However, I found that it didn't handle names from colleagues with South or East Asian names reliably (European names appear to be reliable, though I am unsure of other regions).
 
 Overall, here are the results of the `gender-guesser` approach:
 
 | **Stat**                  | **Number** |
-|---------------------------|------------|
+| ------------------------- | ---------- |
 | Number of authors         | 1741       |
-| Number of men  (est)      | 951        |
+| Number of men (est)       | 951        |
 | Number of women (est)     | 103        |
 | Number of ambiguous (est) | 336        |
 | Number of unknown (est)   | 348        |
@@ -53,9 +52,9 @@ Therefore, I run the model 5 times and take the average, rounded to the nearest 
 You can see the results for the LLM approach below:
 
 | **Stat**                  | **Number** |
-|---------------------------|------------|
+| ------------------------- | ---------- |
 | Number of authors         | 1741       |
-| Number of men  (est)      | 1509       |
+| Number of men (est)       | 1509       |
 | Number of women (est)     | 130        |
 | Number of ambiguous (est) | 8          |
 | Number of unknown (est)   | 85         |
@@ -63,11 +62,10 @@ You can see the results for the LLM approach below:
 
 As you can see, we have significantly fewer unknown and ambiguous names, however most of these names have been filed as men, thus our male-female ratio has increased.
 I cannot say definitely that this is more accurate, however it correctly guesses names which I know the `gender-guesser` method got wrong.
-Therefore, I consider this method to be more the more reliable one, even if this designation is not based on solid metrics.
+Therefore, I consider this method to be the more reliable one, even if this designation is not based on solid metrics.
 
 Now, let's compare against my field, to see if I beat the average.
 According to the British Computer Society, the gender ratio of people starting computer science degrees in the UK was 4.3-to-1 in 2022 [[source]](https://www.bcs.org/articles-opinion-and-research/women-choosing-computing-degrees-in-record-numbers/), which is significantly lower from the ratio of my thesis bibliography.
-
 
 However, I am working in a specific research field, and current undergrad statistics may not reflect the current research community.
 Therefore, I also downloaded the papers from the four previous [PACT conferences](https://dl.acm.org/conference/pact) (download in bulk from the IEEE/ACM websites), where my work on [transfer-tuning](https://gibsonic.org/blog/2022/10/12/transfer-tuning.html) was accepted in 2022.

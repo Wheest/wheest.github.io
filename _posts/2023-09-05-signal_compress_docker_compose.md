@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Open Source: signal-compress, semi-secure LLM compression of Signal chats"
-date:   2023-09-05 12:00:00 +0000
+title: "Open Source: signal-compress, semi-secure LLM compression of Signal chats"
+date: 2023-09-05 12:00:00 +0000
 categories: blog
 tags: python docker dnn signal open-source gpt llm security
 excerpt_separator: <!--more-->
@@ -31,7 +31,7 @@ To achieve this project, I followed 5 steps, which I expand on in the following 
 
 1. access the encrypted Signal database.
 2. an environment to execute the DNN model.
-3. an Docker environment to simplify the Signal data processing.
+3. a Docker environment to simplify the Signal data processing.
 4. a container orchestration configuration to combine the two components.
 5. a reasoned approach to data management.
 
@@ -45,11 +45,12 @@ Signal encrypts its local database using [SQLCipher](https://github.com/sqlciphe
 The Signal developers maintain an implementation of SQLite in Node.js called [better-sqlite3](https://github.com/signalapp/better-sqlite3), for which they are currently using [v4.5.2 of SQLCipher](https://github.com/signalapp/Signal-Desktop/commit/e33bcd80b7544f46abfc628c8109f7a3deaf78c0).
 All of Signal's data is stored in a single database file.
 Depending on your OS, you can find the database at:
-- Linux: ``~/.config/Signal/sql/db.sqlite``
-- Mac: ``~/Library/Application Support/Signal/sql/db.sqlite``
+
+- Linux: `~/.config/Signal/sql/db.sqlite`
+- Mac: `~/Library/Application Support/Signal/sql/db.sqlite`
 - Windows: `C:\Users\<YourName>\AppData\Roaming\Signal\sql\db.sqlite`
-Let's say the path is `$SIGNAL_DB_PATH`.
-I'm not sure where it is stored on iOS or Android, but my project is intended to work with Signal desktop.
+  Let's say the path is `$SIGNAL_DB_PATH`.
+  I'm not sure where it is stored on iOS or Android, but my project is intended to work with Signal desktop.
 
 You also need the decryption key for the database, which is stored in the Signal directory in the `config.json` file, which will look something like this:
 
@@ -70,12 +71,10 @@ $ sqlcipher $SIGNAL_DB_PATH   "PRAGMA key = \"x'$(jq -r '.key' ${SIGNAL_CONFIG_P
 
 You may see `Error: in prepare, file is not a database (26)`, which might suggest that the version of SQLCipher that Signal uses has changed.
 
-
 ### LLM-containerisation
 
-
-For better or worse, Docker and containerisation is general is a critical enabling technology for developing modern applications.
-I've been working with it for a number of years, for example in 2019 [when I was working at Barcelona Supercomputing Center](https://gibsonic.org/hpc/2019/08/07/containerisation_for_hpc.html), a variety of my research projects, and the [AIMDDE project for industrial deject detection](https://gibsonic.org/blog/2022/06/19/accml_workflows.html).
+For better or worse, Docker and containerisation in general is a critical enabling technology for developing modern applications.
+I've been working with it for a number of years, for example in 2019 [when I was working at Barcelona Supercomputing Center](https://gibsonic.org/hpc/2019/08/07/containerisation_for_hpc.html), a variety of my research projects, and the [AIMDDE project for industrial defect detection](https://gibsonic.org/blog/2022/06/19/accml_workflows.html).
 I also [co-developed an online course](https://gibsonic.org/blog/2023/02/08/bonsapps_mooc.html) for [BonsAPPs](https://bonsapps.eu/) about how container and codebase templates can help improve productivity and reproducibility for developing AI applications.
 Hence, it makes sense for this project.
 
@@ -83,12 +82,12 @@ Docker is an open-source platform that enables developers to automate the deploy
 It allows for efficient and isolated packaging of software, enabling consistent and reproducible deployments across different environments.
 
 Key terms:
+
 - **image**: A lightweight, standalone, executable package that includes code, runtime, libraries, tools, and settings needed to run an application.
-- **container**: An isolated and standardized runtime environment where an image can be executed, with its own set of processes, memory, and hardware resources.  An instance of an image.
+- **container**: An isolated and standardized runtime environment where an image can be executed, with its own set of processes, memory, and hardware resources. An instance of an image.
 - **docker**: An open-source platform that automates the deployment, scaling, and management of applications using containerization.
 - **host**: The physical or virtual machine on which the Docker runtime is installed and where containers are executed.
 - **quantization**: The process of reducing the precision of mathematical representations and storing numerical data in a more efficient format, typically to optimize storage or computation efficiency.
-
 
 For running the LLM, I would ideally like to use something like [Apache TVM](https://tvm.apache.org/), a machine learning compiler that I've used a lot in my PhD.
 However, I've been hearing good things about the [`llama.cpp`](https://github.com/ggerganov/llama.cpp), a community project focused on efficient inference of transformer models such as Llama.
@@ -120,13 +119,12 @@ docker run -v $MODELS_PATH:/models --entrypoint '/app/main' ghcr.io/ggerganov/ll
   -m /models/$TARGET_MODEL/ggml-model-q4_0.gguf -n 512 -p "Building a website can be done in 10 simple steps"
 
 ```
+
 We now have everything we need for model inference.
 However, since we might be running multiple inferences, perhaps it makes sense to keep the model in memory.
 Therefore, there is a `server` mode for the `llama.cpp` image.
 This exposes our model via a RESTful API, meaning that we can send our prompt as a HTTP request, which makes integration in other applications much simpler.
 The next section discusses how I developed this integration.
-
-
 
 ### Signal Docker Image
 
@@ -178,17 +176,16 @@ version: "3.8" # version of Docker Compose syntax to use
 
 services: # two services, llama and signal
   llama:
-    image: ghcr.io/ggerganov/llama.cpp:full  # Docker image for the Llama service
-    command: "--server -m /models/$TARGET_MODEL/ggml-model-q4_0.gguf -c $SEQ_LEN -ngl 43 -mg 1 --port 9090 --host 0.0.0.0"  # Command to run the Llama service
+    image: ghcr.io/ggerganov/llama.cpp:full # Docker image for the Llama service
+    command: "--server -m /models/$TARGET_MODEL/ggml-model-q4_0.gguf -c $SEQ_LEN -ngl 43 -mg 1 --port 9090 --host 0.0.0.0" # Command to run the Llama service
   signal:
-    build:  # Build the Signal service using the specified Dockerfile
+    build: # Build the Signal service using the specified Dockerfile
       dockerfile: docker/Dockerfile.signal
-    depends_on:  # signal service will launch after the llama service
+    depends_on: # signal service will launch after the llama service
       - llama
 ```
 
 If we run `docker compose up`, this will launch both containers automatically!
-
 
 As part of Docker Compose, containers can access open ports from other containers.
 They do this by using the service name of the target container as a domain name.
@@ -247,7 +244,7 @@ Of course, the Signal container is still handling the decryption of our data, th
 Finally, as an additional security measure, consider the following: our containers contain all the code required to execute our model, and our model and data should run entirely locally.
 Therefore, we can disable internet access to our containers without losing functionality.
 And this reduces the risk that some untrusted code tries to send our data offsite.
-The way I have implemented this in `docker-compose,yml` is by configuring a custom network that only has access to other containers.
+The way I have implemented this in `docker-compose.yml` is by configuring a custom network that only has access to other containers.
 Then, we assign this network to each service.
 For example:
 
@@ -274,25 +271,24 @@ Some security critiques are given below, bearing in mind I am merely a casual en
 ### Security Analysis
 
 1. Our Signal container is run as root, which is not necessary, since it gives the container more power than it needs, violating the principle of least privilege.
-You can see how you can create a non-root user, as well as some of the caveats, [here](https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user).
+   You can see how you can create a non-root user, as well as some of the caveats, [here](https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user).
 
 2. If the Python program `extract.py` crashes, it will not delete the unencrypted Signal files with `shutil.rmtree(output_dir)`.
-This could be mitigated by having the program in a `try-except` block which runs the clean-up code in most crash scenarios.
-Also, consider that it may be better to keep our data in memory rather than writing it to disk, since there are arguably more exfiltration opportunities (e.g., is file deletion secure?).
-However, since our chat logs could be very large, I am writing to disk as a default.
+   This could be mitigated by having the program in a `try-except` block which runs the clean-up code in most crash scenarios.
+   Also, consider that it may be better to keep our data in memory rather than writing it to disk, since there are arguably more exfiltration opportunities (e.g., is file deletion secure?).
+   However, since our chat logs could be very large, I am writing to disk as a default.
 
 3. Our Dockerfiles do not pin the versions of the packages and base images used.
-This issue is a big "it depends".
-Not pinning versions can create some compatibility issues in future when APIs change.
-However, pinning old packages might expose us to security vulnerabilities.
-Alternatively, if we always pull the newest package, these may also introduce some new bugs (either accidentally or maliciously).
+   This issue is a big "it depends".
+   Not pinning versions can create some compatibility issues in future when APIs change.
+   However, pinning old packages might expose us to security vulnerabilities.
+   Alternatively, if we always pull the newest package, these may also introduce some new bugs (either accidentally or maliciously).
 
 If you can spot anything else big, feel free to get in touch!
 
-
 ### Conclusion
 
-In conclusion, Docker Compose can make it easier to more configure and control of how our application is executed.
+In conclusion, Docker Compose can make it easier to configure and control how our application is executed.
 Wrapping our DNN execution engine as a Docker image with a REST API reduces a number of our integration headaches.
 Running locally is desirable due to the sensitivity of our data, yet we must still be mindful of various security concerns.
 This project mitigates some of them, but is by no means a complete solution.

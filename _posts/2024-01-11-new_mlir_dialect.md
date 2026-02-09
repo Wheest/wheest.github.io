@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Step-by-step Guide to Adding a New Dialect in MLIR"
-date:   2024-01-11 12:00:00 +0000
+title: "Step-by-step Guide to Adding a New Dialect in MLIR"
+date: 2024-01-11 12:00:00 +0000
 categories: blog
 tags: mlir compiler
 excerpt_separator: <!--more-->
@@ -18,10 +18,10 @@ This post discusses how this is achieved, and links to some code.
 
 The information in this post was sourced partially from [Chapter 2 of the Toy tutorial](https://mlir.llvm.org/docs/Tutorials/Toy/Ch-2) and [Creating a Dialect tutorial](https://mlir.llvm.org/docs/Tutorials/CreatingADialect/).
 I hope to update the latter with some of the steps described below.
-Note that MLIR/LLVM often has API breaking changes, and this guide may not by entirely correct or best practice when reading.
+Note that MLIR/LLVM often has API breaking changes, and this guide may not be entirely correct or best practice when reading.
 My code builds on `42204c9`.
 
-If you just want to see the code/diff for a complete working example, [checkout commit `7c89cfe` on the `new_dialect` branch on  GitHub](https://github.com/Wheest/llvm-project/commit/7c89cfe150c6508d7f436be12c460c4d31236975).
+If you just want to see the code/diff for a complete working example, [checkout commit `7c89cfe` on the `new_dialect` branch on GitHub](https://github.com/Wheest/llvm-project/commit/7c89cfe150c6508d7f436be12c460c4d31236975).
 Overall, to add the new dialect I changed three files and created six new ones.
 If you're unfamiliar with MLIR, I recommend you check out the [docs](https://mlir.llvm.org/), and [the full Toy tutorial](https://mlir.llvm.org/docs/Tutorials/Toy/Ch-1/) is worth doing too.
 
@@ -159,7 +159,6 @@ Be sure to add `add_subdirectory(Foo)` to the `CMakeLists.txt` of the parent dir
 Next, let's create a file `FooDialect.cpp`.
 This will use some of auto-generated implementation boilerplate from the previous steps, see the `#include` statements.
 
-
 ```cpp
 #include "mlir/Dialect/Foo/Foo.h"
 
@@ -236,7 +235,7 @@ def BarOp : Foo_Op<"bar"> {
 
 We define a high-level `Foo_Op`, which all of the operations in our Foo dialect are derived from.
 Then, we have our operation, which we will call `bar`.
-Right now it takes not arguments and returns nothing, and we have our definition under `BarOp`.
+Right now it takes no arguments and returns nothing, and we have our definition under `BarOp`.
 Much like before, TableGen will create the necessary header files and implementations for our operation.
 
 The other thing we need to add is the appropriate inclusion of our op classes.

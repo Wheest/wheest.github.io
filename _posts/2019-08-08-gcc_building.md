@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Building an old version of gcc, a journey of errors and solutions"
-date:   2019-08-08 10:15:08 +0200
+title: "Building an old version of gcc, a journey of errors and solutions"
+date: 2019-08-08 10:15:08 +0200
 categories: tools
 tags: gcc compilers devops tools build
 excerpt_separator: <!--more-->
@@ -9,33 +9,33 @@ excerpt_separator: <!--more-->
 
 <img src="/assets/gnu.png" width="1024">
 
-Hello neighbours.  Another dry one today, intended first and foremost for myself before I wrote this post, and secondly for anyone coming after me in a similar boat.
+Hello neighbours. Another dry one today, intended first and foremost for myself before I wrote this post, and secondly for anyone coming after me in a similar boat.
 
 Due to working on a reproducibility study, it was necessary for me to build some old compiler versions, that no longer existed on package repositories.
 
-I encountered a number of build errors during this time, and have documented how I solved them.  As a post, it isn't bringing many insights, and serves as a curation of disparate Stack Overflow and other sources that I used to solve my issues.
+I encountered a number of build errors during this time, and have documented how I solved them. As a post, it isn't bringing many insights, and serves as a curation of disparate Stack Overflow and other sources that I used to solve my issues.
 
 <!--more-->
 
-This guide was created via a Debian-based distribution, but you should be able to apply it to others.  I'm running on an x86 system, and due to some errors was forced to use the configure flag `--disable-multilib`.  Only use this if you encounter the relevant error described below.
+This guide was created via a Debian-based distribution, but you should be able to apply it to others. I'm running on an x86 system, and due to some errors was forced to use the configure flag `--disable-multilib`. Only use this if you encounter the relevant error described below.
 
-First, you need to download the gcc source code using svn.  For example, to get version 4.5.1, use
+First, you need to download the gcc source code using svn. For example, to get version 4.5.1, use
 
 `svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_4_5_1_release gcc`
 
-For other versions, see [the gcc docs](https://gcc.gnu.org/svn.html).  The SVN tag for GCC X.Y.Z is of the form gcc_X_Y_Z_release.
+For other versions, see [the gcc docs](https://gcc.gnu.org/svn.html). The SVN tag for GCC X.Y.Z is of the form gcc_X_Y_Z_release.
 
 Make the gcc directory your working directory, and run
 
 `./configure --prefix=$(pwd) --enable-languages=c,c++,fortran --disable-werror`
 
-When this suceeds, you can then run:
+When this succeeds, you can then run:
 
 `make bootstrap-lean -j4`
 
-Ultimately, I wanted an installable `.deb` package, so once compiling was finsihed, I ran `checkinstall`.  Make sure to set a version number during configuration.
+Ultimately, I wanted an installable `.deb` package, so once compiling was finished, I ran `checkinstall`. Make sure to set a version number during configuration.
 
-Now, here are the errors I encountered, and how I fixed them.  Solutions were discovered via search-engine-fu, and trial & error.
+Now, here are the errors I encountered, and how I fixed them. Solutions were discovered via search-engine-fu, and trial & error.
 
 ## The errors and their solutions
 
@@ -59,11 +59,11 @@ apt-get install libmpc3 libmpc-dev
 
 ### Solution:
 
-Install the flex program, which "Generates programs that perform pattern-matching on text."  Something something flexing on these mfs.
+Install the flex program, which "Generates programs that perform pattern-matching on text." Something something flexing on these mfs.
 
 `apt-get install flex`
 
-The error may occur again.  If so, rerun the `./configure` stage, but dropping the `--disable-werror` flag.
+The error may occur again. If so, rerun the `./configure` stage, but dropping the `--disable-werror` flag.
 
 `./configure --prefix=$(pwd) --enable-languages=c,c++,fortran --disable-werror`
 
@@ -83,7 +83,7 @@ Install the package
 
 `apt-get install g++-multilib`
 
-Packaged with it is some tool which is includes `sys/cdefs.h`.
+Packaged with it is some tool which includes `sys/cdefs.h`.
 
 ### Error:
 
@@ -113,7 +113,7 @@ patch -p0 -b --ignore-whitespace --fuzz 3   < /tmp/unwind.patch
 
 ### Solution:
 
-Disable multi-lib support.  Defintely think about whether or not this solution is right for you.
+Disable multi-lib support. Definitely think about whether or not this solution is right for you.
 
 `./configure --prefix=$(pwd) --enable-languages=c,c++,fortran --disable-werror --disable-multilib`
 
@@ -150,10 +150,10 @@ I was finally able to get my `.deb` package and continue on my merry way.
 
 ## Update 2021-09
 
-I was recently contacted by a reader [Ali Abdul-Kareem](https://github.com/Haiderahandali) who experienced some of these issues, even on the latest version of `gcc`.  They shared some additional steps that were necessary for their success, which I got permission to paraphrase here:
+I was recently contacted by a reader [Ali Abdul-Kareem](https://github.com/Haiderahandali) who experienced some of these issues, even on the latest version of `gcc`. They shared some additional steps that were necessary for their success, which I got permission to paraphrase here:
 
 > When you fix an error like: `gcc: error: gengtype-lex.c: No such file or directory`, or any other error really, and you run `make` again, it will (probably) report an error with something along the lines of: `make recipe failed`,
-and it will exit the program.
+> and it will exit the program.
 > I encountered it multiple times and the easiest solution for me was remove everything and start again.
 > Or you can simply remove the cached files (it will report which cached files, but it will be much earlier in the terminal output).
 > I simply removed the build directory and started again.

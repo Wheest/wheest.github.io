@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Penguin eating a Tiger(lake): Fixing high battery usage on GNU/Linux+Intel"
-date:   2022-05-29 14:39:00 +0000
+title: "Penguin eating a Tiger(lake): Fixing high battery usage on GNU/Linux+Intel"
+date: 2022-05-29 14:39:00 +0000
 categories: blog
 tags: intel cpu laptop battery linux
 excerpt_separator: <!--more-->
@@ -20,7 +20,7 @@ This post documents what I found, and how I fixed it.
 **Update 2024-02**
 
 Another factor that appears to influence the thermal profile of the machine is the Nvidia GPU.
-I had an issue that disabled the Nvidia drivers, and the average temparture over the next few days shot up significantly.
+I had an issue that disabled the Nvidia drivers, and the average temperature over the next few days shot up significantly.
 Downloading and installing the newest drivers again (from the [Nvidia website](correct), signing the kernel modules) reduced the temperature significantly.
 I hypothesise that without properly correct drivers the GPU is idling at high power draw, which heats up the whole board.
 

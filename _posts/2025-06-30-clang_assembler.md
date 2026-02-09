@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Calling Clang's Assembler from C++"
-date:   2025-06-30 10:00:00 +0000
+title: "Calling Clang's Assembler from C++"
+date: 2025-06-30 10:00:00 +0000
 categories: blog
 tags: c++ compilers llvm clang assembler
 excerpt_separator: <!--more-->
@@ -16,7 +16,7 @@ In a project I was working on, we were using the `clang` part of this project to
 The code path for these two sources was similar enough that we could have a single `compile` function that passed all the configuration flags for our usecase.
 
 However, for a new feature, I was generating assembly files directly and wanted to assemble them into an object file.
-This post briefly explains how I got this working and how you can use you can use the `clang` libraries to assemble assembly files in C++.
+This post briefly explains how I got this working and how you can use the `clang` libraries to assemble assembly files in C++.
 
 <!--more-->
 
@@ -41,7 +41,6 @@ clang -### -c my_asm.s 2> cc1_dump.txt
 ```
 
 This command printed all the flags passed to the underlying program:
-
 
 ```
 clang version [redacted]
