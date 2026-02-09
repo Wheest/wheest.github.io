@@ -13,23 +13,24 @@ In 2024 I completed a PhD at the [gicLAB](https://giclab.dcs.gla.ac.uk/) ([Unive
 
 ![picture of Perry Gibson](/assets/pg_profile.jpg){: style="float: left; margin-right: 1em;"}
 
-I'm interested in across-stack optimisation of neural networks, especially with
-a compiler-centric perspective. For example, using
-[MLIR](https://mlir.llvm.org/), [Apache TVM](https://tvm.apache.org/), , and
-tensor compilers in general. In fact, [that's what my PhD was all
-about](https://theses.gla.ac.uk/83959/)!
+I believe that compilers are a key technology for bridging the gap between high-level
+application code and efficient hardware execution. Domain-specific
+compilers like [Apache TVM](https://tvm.apache.org/), or frameworks for building
+them, like [MLIR](https://mlir.llvm.org/) are increasingly important in today's
+commercial and research landscape.
+
+Compilers also have an important place in [the era of accelerated, application focused hardware](https://www.youtube.com/watch?v=aA5pqklkkvI), both
+in their design, and for code generation. That's why I'm at Fractile!
+
+In my PhD, I explored across-stack optimisation of deep neural networks, with
+a compiler-centric perspective.
 
 You can find some of my research work under [/Publications]({{ site.baseurl }}/publications).
-And other publications and posts under [/Posts]({{ site.baseurl }}/posts)), and open source contributions under [/oss]({{ site.baseurl }}/oss).
+And other publications and posts under [/Posts]({{ site.baseurl }}/posts), and open source contributions under [/oss]({{ site.baseurl }}/oss).
 
-I've undertaken research visits at the [Barcelona Super Computing Centre](https://www.bsc.es) (2019, through the [PRACE Summer of HPC](https://summerofhpc.prace-ri.eu/perry-gibson/) program) investigating optimized data placement in heterogeneous memory systems; and [Northeastern University](https://ece.northeastern.edu/groups/nucar/) (2022, Boston, USA), exploring MLIR and homomorphic encryption.
-
-I'm at home in the shell, and manage a suite of self- and cloud-hosted services.
-I like my workflows to be reproducible: e.g., through containerisation, or template systems (like [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/) or [AI Assets](https://arxiv.org/abs/2206.09359)). I try to learn from and educate my team members, and leave a trail of documentation like footprints.
+Past research visits include the [Barcelona Supercomputing Centre](https://www.bsc.es) (2019, [PRACE Summer of HPC](https://summerofhpc.prace-ri.eu/perry-gibson/)) and [Northeastern University](https://ece.northeastern.edu/groups/nucar/) (2022, Boston).
 
 You can read more about my work on my [LinkedIn](https://www.linkedin.com/in/perry-gibson/), [GitHub](https://github.com/Wheest), [Google Scholar](https://scholar.google.com/citations?user=Bf-bR_UAAAAJ&hl=en&oi=ao), or [blog]({{ site.baseurl }}/posts).
-
-Feel free to get in touch with me if you want to discuss my work, opportunities, or such.
 
 [![https://www.gibsonic.org](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://www.gibsonic.org)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
