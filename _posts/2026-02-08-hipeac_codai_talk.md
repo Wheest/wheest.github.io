@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 <img src="{{site.url}}/assets/headers/2026-02-hipeac.png" width="1024">
 
-I was delighted to be invited to give a talk and participate in the panel
+I was delighted to be invited to both give a talk, and participate in the panel
 discussion at the [CODAI workshop](https://www.codai-workshop.com/home)
 (Workshop on Compilers, Deployment, and Tooling for AI) at HiPEAC 2026 (Kraków,
 Poland).
