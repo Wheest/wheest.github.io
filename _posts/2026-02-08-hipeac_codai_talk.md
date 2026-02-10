@@ -30,7 +30,7 @@ metaphor. Beating a dead horse, if you will.
 In an age of easy, high-quality generative images, I had some fun
 old-school editing together my own images.
 
-<figure style="width:33%;">
+<figure style="width:66%; margin: 1em auto; text-align: center;">
   <img src="{{ site.url }}/assets/pics/2026-01-one_trick_pony.png"
        alt="Not a one trick pony"
        style="width:100%; height:auto;">
