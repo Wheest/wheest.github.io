@@ -13,13 +13,15 @@ excerpt_separator: <!--more-->
 
 Dr Dr Mahnoz Illias completed her PhD at the University of Glasgow in 2025. Aye,
 she really is a double doctor 😎, originally gaining a medical degree in
-Bangladesh, before completing a MSc in Global Mental Health, supported by the
-Commonwealth Scholarship Commission. Her PhD research focused on the female
-police officers in the UK, examining how organisational structures and culture
-impact their health and well-being. Here, I had a wee chat with her about her
-research and perspectives.
+Bangladesh, before completing an MSc in Global Mental Health, supported by the
+Commonwealth Scholarship Commission. Her PhD research focused on female police
+officers in the UK, examining how organisational structures and culture impact
+their health and well-being. Here, I had a wee chat with her about her research
+and perspectives.
 
 <!--more-->
+
+---
 
 **Awright Dr Dr Mahnoz?**
 
@@ -40,42 +42,53 @@ It was quite an interdisciplinary project. I was based within these two schools,
 but a lot of the work I did was actually closer to the field of criminology
 rather than either public health or business/organisation studies.
 
-Outside of the school, I worked closely with the Scottish Women's Development
-Forum of Police Scotland. They're a group who represent women within Police
-Scotland \- all the women staff and officers. This is a voluntary organisation
-because all the organisations keep saying that "they're trying their best to
-accommodate the welfare of their employees", but according to them, "they do not
-have the funds". So there are some people who are stepping forward to make
-things work. There were some broader groups like the Scottish Institute for
-Policing Research and also the Academic Team of Police Scotland.
+Outside of the school, I worked closely with the
+[Scottish Women's Development Forum](https://www.scottishwdf.com/) of Police
+Scotland. They're a group who represent women within Police Scotland — all the
+women staff and officers. It's a voluntary organisation because police forces
+keep saying they're "trying their best to accommodate the welfare of their
+employees", but claim they "do not have the funds" for formal support. So
+volunteers step forward to fill the gap. I also worked with broader groups like
+the [Scottish Institute for Policing Research](https://www.sipr.ac.uk/) and the
+Academic Team of Police Scotland.
 
 **What was the connection with the Adam Smith Business School; I don't
 immediately see the connection to the research area?**
 
-It was mainly about the organisation \- the culture, structure, and norms, and
-how they impact health and well-being. Though in public health we do study this
-(and public health itself is very interdisciplinary), it's mainly the people in
-"organisation studies" who study how organisations are functioning. They're
-located at the business school, so that's where the Adam Smith Business School
-comes in.
+It was mainly about the organisation — the culture, structure, and norms, and
+how they impact health and well-being. Although in public health we do study
+this (and public health itself is very interdisciplinary), it's mainly the
+people in "organisation studies" who study how organisations are functioning.
+They're located at the business school, so that's where the Adam Smith Business
+School comes in.
 
-**You were originally a medical doctor, then you did a master's in global mental
-health. How was that perspective shift—looking at mental health not just as an
+<figure style="max-width: 40%; margin: 0 auto 1.5em;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Adam_Smith_The_Muir_portrait.jpg/1280px-Adam_Smith_The_Muir_portrait.jpg" alt="Portrait of Adam Smith" style="width: 100%;">
+  <figcaption>Adam Smith, Scottish "father of economics", for whom the school is named. His book <a href="https://en.wikipedia.org/wiki/The_Wealth_of_Nations">The Wealth of Nations</a> is worth a read if you want to learn about the price of socks made in the Highlands. Via <a href="https://commons.wikimedia.org/wiki/File:Adam_Smith_The_Muir_portrait.jpg">Wikimedia Commons</a></figcaption>
+</figure>
+
+<blockquote style="border-left: 4px solid #c00; margin: 1.5em 0; padding: 0.5em 1em; font-size: 1.15em; font-style: italic; background: #f9f9f9;">
+"Social support, especially workplace social support, plays a huge role in our lives, which we often overlook."
+</blockquote>
+
+**You were originally a medical doctor, then you did a
+[Master's in Global Mental Health](https://www.gla.ac.uk/postgraduate/taught/globalmentalhealth/).
+How was that perspective shift—looking at mental health not just as an
 individual matter, but as a large-scale policy question?**
 
 It was different. When we talk about health or mental health, what I've found is
-that people often think it has to be related to medicine itself, or hospitals,
-or doctors dealing with it. But in our day-to-day life, we can see how each
-individual has a health experience that is much less formal. Our eating choices,
-our social interactions, our work environment—all of these impact our health.
+that people often think it has to be related to institutional medicine, or
+hospitals, or doctors dealing with it. But in our day-to-day life, we can see
+how each individual has a health experience that is much less formal. Our eating
+choices, our social interactions, our work environment—all of these impact our
+health.
 
 We also share a lot of experience from the people around us, which impacts us
-both mentally and physically. To acknowledge that in the organisational space or
-in the workplace \- sometimes in the past it used to be presented as an
-individual problem, an individual issue. But I believe we're coming to recognise
-it as a shared responsibility. Though every interaction—for example, me
-interacting with you—isn't happening in an individual or isolated space, both of
-us are bringing part of our shared knowledge even into this conversation.
+both mentally and physically. Acknowledging this in the workplace is important —
+in the past, these issues were often presented as individual problems. But I
+believe we're coming to recognise it as a shared responsibility. Every
+interaction—including this conversation—happens in a shared space. Both of us
+bring our accumulated knowledge and experiences to it.
 
 I also feel that when we talk about health, we normally try to narrow it down to
 medical reports or such things, but there is something way beyond that. Health
@@ -84,16 +97,22 @@ things came up again and again in my research.
 
 **Taking the perspective that not everything can and should be medicalised?**
 
-Yes, when I finished my medical school, my idea about mental health was quite
-narrow. When I used to talk about mental health, I used to think it had to be
-something major—schizophrenia, bipolar disorder, or something that needs regular
-medication and to be dealt with on a regular basis.
+Yes, when I finished medical school in Bangladesh, my idea about mental health
+was quite narrow. When I talked about mental health, I used to think it had to
+be something major—schizophrenia, bipolar disorder, or something that needs
+regular medication and to be dealt with on a regular basis.
 
-Outside of that, our understanding was just that depression is there. But the
-idea that mental health is not something separate—it's happening at the same
-time that we are dealing with our physical health—it's just intertwined with who
-we are. It's not a separate entity. That means we should be aware of it in our
+Outside of that, our understanding from our education was that "depression is
+there", and people just have to deal with it until they need medication. What
+I've come to understand is that mental health isn't separate from physical
+health—they're intertwined, happening at the same time. It's not a separate
+entity; it's part of who we are. That means we should be aware of it in our
 everyday lives, rather than just in crisis.
+
+<figure style="max-width: 50%; margin: 0 auto 1.5em;">
+  <img src="https://i.pinimg.com/736x/71/44/cc/7144cc2524816581585902eef30eb345.jpg" alt="Depression meme" style="width: 100%;">
+  <figcaption>Depression: sometimes it's like that.</figcaption>
+</figure>
 
 **Was your research throughout Scotland or the UK?**
 
@@ -113,13 +132,18 @@ I would say the main findings were that the health and well-being of female
 police officers cannot be understood as a single piece of work. Rather, I would
 describe it as a puzzle. By doing research on all these different parts, I got a
 closer picture of the entire puzzle, but it's still not solved. It was more like
-a mosaic, with pieces filling into each other rather than isolated factors—the
+a mosaic, with pieces fitting into each other rather than isolated factors—the
 social aspect of health working one way, the mental health aspect another way,
 the physical aspect there. They're all intertwined.
 
+<figure style="max-width: 50%; margin: 0 auto 1.5em;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Gaudi_lizard_%286031486006%29.jpg/1920px-Gaudi_lizard_%286031486006%29.jpg" alt="Gaudí mosaic lizard" style="width: 100%;">
+  <figcaption>The mosaic of problems that women face. Via <a href="https://commons.wikimedia.org/wiki/File:Gaudi_lizard_(6031486006).jpg">Wikimedia Commons</a></figcaption>
+</figure>
+
 Another thing I found was that all of these issues—the culture or the structural
-issues—often, as I said earlier, we try to describe as medical problems. But
-health is not just a medical problem. It is a justice issue as well. What
+issues—often, as I said earlier, we try to describe them as medical problems.
+But health is not just a medical problem. It is a justice issue as well. What
 facilities you're getting within your organisation, what you're given or not
 given, can be seen from a justice point of view. At the root of everything,
 there is actually organisational injustice, which is controlling how it impacts
@@ -145,15 +169,20 @@ surprises like every other job, but gradually in day-to-day life, the relational
 aspects became more prominent.
 
 There's a scholar with a famous theory called "Gendered Organisations"—her name
-is Joan Acker. She explains it very nicely. She says that a "job" itself is an
-abstract idea; for its embodiment, you need a _person_ to be there.
+is [Joan Acker](https://en.wikipedia.org/wiki/Joan_Acker). She explains it very
+nicely. She says that a "job" itself is an abstract idea; for its embodiment,
+you need a _person_ to be there.
 
 And that person, when they enter the role, they bring all of their gendered
 ideas about women with them—what they learned throughout their life about the
 limitations of women, what they can do, what they cannot do. They came with
-their perceptions and kept spreading those ideas. But as society has changed,
-those ideas have also changed. But still now, though we keep saying that men and
-women are equal in our society, that's not quite the case.
+their perceptions and kept spreading those ideas. As society has changed, those
+ideas have also changed. But still, though we keep saying that men and women are
+equal in our society, that's not quite the case.
+
+<blockquote style="border-left: 4px solid #c00; margin: 1.5em 0; padding: 0.5em 1em; font-size: 1.15em; font-style: italic; background: #f9f9f9;">
+"Health is not just a medical issue—it's a social issue, it's a justice issue."
+</blockquote>
 
 **Is it your impression that police in the UK have more of a "boys' club"
 problem than other places? Or is it more in-line with the issues in wider
@@ -169,40 +198,46 @@ I have two articles out so far, and two others are under review.
 
 My meta-ethnographic review, which looked at the interplay between
 organisational injustice and the health and well-being of female police officers
-and staff across the globe, and published in BMC Public Health \[1\].
+and staff across the globe, was published in BMC Public Health \[1\].
 
 Another piece of work compared the impact of workplace social support on the
 mental health of parents, both men and women, published in the journal
 "Policing" \[2\].
 
-\[1\] M. Illias, K. Riach, and E. Demou, 'Understanding the interplay between
+_\[1\] M. Illias, K. Riach, and E. Demou, 'Understanding the interplay between
 organisational injustice and the health and wellbeing of female police officers:
 a meta-ethnography', BMC Public Health, vol. 24, Sep. 2024, doi:
-[10.1186/s12889-024-20152-1](https://pubmed.ncbi.nlm.nih.gov/39342226/).
+[10.1186/s12889-024-20152-1](https://pubmed.ncbi.nlm.nih.gov/39342226/)._
 
-\[2\] M. Illias et al., ‘Exploring gender differences in policing: the role of
+_\[2\] M. Illias et al., 'Exploring gender differences in policing: the role of
 workplace social support on the mental health and wellbeing of parents in
-policing’, Policing, vol. 19, Jan. 2025, doi:
-[10.1093/police/paaf037](https://academic.oup.com/policing/article/doi/10.1093/police/paaf037/8316114?login=false).
+policing', Policing, vol. 19, Jan. 2025, doi:
+[10.1093/police/paaf037](https://academic.oup.com/policing/article/doi/10.1093/police/paaf037/8316114?login=false)._
 
 **Were there any technical tools in your work that you were using, and any
 frustrations with them?**
 
-Definitely. One of the datasets I was using was the “Airwave Health Monitoring
-Study”. Since it was quite sensitive, to access that data, I had to get access
-to a safe haven, or what they formally call a Trusted Research Environment. The
-operators had maintenance windows, and sometimes because it's a big dataset
-hosted somewhere else, there were technical issues. A lot of days I was very
-frustrated because you're in the mood to analyse and then you cannot access the
-data.
+Definitely. One of the datasets I was using was the
+"[Airwave Health Monitoring Study](https://police-health.org.uk/)". Since it was
+quite sensitive, to access that data, I had to get access to a "safe haven", or
+what they formally call a _Trusted Research Environment_. The operators had
+maintenance windows (thus, I couldn't always access it when I needed to), and
+sometimes because it's a big dataset hosted somewhere else, there were technical
+issues. Many days I was frustrated because you're in the mood to analyse and
+then you cannot access the data.
 
-When I began my PhD, I didn't know how to code in R, but I needed to for its
-flexibility. Learning that was also a challenge. I used to get frozen just by
-the thought of having to engage in coding work—the word "coding" was very
-frightening. But after my analysis of the first database, I got quite confident,
-and it didn't take me much time to do my second analysis.
+When I began my PhD, I didn't know how to code in
+[R](<https://en.wikipedia.org/wiki/R_(programming_language)>) (a programming
+language for statistical analysis), but I needed to for its flexibility.
+Learning that was also a challenge. I used to freeze at the thought of having to
+engage in coding work—the word "coding" was very frightening. But after my
+analysis of the first database, I got quite confident, and it didn't take me
+much time to do my second analysis.
 
-TODO: screenshot of R studio to let people know what it looks like
+<figure style="max-width: 80%; margin: 0 auto 1.5em;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/RStudio_IDE_screenshot.png/1920px-RStudio_IDE_screenshot.png" alt="RStudio IDE screenshot" style="width: 100%;">
+  <figcaption>The RStudio IDE. Via <a href="https://commons.wikimedia.org/wiki/File:RStudio_IDE_screenshot.png">Wikimedia Commons</a></figcaption>
+</figure>
 
 **Do you think you would have benefited from having access to more technical
 support?**
@@ -211,7 +246,7 @@ I had people in my unit who I could reach out to, but in a PhD you can't control
 which part of work you're going to do at what time of day. If it was a friend, I
 could reach out anytime. But if it's a colleague, it's a formal relationship. As
 a new person within the unit, I was also hesitant to reach out to them. Whenever
-I felt issues, I could reach out to people, but these were colleagues who had
+I had issues, I could reach out to people, but these were colleagues who had
 volunteered to help me—there weren't any designated people you could always go
 to. Having someone like that would have definitely benefited me or people like
 me who have just started coding.
@@ -235,6 +270,10 @@ met a lot of people from different fields: criminology, cybersecurity, forensic
 backgrounds. I made good friends with them. I don't know what the reason was
 behind this, but that's how it was.
 
+<blockquote style="border-left: 4px solid #c00; margin: 1.5em 0; padding: 0.5em 1em; font-size: 1.15em; font-style: italic; background: #f9f9f9;">
+"Coming from Bangladesh, I expected the UK to be a 'utopia'... But when I looked beyond the surface, it was very shocking."
+</blockquote>
+
 **For any organisation in general—you've looked a lot into organisational
 structures. Is there any general advice you'd give to leaders or individuals
 about how to help manage the issues you've seen in your work?**
@@ -253,8 +292,10 @@ If they can find a way to share those and adopt the effective programmes that
 are working for people, that would be really beneficial for the entire
 organisation or the entire police force across the UK.
 
-TODO:
-[https://en.wikipedia.org/wiki/List_of_police_forces_of_the_United_Kingdom\#/media/File:United_Kingdom_police_areas_map.svg](https://en.wikipedia.org/wiki/List_of_police_forces_of_the_United_Kingdom#/media/File:United_Kingdom_police_areas_map.svg)
+<figure style="max-width: 50%; margin: 0 auto 1.5em;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/United_Kingdom_police_areas_map.svg/960px-United_Kingdom_police_areas_map.svg.png" alt="Map of UK police areas" style="width: 100%;">
+  <figcaption>Police areas of the United Kingdom. <a href="https://commons.wikimedia.org/wiki/File:United_Kingdom_police_areas_map.svg">CC BY-SA 3.0</a></figcaption>
+</figure>
 
 **You mentioned the PhD ended up being more about criminology. Could you briefly
 explain what you meant by that?**
@@ -279,7 +320,7 @@ Another interesting finding: when I started my project, I was initially
 expecting the focus to be about physical health. Many police officers are
 exposed to more danger than a typical office job, and if we're talking about
 women—our physiology is generally different from men, and this has some impact
-on our bones and everything. Perhaps my research would take me into questions
+on our musculoskeletal health. Perhaps my research would take me into questions
 around musculoskeletal problems they're facing, and how the workplace could
 change to support that.
 
@@ -295,8 +336,10 @@ they were living their lives very comfortably.
 But when I looked beyond the surface, it was very shocking and frustrating for
 me to deal with those accounts on a daily basis, and that these issues exist in
 the UK as much as they do in other parts of the world. It also helped me realise
-how seemingly gender neutral policies are not as neutral as they seem.
+how seemingly gender-neutral policies are not as neutral as they seem.
 
 **Thank you Dr Dr Mahnoz**
 
 Thank you Dr Perry Josef Gee Gibson.
+
+[^1]: "Polis" is a Scots term for police.
