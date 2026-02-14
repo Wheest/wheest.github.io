@@ -1,8 +1,8 @@
 ---
 layout: post
 title:
-  "Organisational Structures, Mental Health, and Policing: A Wee Chat with Dr Dr
-  Mahnoz Illias"
+  "Women in Policing: Health, Justice, and Organisational Culture — A Wee Chat
+  with Dr Dr Mahnoz Illias"
 date: 2026-02-14 12:20:08 +0200
 categories: blog
 tags: police interviews mental-health
@@ -12,12 +12,12 @@ excerpt_separator: <!--more-->
 <img src="{{site.url}}/assets/headers/2026-01-mahnoz.png" width="1024">
 
 Dr Dr Mahnoz Illias completed her PhD at the University of Glasgow in 2025. Aye,
-she really is a double doctor 😎, originally gaining a medical degree in
-Bangladesh, before completing an MSc in Global Mental Health, supported by the
-Commonwealth Scholarship Commission. Her PhD research focused on female police
-officers in the UK, examining how organisational structures and culture impact
-their health and well-being. Here, I had a wee chat with her about her research
-and perspectives.
+she really is a double doctor 😎, originally earning a medical degree in
+Bangladesh, before completing an MSc in Global Mental Health at the University
+of Glasgow, supported by the Commonwealth Scholarship Commission. Her PhD
+research examined policing as a gendered organisation and the impact on the
+health and well-being of female police staff and officers in the UK. Here, I had
+a wee chat with her about her research and perspectives.
 
 <!--more-->
 
@@ -35,8 +35,9 @@ police officers in the UK.
 **Who were you working with for that?**
 
 I was working with my supervisors and the wider team that I engaged with. My
-primary supervisor was based at the School of Health and Wellbeing and my second
-supervisor was at the Adam Smith Business School.
+primary supervisor was based at the School of Health and Wellbeing at the
+University of Glasgow, and my second supervisor was at the Adam Smith Business
+School.
 
 It was quite an interdisciplinary project. I was based within these two schools,
 but a lot of the work I did was actually closer to the field of criminology
@@ -45,9 +46,9 @@ rather than either public health or business/organisation studies.
 Outside of the school, I worked closely with the
 [Scottish Women's Development Forum](https://www.scottishwdf.com/) of Police
 Scotland. They're a group who represent women within Police Scotland — all the
-women staff and officers. It's a voluntary organisation because police forces
-keep saying they're "trying their best to accommodate the welfare of their
-employees", but claim they "do not have the funds" for formal support. So
+women staff and officers. It's a voluntary organisation because, although police
+forces keep saying they're "trying their best to accommodate the welfare of
+their employees", but claim they "do not have the funds" for formal support. So
 volunteers step forward to fill the gap. I also worked with broader groups like
 the [Scottish Institute for Policing Research](https://www.sipr.ac.uk/) and the
 Academic Team of Police Scotland.
@@ -60,7 +61,7 @@ how they impact health and well-being. Although in public health we do study
 this (and public health itself is very interdisciplinary), it's mainly the
 people in "organisation studies" who study how organisations are functioning.
 They're located at the business school, so that's where the Adam Smith Business
-School comes in.
+School comes into my research journey.
 
 <figure style="max-width: 40%; margin: 0 auto 1.5em;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Adam_Smith_The_Muir_portrait.jpg/1280px-Adam_Smith_The_Muir_portrait.jpg" alt="Portrait of Adam Smith" style="width: 100%;">
@@ -114,14 +115,17 @@ everyday lives, rather than just in crisis.
   <figcaption>Depression: sometimes it's like that.</figcaption>
 </figure>
 
-**Was your research throughout Scotland or the UK?**
+**Was your research focused on Scotland, or did it explore the wider UK?**
 
 It was actually throughout the UK. However, as the project received half of its
-funding from the Scottish Institute for Policing Research, I had more connection
-with organisations based in Scotland. But I did a mixed-method study. I had to
-analyse two large national cohorts of police officers, which covered information
-from all police officers and staff across the UK—it wasn't confined to Scotland,
-and I did not confine my results to Scotland either.
+funding from the
+[Scottish Institute for Policing Research](https://www.sipr.ac.uk/)—and I'm
+grateful to them and [MRC UK](https://www.ukri.org/councils/mrc/) for their
+support—I had more connection with organisations based in Scotland. But I did a
+mixed-method study. I had to analyse two large national cohorts of police
+officers, which covered information from all police officers and staff across
+the UK—it wasn't confined to Scotland, and I did not confine my results to
+Scotland either.
 
 When I did my primary data collection, most of the participants were from
 Scotland—probably two-thirds—and the rest were from across the UK.
@@ -141,21 +145,19 @@ the physical aspect there. They're all intertwined.
   <figcaption>The mosaic of problems that women face. Via <a href="https://commons.wikimedia.org/wiki/File:Gaudi_lizard_(6031486006).jpg">Wikimedia Commons</a></figcaption>
 </figure>
 
-Another thing I found was that all of these issues—the culture or the structural
-issues—often, as I said earlier, we try to describe them as medical problems.
-But health is not just a medical problem. It is a justice issue as well. What
-facilities you're getting within your organisation, what you're given or not
-given, can be seen from a justice point of view. At the root of everything,
-there is actually organisational injustice, which is controlling how it impacts
-overall health.
+All of these health and wellbeing issues—stemming from the cultural and
+structural issues—often, as I said earlier, we try to describe them as medical
+problems. But health is not just a medical problem. It is a justice issue as
+well. What facilities you're getting within your organisation, what you're given
+or not given, can be seen from a justice point of view. At the root of
+everything, there is actually organisational injustice, which is controlling how
+it impacts overall health.
 
 Lastly, I found that social support, especially workplace social support, plays
 a huge role in our lives, which we often overlook.
 
-**It seems these are very interconnected, complex problems. One can't just say
-one thing is solely responsible. Nevertheless, would you say the experience
-people have as women was a significant contributor, compared to just "being a
-polis[^1] is stressful"? How much can be seen through a gendered lens?**
+**These seem like interconnected problems. How much can be attributed to being a
+woman, versus just "being a polis[^1] is stressful"?**
 
 Every organisation or institution within a society, including families, is a
 reflection of the existing society itself. When I was talking to those police
@@ -178,7 +180,9 @@ ideas about women with them—what they learned throughout their life about the
 limitations of women, what they can do, what they cannot do. They came with
 their perceptions and kept spreading those ideas. As society has changed, those
 ideas have also changed. But still, though we keep saying that men and women are
-equal in our society, that's not quite the case.
+equal in our society, that's not quite the case. Policing remains a gendered
+organisation, and this has real impacts on the health and well-being of female
+police staff and officers.
 
 <blockquote style="border-left: 4px solid #c00; margin: 1.5em 0; padding: 0.5em 1em; font-size: 1.15em; font-style: italic; background: #f9f9f9;">
 "Health is not just a medical issue—it's a social issue, it's a justice issue."
@@ -228,15 +232,15 @@ then you cannot access the data.
 
 When I began my PhD, I didn't know how to code in
 [R](<https://en.wikipedia.org/wiki/R_(programming_language)>) (a programming
-language for statistical analysis), but I needed to for its flexibility.
-Learning that was also a challenge. I used to freeze at the thought of having to
-engage in coding work—the word "coding" was very frightening. But after my
-analysis of the first database, I got quite confident, and it didn't take me
-much time to do my second analysis.
+language for statistical analysis), but I needed to for its flexibility and the
+amount of data analysis I had to perform. Learning that was also a challenge. I
+used to freeze at the thought of having to engage in coding work—the word
+"coding" was very frightening. But after my analysis of the first database, I
+got quite confident, and it didn't take me much time to do my second analysis.
 
 <figure style="max-width: 80%; margin: 0 auto 1.5em;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/RStudio_IDE_screenshot.png/1920px-RStudio_IDE_screenshot.png" alt="RStudio IDE screenshot" style="width: 100%;">
-  <figcaption>The RStudio IDE. Via <a href="https://commons.wikimedia.org/wiki/File:RStudio_IDE_screenshot.png">Wikimedia Commons</a></figcaption>
+  <figcaption>The RStudio IDE — a good system, but I cannae get behind 1-based indices. Via <a href="https://commons.wikimedia.org/wiki/File:RStudio_IDE_screenshot.png">Wikimedia Commons</a></figcaption>
 </figure>
 
 **Do you think you would have benefited from having access to more technical
@@ -302,9 +306,9 @@ explain what you meant by that?**
 
 I would say it's criminology because every time I was going to conferences and
 knowledge exchange programmes, I was mostly interacting with people from
-criminology backgrounds or forensic psychology—those kinds of backgrounds.
-They're the ones coming to work on what's happening with policing, how policing
-can be better, rather than someone from a health background.
+criminology or forensic psychology backgrounds. They're the ones coming to work
+on what's happening with policing, how policing can be better, rather than
+someone from a health background.
 
 In that sense, I didn't have much in common with other people in terms of
 background. But they were very welcoming, so it wasn't an issue.
