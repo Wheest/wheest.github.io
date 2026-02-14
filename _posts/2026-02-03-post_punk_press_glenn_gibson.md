@@ -9,16 +9,18 @@ excerpt_separator: <!--more-->
 
 <img src="{{site.url}}/assets/headers/2026-02-glenn.png" width="1024">
 
-In this post, I chat with a former New Musical Express (NME) writer Glenn Gibson (aka, my da) about his experiences
-breaking into music journalism in the 1970s-80s, the evolution of music publications, the development of
-Scotland's music scene during the punk and post-punk era, and various
-other bits and pieces.
+In this post, I chat with a former New Musical Express (NME) writer Glenn Gibson
+(aka, my da) about his experiences breaking into music journalism in the
+1970s-80s, the evolution of music publications, the development of Scotland's
+music scene during the punk and post-punk era, and various other bits and
+pieces.
 
 <!--more-->
 
 ---
 
-**You've got interesting stories about the music industry—I thought it'd be good to capture some of them. How did you get into music writing?**
+**You've got interesting stories about the music industry—I thought it'd be good
+to capture some of them. How did you get into music writing?**
 
 _It was the New Musical Express, which was well-established when I started._
 _It's a music paper dating back to the 50s, and they were credited with
@@ -42,10 +44,10 @@ prog rock, glam rock, and punk. Around 1976/77 they wanted music publications
 that would reflect that — written by people who were close to the movement, who
 were really part of that._
 
-_They were probably copying what was happening in America because in the
-60s, Rolling Stone magazine started. Rolling Stone is now well-established, I
-believe it's quite a corporate thing now. But it started as a counterculture
-underground thing._
+_They were probably copying what was happening in America because in the 60s,
+Rolling Stone magazine started. Rolling Stone is now well-established, I believe
+it's quite a corporate thing now. But it started as a counterculture underground
+thing._
 
 **They employed the likes of Hunter S. Thompson for articles?**
 
@@ -61,15 +63,16 @@ semi-autobiographical._
 </figure>
 
 _He was just somebody who was a big music fan. He sent them articles he'd
-written, and they liked them. I don't think they found out until later that
-he was 15. They were sending him off to interview big-time stars and he became
+written, and they liked them. I don't think they found out until later that he
+was 15. They were sending him off to interview big-time stars and he became
 really successful. "Almost Famous" is arguably one of the best music business
-films ever made. I would say that and "[24 Hour Party
-People](https://en.wikipedia.org/wiki/24_Hour_Party_People)" (2002)._
+films ever made. I would say that and
+"[24 Hour Party People](https://en.wikipedia.org/wiki/24_Hour_Party_People)"
+(2002)._
 
-_And Cameron Crowe has actually just published his autobiography, [“The Uncool”
-(2025)](https://www.goodreads.com/book/show/224004354-the-uncool), because part
-of “Almost Famous” was that he was never cool._
+_And Cameron Crowe has actually just published his autobiography,
+[“The Uncool” (2025)](https://www.goodreads.com/book/show/224004354-the-uncool),
+because part of “Almost Famous” was that he was never cool._
 
 <blockquote style="border-left: 4px solid #c00; margin: 1.5em 0; padding: 0.5em 1em; font-size: 1.15em; font-style: italic; background: #f9f9f9;">
 "That's when I started getting published—and paid."
@@ -108,7 +111,10 @@ not getting back home from Edinburgh until five in the morning. And then getting
 up to go to work. Out constantly at gigs and interviews, and also needing the
 time to write up._
 
-**Aye, I can imagine that took a good chunk of time. Did the acts you were sent to cover align with your tastes, or were you seeing a load of pish? Once they started commissioning, were they picking what you covered, or did you still have a say?**
+**Aye, I can imagine that took a good chunk of time. Did the acts you were sent
+to cover align with your tastes, or were you seeing a load of pish? Once they
+started commissioning, were they picking what you covered, or did you still have
+a say?**
 
 _Well, a mixture, because I wasn't doing exclusively what was happening in
 Scotland. I was being sent to review other bands who were touring who could be
@@ -134,8 +140,8 @@ _Well, the music business was always very centred in London. This was after
 punk. One thing punk did was give people the message: “you can do it too.” And
 what they were playing was relatively simple. That simplicity had origins in
 early rock and roll. The British beat groups of the 1960s were actually quite
-'punk' in their way—like The Who, The Animals, and Them. With "Them", the
-singer was Van Morrison who is still very successful._
+'punk' in their way—like The Who, The Animals, and Them. With "Them", the singer
+was Van Morrison who is still very successful._
 
 _It was fairly simple, thus it's something that people who were just teaching
 themselves how to play guitar or bass or drums could play. It was a reaction to
@@ -187,8 +193,8 @@ people who went on to write for the local newspapers, doing the pop column._
 
 **Which is a bit more of a reliable income.**
 
-_Yes, [John Dingwall](https://www.thetimes.com/profile/john-dingwall), for instance, he started off with a fanzine and then wrote
-for Record Mirror._
+_Yes, [John Dingwall](https://www.thetimes.com/profile/john-dingwall), for
+instance, he started off with a fanzine and then wrote for Record Mirror._
 
 <figure style="max-width: 50%; margin: 0 auto 1.5em;">
   <img src="{{ '/assets/pics/2026-02-stand_and_deliver.jpg' | relative_url }}" alt="Stand and Deliver fanzine cover" style="width: 100%;">
@@ -199,10 +205,9 @@ _When he was just doing Record Mirror he probably wasn't getting that much, but
 he went on to work for the Evening Times and Daily Record and he did that for a
 long time, and has been a core part of Scottish journalism since._
 
-_Making
-money from journalism at that time, even if you were employed by a Scottish
-newspaper which was predominantly sold in Scotland, you were paid quite well.
-The circulation of newspapers today has plummeted since then._
+_Making money from journalism at that time, even if you were employed by a
+Scottish newspaper which was predominantly sold in Scotland, you were paid quite
+well. The circulation of newspapers today has plummeted since then._
 
 **Aye, the issues that face the entire journalism industry today is a whole
 fraught topic unto itself.**
@@ -231,8 +236,8 @@ a coincidence._
 
 _Yes, I obviously have nothing definite about it but you know, it happened to
 one photographer I worked with. He moved to London and got a job working for
-"Sounds" which was quite a good magazine. Quite well regarded. And I think after that, he even got a job
-working for Marvel._
+"Sounds" which was quite a good magazine. Quite well regarded. And I think after
+that, he even got a job working for Marvel._
 
 _I used to go and stay with him sometimes in London, but I kind of lost track
 after a while. Anyway, he got a brain aneurysm. He came back to Scotland a
@@ -241,17 +246,17 @@ number of years ago and I think he's in a care home._
 _The singer from the Bluebells, Ken McCluskey, who we knew, discovered that this
 guy Harry Papadopoulos was back in Scotland. And the reason Ken found out about
 it, was because Harry's brother was an electrician or a tradesman of some kind
-and went and did a job in his house. The subject must have come up. Ken went to visit him, and they managed
-to get a hold of his old negatives. They've been on display in several art
-galleries and so forth. And there was a book published._
+and went and did a job in his house. The subject must have come up. Ken went to
+visit him, and they managed to get a hold of his old negatives. They've been on
+display in several art galleries and so forth. And there was a book published._
 
 <figure style="max-width: 50%; margin: 0 auto 1.5em;">
   <img src="https://covers.openlibrary.org/b/id/14693456-L.jpg" alt="What Presence! book cover" style="width: 100%;">
   <figcaption>What Presence!: The Rock Photography of Harry Papadopoulos. Via <a href="https://openlibrary.org/works/OL35700027W/What_Presence!">Open Library</a></figcaption>
 </figure>
 
-**There was the “[Rip It Up: The Story of Scottish
-Pop](https://www.nms.ac.uk/past-exhibitions/rip-it-up-the-story-of-scottish-pop)”
+**There was the
+“[Rip It Up: The Story of Scottish Pop](https://www.nms.ac.uk/past-exhibitions/rip-it-up-the-story-of-scottish-pop)”
 exhibition at the National Museum of Scotland in 2018, where there were a couple
 of things you contributed.**
 
@@ -259,9 +264,9 @@ _I never really collected a lot of memorabilia, but there were some things I
 had. Part of the reason for it is that a lot of people in the past have been
 asked to lend things of that type and never got them back. So a lot of people
 who were asked to lend things would say "nah, not doing that". But with the
-National Museum of Scotland they were known for being quite reliable, and you did get everything
-back. So it ended up being quite extensive, and showing off a lot of items
-never seen before._
+National Museum of Scotland they were known for being quite reliable, and you
+did get everything back. So it ended up being quite extensive, and showing off a
+lot of items never seen before._
 
 **Speaking of Scottish pop history being museum-worthy, what place do you think
 this sort of thing should have in our collective consciousness?**
@@ -271,7 +276,9 @@ Britain do best?" I'm not saying things like industrial products—I'd say music
 comedy, acting, writing, and the arts in general. And it's hard to think of
 things that Britain does better than those kinds of things._
 
-**Aye, a lump of steel is more-or-less the same wherever it's from. But music, comedy—that's a product of the people and the culture. You can't get that anywhere else.**
+**Aye, a lump of steel is more-or-less the same wherever it's from. But music,
+comedy—that's a product of the people and the culture. You can't get that
+anywhere else.**
 
 _For a very long time pop and rock music that was listened to internationally
 was almost exclusively from Britain and America. And that has been changing.
@@ -291,18 +298,18 @@ catch-all term of "World Music".**
 _Yes, there were phases—African music was a thing for a while, and reggae
 especially — Jamaica was close to America which may have helped with discovery
 and distribution. It very much had its own sound, developing over the years from
-ska to blue beat to reggae, and they had their own version of rap
-quite early on._
+ska to blue beat to reggae, and they had their own version of rap quite early
+on._
 
-**Aye, and you see how dub influenced music worldwide. I've been noticing Afro-house having a similar reach lately.**
+**Aye, and you see how dub influenced music worldwide. I've been noticing
+Afro-house having a similar reach lately.**
 
 _Africa has so many different countries with their own traditions and own
 styles, but certainly around that time they would have had a lot of influence
 from what was coming out of Britain and America._
 
 **I suppose folk in Britain and America had a lot more access to the mass
-production and distribution required to get their
-music heard internationally.**
+production and distribution required to get their music heard internationally.**
 
 _A lot of these things are very popular in their own country and only certain
 ones break through internationally. There are certainly people that can help
@@ -320,7 +327,8 @@ _However, I think his point was more that “this is the cultural bit and we're
 actually paying people quite a lot more than the going rate”; and some of them
 got successful careers out of it internationally._
 
-**I wonder how many of those musicians were hitting oot with 'I love apartheid, now here's Wonderwall.' Probably not fans of the regime themselves.**
+**I wonder how many of those musicians were hitting oot with 'I love apartheid,
+now here's Wonderwall.' Probably not fans of the regime themselves.**
 
 _Most of the South African musicians involved were Black artists who had lived
 under apartheid and whose careers were constrained by it — but I think the
@@ -329,12 +337,14 @@ working with people who were victims of it, it was still frowned upon in many
 ways. That being said, I think Paul Simon was quite a tough guy with a lot of
 self-belief, so he just did it anyway._
 
-**This was all well before my time, did it seem like the boycott was a significant
-part of how the apartheid came to an end?**
+**This was all well before my time, did it seem like the boycott was a
+significant part of how the apartheid came to an end?**
 
 _Probably yes, but there are lots of factors beyond that._
 
-**Well, thanks for this chat—there are plenty of other threads we could pull on. The Virgin Megastores opening, people you've met over the years. Whenever a random track comes up you seem to have an anecdote ready.**
+**Well, thanks for this chat—there are plenty of other threads we could pull on.
+The Virgin Megastores opening, people you've met over the years. Whenever a
+random track comes up you seem to have an anecdote ready.**
 
 _I think for certain things I have quite a good memory. There's this common
 thing that for some people, there's certain types of music that they liked when
@@ -344,7 +354,9 @@ think that's the minority because you have to put some effort into it, and you
 do have to be interested. And if you're interested enough you will remember
 these things._
 
-**I think to this day you're my main source of interesting new music. I find stuff on my own, but it's more through happenstance than actively seeking it out.**
+**I think to this day you're my main source of interesting new music. I find
+stuff on my own, but it's more through happenstance than actively seeking it
+out.**
 
 _I think if you're interested in music quite a lot, it ties in with so many
 other things. That would lead you into particular types of books or films or

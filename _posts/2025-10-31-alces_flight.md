@@ -9,9 +9,9 @@ excerpt_separator: <!--more-->
 
 <img src="{{site.url}}/assets/headers/2025-10-alces-flight.png" width="1024">
 
-I was honoured to be invited to give a talk at the [Alces Flight
-2025](https://alces.network/flight-2025/) conference, which took place in
-London, UK, in October 2025.
+I was honoured to be invited to give a talk at the
+[Alces Flight 2025](https://alces.network/flight-2025/) conference, which took
+place in London, UK, in October 2025.
 
 My talk discussed how interdisciplinary collaboration and playfulness can be
 powerful tools, especially for early-career researchers and engineers.

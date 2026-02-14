@@ -9,19 +9,19 @@ excerpt_separator: <!--more-->
 
 <img src="{{site.url}}/assets/headers/2025-10-mac.png" width="1024">
 
-At work, we recently transitioned everyone to MacBooks.
-I've never used one before, and had spent the past decade on Linux laptops
-which I've gradually refined to my liking.
+At work, we recently transitioned everyone to MacBooks. I've never used one
+before, and had spent the past decade on Linux laptops which I've gradually
+refined to my liking.
 
-Here's an inconvenient truth --- these machines are not designed to meet my needs.
-Being able to modify them to meet those needs has been a challenge.
-In an attempt to not alienate my readers, this doesn't mean that folk with
-other needs are wrong. Apple clearly has a particular set of users in mind; I'm
-just not one of them.
+Here's an inconvenient truth --- these machines are not designed to meet my
+needs. Being able to modify them to meet those needs has been a challenge. In an
+attempt to not alienate my readers, this doesn't mean that folk with other needs
+are wrong. Apple clearly has a particular set of users in mind; I'm just not one
+of them.
 
-My philosophy is that the tools I use should behave the way I tell them to.
-This post describes some of the issues I've encountered trying to achieve that, and how I've worked around them.
-Overall, I've been able to get a workable setup.
+My philosophy is that the tools I use should behave the way I tell them to. This
+post describes some of the issues I've encountered trying to achieve that, and
+how I've worked around them. Overall, I've been able to get a workable setup.
 
 <!--more-->
 
@@ -31,27 +31,28 @@ One of the most important aspects of my workflow is the ability to manage
 windows and workspaces efficiently.
 
 I typically have 10 workspaces, with a relatively strict purpose for each one,
-and map each to a keyboard shortcut, usually `super+[0-9]`.
-That way I can quickly switch between different tasks and contexts (e.g., text
-editor is in `super+1`, email in `super+9`, etc).
-I can also move windows between workspaces using `super+shift+[0-9]`.
+and map each to a keyboard shortcut, usually `super+[0-9]`. That way I can
+quickly switch between different tasks and contexts (e.g., text editor is in
+`super+1`, email in `super+9`, etc). I can also move windows between workspaces
+using `super+shift+[0-9]`.
 
 macOS has a concept of 'Spaces', which are virtual desktops, but the behaviour I
 required of sending windows to specific spaces and switching between them with
-keyboard shortcuts wasn't available out of the box.
-I had to install a third-party window manager called [yabai](https://github.com/koekeishiya/yabai).
+keyboard shortcuts wasn't available out of the box. I had to install a
+third-party window manager called [yabai](https://github.com/koekeishiya/yabai).
 
-Yabai is a tiling window manager, which means that it automatically arranges windows in a grid-like layout.
-This isn't something I've bothered with before, but I've gotten used to it, and
-I've ended up liking it.
-I've even enabled tiling windows on my Debian laptop, through KDE Plasma.
-It also helps to deal with the limited memory of the MacBook, since it pushes me to not have too many windows open at once.
+Yabai is a tiling window manager, which means that it automatically arranges
+windows in a grid-like layout. This isn't something I've bothered with before,
+but I've gotten used to it, and I've ended up liking it. I've even enabled
+tiling windows on my Debian laptop, through KDE Plasma. It also helps to deal
+with the limited memory of the MacBook, since it pushes me to not have too many
+windows open at once.
 
-Alas, Yabai and some other tools had some issues when the macOS Tahoe update came
-out in September 2025.
-This initially broke my setup, and made me feel like there was a small-calibre
-bullet in my skull, as it made everything much harder to use.
-Some patches have been released since then, and things are mostly working now.
+Alas, Yabai and some other tools had some issues when the macOS Tahoe update
+came out in September 2025. This initially broke my setup, and made me feel like
+there was a small-calibre bullet in my skull, as it made everything much harder
+to use. Some patches have been released since then, and things are mostly
+working now.
 
 Example Yabai configuration:
 
@@ -107,7 +108,8 @@ You may wish to add spacing between windows, but I prefer to have none.
 
 ## Keyboard shortcuts
 
-I used [skhd](https://github.com/koekeishiya/skhd) to manage the keyboard shortcuts for Yabai.
+I used [skhd](https://github.com/koekeishiya/skhd) to manage the keyboard
+shortcuts for Yabai.
 
 For example,
 
@@ -120,21 +122,21 @@ ctrl + shift - c : yabai -m window --close
 ctrl + shift - 1 : yabai -m window --space 1
 ```
 
-I became frustrated with additional Mac keyboard issues and made further changes.
+I became frustrated with additional Mac keyboard issues and made further
+changes.
 
 # The Keyboard
 
-The Mac keyboard is a bit different from a standard PC keyboard.
-And the keycaps are labelled differently.
-That layout doesn't fit my needs, so I've had to make some changes.
+The Mac keyboard is a bit different from a standard PC keyboard. And the keycaps
+are labelled differently. That layout doesn't fit my needs, so I've had to make
+some changes.
 
 First thing I did was remap the modifier keys in System Settings -> Keyboard ->
-Modifier Keys.
-I set `Caps Lock` to `Command` (to avoid [Emacs pinky](https://news.ycombinator.com/item?id=14370017)),
-and `Command` to `Option` (aka `Alt`).
-And the `Option` to `Control` (aka the `Super` key).
-You may want to swap the `Command` and `Control` keys instead, if you're used to
-the classic `Ctrl-c` and `Ctrl-v` shortcuts for copy and paste.
+Modifier Keys. I set `Caps Lock` to `Command` (to avoid
+[Emacs pinky](https://news.ycombinator.com/item?id=14370017)), and `Command` to
+`Option` (aka `Alt`). And the `Option` to `Control` (aka the `Super` key). You
+may want to swap the `Command` and `Control` keys instead, if you're used to the
+classic `Ctrl-c` and `Ctrl-v` shortcuts for copy and paste.
 
 The Mac keyboard is also missing a delete key, so I used an app called
 [Karabiner-Elements](https://karabiner-elements.pqrs.org/) to map
@@ -164,23 +166,26 @@ So for that example we can have:
                     },
 ```
 
-Other remaps worth considering include tilde (`~`), quote (`"`), at
-(`@`), and backslash (`\`).
+Other remaps worth considering include tilde (`~`), quote (`"`), at (`@`), and
+backslash (`\`).
 
 # External Monitor Issues
 
-One of the most surprising issues was connecting to an external monitor.
-I like to connect the laptop to an external monitor, and I want the external monitor to be my _only_ display (i.e., turn off the laptop screen). One monitor is sufficient for my workflow.
-It turns out, for some reason, this isn't possible in Mac out of the box.
+One of the most surprising issues was connecting to an external monitor. I like
+to connect the laptop to an external monitor, and I want the external monitor to
+be my _only_ display (i.e., turn off the laptop screen). One monitor is
+sufficient for my workflow. It turns out, for some reason, this isn't possible
+in Mac out of the box.
 
-One _can_ use "clamshell mode", where if you close the laptop lid, the external monitor will become the only display.
-However, this means that you cannot use the laptop keyboard, and I prefer to use
-the laptop keyboard for consistency.
+One _can_ use "clamshell mode", where if you close the laptop lid, the external
+monitor will become the only display. However, this means that you cannot use
+the laptop keyboard, and I prefer to use the laptop keyboard for consistency.
 
-I had to install third-party software to achieve this, called [BetterDisplay](https://github.com/waydabber/BetterDisplay).
-In its settings, I then navigated to Displays->Overview->Connection Management
-Settings->Disconnect built-in display when an external display is connected.
-This capability should be built into the OS; it exists in most other systems.
+I had to install third-party software to achieve this, called
+[BetterDisplay](https://github.com/waydabber/BetterDisplay). In its settings, I
+then navigated to Displays->Overview->Connection Management Settings->Disconnect
+built-in display when an external display is connected. This capability should
+be built into the OS; it exists in most other systems.
 
 # SketchyBar
 
@@ -211,14 +216,17 @@ menus and icons in the default Mac status bar.
 # Hiding the Mouse Pointer
 
 I haven't fully reached the point of never using the mouse, especially when much
-of the web is still designed for mouse interaction.
-However, I tend to use the mouse a lot less than most people.
-Therefore, I want the mouse pointer to disappear when I'm not using it.
-To achieve this, I used a third-party app called [cursorcerer](https://doomlaser.com/cursorcerer-hide-your-cursor-at-will/).
+of the web is still designed for mouse interaction. However, I tend to use the
+mouse a lot less than most people. Therefore, I want the mouse pointer to
+disappear when I'm not using it. To achieve this, I used a third-party app
+called
+[cursorcerer](https://doomlaser.com/cursorcerer-hide-your-cursor-at-will/).
 
 # Emacs
 
-The [Emacs Plus formula](https://github.com/d12frosted/homebrew-emacs-plus) from Homebrew is pretty good, but it doesn't install a `.app` file into `/Applications` by default.
+The [Emacs Plus formula](https://github.com/d12frosted/homebrew-emacs-plus) from
+Homebrew is pretty good, but it doesn't install a `.app` file into
+`/Applications` by default.
 
 I had to copy the `.app` file into `/Applications` for the shortcuts to work.
 
@@ -245,14 +253,13 @@ my needs with a simple config file.
 # Conclusion
 
 There are many more issues I've encountered, but these are the main ones that
-have got in the way of my workflow.
-There is a large community of third-party tools that may be better suited to meet
-the needs of your workflow, and I'm sure folk out there
-have even better setups.
-For me, this was the minimum viable setup to get my work done.
+have got in the way of my workflow. There is a large community of third-party
+tools that may be better suited to meet the needs of your workflow, and I'm sure
+folk out there have even better setups. For me, this was the minimum viable
+setup to get my work done.
 
-On the bright side, the experience of setting up a new environment has
-allowed me to feed back some improvements into my normal workflow on Linux as well.
-For example, Shift+Backspace to Delete, and tiling window management.
-Also, missing the Trackpoint on the Mac keyboard has pushed me to use the
-keyboard more, which feels like a win (in the most meaningless sense).
+On the bright side, the experience of setting up a new environment has allowed
+me to feed back some improvements into my normal workflow on Linux as well. For
+example, Shift+Backspace to Delete, and tiling window management. Also, missing
+the Trackpoint on the Mac keyboard has pushed me to use the keyboard more, which
+feels like a win (in the most meaningless sense).

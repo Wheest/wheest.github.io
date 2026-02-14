@@ -75,11 +75,11 @@ was not exposed. I added this, with appropriate tests.
 #### **MLIR/LLVM**: [mlir] Fix remove-dead-values pass throws error when module has a name
 
 [GitHub PR #109990](https://github.com/llvm/llvm-project/pull/109990).
-Encountered a bug when using [OpenXLA's
-StableHLO](https://openxla.org/stablehlo), which gives MLIR modules names
-(`module @IrToHlo.6443`). This caused the `remove-dead-values` pass to throw an
-error, since it was expecting a module without a name. Could not find a good
-reason for this, so I fixed it, providing a test case to ensure it doesn't
+Encountered a bug when using
+[OpenXLA's StableHLO](https://openxla.org/stablehlo), which gives MLIR modules
+names (`module @IrToHlo.6443`). This caused the `remove-dead-values` pass to
+throw an error, since it was expecting a module without a name. Could not find a
+good reason for this, so I fixed it, providing a test case to ensure it doesn't
 regress.
 
 #### **Docker Suno API**: Improved docker compose integration
@@ -93,15 +93,13 @@ trust boundaries). This PR made the project more amenable to this goal.
 #### **MLIR/LLVM**: [mlir] Retain original identifier names for debugging
 
 [GitHub PR #79704](https://github.com/llvm/llvm-project/pull/77820). Currently
-under active development, with a [high volume of discussion on the LLVM
-developer
-forums](https://discourse.llvm.org/t/retain-original-identifier-names-for-debugging/76417/23).
+under active development, with a
+[high volume of discussion on the LLVM developer forums](https://discourse.llvm.org/t/retain-original-identifier-names-for-debugging/76417/23).
 This feature aims to add a flag to `mlir-opt` to keep the original names, which
 can be helpful for debugging compiler pipelines. Right now, identifier names are
 made anonymous, e.g., `%my_input` becomes `%arg0`. Meaningful variable names can
 make it easy to reason about behaviour, hence why this feature is valuable.
-[Three designs are under
-consideration](https://discourse.llvm.org/t/retain-original-identifier-names-for-debugging/76417/24?u=wheest),
+[Three designs are under consideration](https://discourse.llvm.org/t/retain-original-identifier-names-for-debugging/76417/24?u=wheest),
 although since this touches the core of MLIR, it is key that caution and careful
 consideration is used before merging.
 
@@ -166,9 +164,9 @@ I was conservative in my correction criteria:
 
 [GitHub PR #14286](https://github.com/apache/tvm/pull/14286). I identified that
 there was a case where operations within quantized CNN models were not being
-supported adequately. I reproduced the error with [this
-gist](https://gist.github.com/Wheest/bd4fd601a15d6813e45c9ed5cdbae64f). Upon
-closer inspection, I identified that the issue is related to the
+supported adequately. I reproduced the error with
+[this gist](https://gist.github.com/Wheest/bd4fd601a15d6813e45c9ed5cdbae64f).
+Upon closer inspection, I identified that the issue is related to the
 "Squeeze-and-Excitation block", where we multiply the output of a sigmoid with
 an earlier output, found in models such as
 [EfficientNet](https://arxiv.org/abs/1905.11946). This broke some of the
@@ -181,9 +179,8 @@ the bug.
 
 [GitHub PR #11231](https://github.com/apache/tvm/pull/11231). TVM's debugger and
 profiler is a very powerful tool, but was/is quite new and underutilised. The
-documentation did not reflect its correct usage, and I [had to reverse engineer
-how it was
-implemented](https://discuss.tvm.apache.org/t/runnig-a-model-with-tvm-debugger/9869/8?u=wheest).
+documentation did not reflect its correct usage, and I
+[had to reverse engineer how it was implemented](https://discuss.tvm.apache.org/t/runnig-a-model-with-tvm-debugger/9869/8?u=wheest).
 My PR updated the documentation to reflect how the debugger can actually be
 used.
 
@@ -201,9 +198,8 @@ location.
 [GitHub PR #6137](https://github.com/apache/tvm/pull/6137). This pull request
 replaced the original grouped convolution algorithm in TVM for x86 and Arm
 targets, with the faster Grouped Spatial Pack Convolutions (GSPC) algorithm. I
-developed this algorithm in my ASAP'2020 paper ["Optimizing Grouped Convolutions
-on Edge
-Devices"](https://www.computer.org/csdl/proceedings-article/asap/2020/09153227/1lUFnVBpKzC).
+developed this algorithm in my ASAP'2020 paper
+["Optimizing Grouped Convolutions on Edge Devices"](https://www.computer.org/csdl/proceedings-article/asap/2020/09153227/1lUFnVBpKzC).
 This is now the default algorithm used in TVM for all CPU code for grouped
 convolutions.
 
@@ -237,10 +233,11 @@ tested. I fixed the bug, and added a test case.
 
 #### 2025
 
-- [petit-pois](https://github.com/Wheest/petit-pois): A tool to archive
-  podcasts and create a feed for them.
-- [dnn64](https://github.com/Wheest/dnn64): A neural network inference engine for
-  the Nintendo 64, using TVM and RSPL. See my [blog posts](https://gibsonic.org/blog/2024/03/12/dnn64_p1/).
+- [petit-pois](https://github.com/Wheest/petit-pois): A tool to archive podcasts
+  and create a feed for them.
+- [dnn64](https://github.com/Wheest/dnn64): A neural network inference engine
+  for the Nintendo 64, using TVM and RSPL. See my
+  [blog posts](https://gibsonic.org/blog/2024/03/12/dnn64_p1/).
 
 #### 2024
 
