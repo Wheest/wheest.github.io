@@ -22,6 +22,17 @@ Hopefully this should at least paint a picture that I'm out in the world writing
 code. For open source projects which I have made myself, see the "Own Projects"
 heading below, or my [GitHub profile](https://github.com/Wheest).
 
+### 2026
+
+#### **MLIR/LLVM**: [mlir][pygments] add mkdocs instructions and `__all__` addition
+
+[GitHub PR #181978](https://github.com/llvm/llvm-project/pull/181978). Pygments
+requires `__all__` to be defined in lexer modules discovered via its `LEXERS`
+entry-point mapping. The MLIR Pygments lexer was missing this, meaning
+integrating it into tools like MkDocs required downstream workarounds. This PR
+adds the missing export and documents how to register the lexer as a Markdown
+extension for MkDocs pipelines.
+
 ### 2025
 
 #### **XLA**: [docs] note mlir-hlo deprecation
