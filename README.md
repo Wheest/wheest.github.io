@@ -4,7 +4,9 @@ Personal blog of Perry Gibson. Live at [gibsonic.org](https://gibsonic.org).
 
 ## Local Development
 
-Requires Ruby (system Ruby on macOS is too old). Install via Homebrew:
+### macOS
+
+System Ruby is too old. Install a newer one via Homebrew:
 
 ```bash
 brew install ruby
@@ -17,6 +19,23 @@ export PATH="/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/4.0.0/bin:$P
 bundle install
 bundle exec jekyll serve
 ```
+
+### Debian/Ubuntu
+
+System Ruby is new enough. Install the build dependencies and bundler:
+
+```bash
+sudo apt install ruby-dev build-essential ruby-bundler
+```
+
+Then:
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+### All platforms
 
 Site will be available at http://localhost:4000.
 
