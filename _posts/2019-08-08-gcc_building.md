@@ -2,7 +2,7 @@
 layout: post
 title: "Building an old version of gcc, a journey of errors and solutions"
 date: 2019-08-08 10:15:08 +0200
-categories: tools
+categories: blog
 tags: gcc compilers devops tools build
 excerpt_separator: <!--more-->
 ---

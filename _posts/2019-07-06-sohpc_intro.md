@@ -2,7 +2,7 @@
 layout: post
 title: "Summer of HPC Introduction"
 date: 2019-07-06 19:52:08 +0200
-categories: hpc
+categories: blog
 excerpt_separator: <!--more-->
 ---
 

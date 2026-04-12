@@ -2,7 +2,7 @@
 layout: post
 title: "AI Generated Music Video: SENGA 'Bloodshot'"
 date: 2021-11-19 20:20:08 +0000
-categories: side-projects
+categories: blog
 tags: art side-projects ai
 excerpt_separator: <!--more-->
 ---

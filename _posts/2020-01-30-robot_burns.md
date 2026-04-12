@@ -2,7 +2,7 @@
 layout: post
 title: "Robot Burns"
 date: 2020-01-30 09:00:00 +0000
-categories: nlp
+categories: blog
 tags: nlp side-projects poetry
 excerpt_separator: <!--more-->
 ---

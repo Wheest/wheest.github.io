@@ -2,7 +2,7 @@
 layout: post
 title: "Installing perf on a development board (e.g. RPi4)"
 date: 2020-03-18 09:00:00 +0000
-categories: systems
+categories: blog
 tags: raspberry-pi systems linux perf
 excerpt_separator: <!--more-->
 ---

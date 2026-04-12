@@ -4,7 +4,7 @@ title:
   "Cross-post - Robot Burns: Using HPC to Create Modern-Day Poems Inspired by
   18th Century Master"
 date: 2021-06-08 09:00:00 +0000
-categories: nlp art
+categories: blog
 tags: nlp side-projects poetry art
 excerpt_separator: <!--more-->
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Writing practice: a rant on encryption policies"
 date: 2020-12-23 09:00:00 +0000
-categories: privacy
+categories: blog
 tags: privacy security policy politics
 excerpt_separator: <!--more-->
 ---

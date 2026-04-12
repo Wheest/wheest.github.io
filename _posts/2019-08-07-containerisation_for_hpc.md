@@ -2,7 +2,7 @@
 layout: post
 title: "Containerisation for HPC"
 date: 2019-08-07 16:20:08 +0200
-categories: hpc
+categories: blog
 tags: hpc containerisation docker
 excerpt_separator: <!--more-->
 ---
