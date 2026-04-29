@@ -24,6 +24,17 @@ heading below, or my [GitHub profile](https://github.com/Wheest).
 
 ### 2026
 
+#### **glaze**: Fix `ordered_small_map` parse error under namespace pollution
+
+[GitHub PR #2535](https://github.com/stephenberry/glaze/pull/2535). Whilst
+bumping the glaze version in one of my projects, I hit a Clang parse error in
+`ordered_small_map.hpp` whenever an upstream header had hoisted `std::hash` into
+the global namespace via `using namespace std;`. Clang would then treat
+`obj.hash < target` as the start of a template-id and fail to find the closing
+`>`. Seems like an upstream Clang issue
+([#59910](https://github.com/llvm/llvm-project/issues/59910)), but this
+side-steps the ambiguity without changing behaviour.
+
 #### **MLIR/LLVM**: [mlir][pygments] add mkdocs instructions and `__all__` addition
 
 [GitHub PR #181978](https://github.com/llvm/llvm-project/pull/181978). Pygments
