@@ -24,6 +24,43 @@ heading below, or my [GitHub profile](https://github.com/Wheest).
 
 ### 2026
 
+#### **rtree**: Add fallback for finding bundled library when `importlib.metadata` unavailable
+
+[GitHub PR #404](https://github.com/Toblerity/rtree/pull/404). When running
+under Bazel's sandbox (via `rules_python`), `importlib.metadata.files()` can
+return `None`, so rtree failed to locate its bundled `libspatialindex` library
+with a confusing `OSError`, even though it was present in the wheel. This PR
+adds a fallback that searches for the library relative to the package directory
+(`rtree.libs/`), which works regardless of metadata availability, along with a
+test that mocks the missing-metadata case.
+
+#### **bazel_rules_hdl**: Load `cc_common` explicitly for Bazel 9 compatibility
+
+[GitHub PR #436](https://github.com/hdl/bazel_rules_hdl/pull/436). Bazel 9's
+"Starlarkification" means symbols like `cc_common` must now be loaded
+explicitly. Without this, building any Verilator-using target on Bazel 9 fails
+with an opaque `'struct' object has no attribute 'configure_features'` error. I
+hit this whilst bumping the Bazel version of a downstream project; the added
+load is backwards compatible, so older Bazel users are unaffected.
+
+#### **rspl**: Update stale GitLab URLs to GitHub
+
+[GitHub PR #20](https://github.com/HailToDodongo/rspl/pull/20). A minor docs fix
+for RSPL, the high-level language for the N64's RSP co-processor that I use in
+my [dnn64](https://github.com/Wheest/dnn64) project. The project had moved from
+GitLab to GitHub, but a couple of old URLs remained in the web app.
+
+#### **toolchains_llvm**: Keep bundled-distro fallback reproducible in `download_llvm`
+
+[GitHub PR #723](https://github.com/bazel-contrib/toolchains_llvm/pull/723).
+When a user sets `urls` on `llvm.toolchain(...)` for some platforms but not all,
+hosts on the unmatched platforms fall back to the bundled distribution table —
+but the download was incorrectly flagged as non-reproducible, which disabled
+`--repo_contents_cache` symlink-sharing. The result: every output base got its
+own freshly-extracted ~7 GB copy of the LLVM distribution. As a heavy user of
+git worktrees in a Bazel monorepo, the disk bloat led me to investigate and fix
+this, so the shared cache is used as intended.
+
 #### **glaze**: Fix `ordered_small_map` parse error under namespace pollution
 
 [GitHub PR #2535](https://github.com/stephenberry/glaze/pull/2535). Whilst
