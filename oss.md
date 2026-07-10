@@ -24,6 +24,14 @@ heading below, or my [GitHub profile](https://github.com/Wheest).
 
 ### 2026
 
+#### **bazel-central-registry**: Add `highway@1.4.0`
+
+[GitHub PR #9614](https://github.com/bazelbuild/bazel-central-registry/pull/9614).
+Saw that [highway](https://github.com/google/highway), Google's SIMD library,
+had cut a new release, but the Bazel Central Registry still topped out at 1.3.0.
+Upstreamed the 1.4.0 entry so that any Bazel project can consume the new version
+as a plain `bazel_dep`, without needing their own override or registry overlay.
+
 #### **rtree**: Add fallback for finding bundled library when `importlib.metadata` unavailable
 
 [GitHub PR #404](https://github.com/Toblerity/rtree/pull/404). When running
