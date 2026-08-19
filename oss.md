@@ -32,6 +32,16 @@ had cut a new release, but the Bazel Central Registry still topped out at 1.3.0.
 Upstreamed the 1.4.0 entry so that any Bazel project can consume the new version
 as a plain `bazel_dep`, without needing their own override or registry overlay.
 
+#### **picolibc**: Declare feature-probe functions to satisfy `-Wmissing-prototypes`
+
+[GitHub PR #1362](https://github.com/picolibc/picolibc/pull/1362). After bumping
+the picolibc version in a downstream project I manage, I found I was getting new
+compiler warnings. The cause: picolibc's Meson feature probes for `_Complex` and
+packed bitfields defined a function with no prior declaration, so toolchains
+with `-Werror` in their host `c_args` failed the probes and wrongly concluded
+the features were unsupported. Fixed by adding forward declarations to the probe
+snippets.
+
 #### **rtree**: Add fallback for finding bundled library when `importlib.metadata` unavailable
 
 [GitHub PR #404](https://github.com/Toblerity/rtree/pull/404). When running
