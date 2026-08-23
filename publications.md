@@ -17,12 +17,44 @@ and [Twitter](https://twitter.com/PerryGibson_).
 You can also download this list as a [TeX bib
 file]({{ site.baseurl }}/publications.tex).
 
+### 2025
+
+- N. Louloudakis, **P. Gibson**, J. Cano, and A. Rajan, _'FetaFix: Automatic
+  Fault Localization and Repair of Deep Learning Model Conversions'_, in 29th
+  International Conference on Evaluation and Assessment in Software Engineering
+  ([**EASE**](https://conf.researchr.org/home/ease-2025)), Istanbul, Turkey,
+  June 2025. doi: 10.1145/3756681.3756931.
+  [[Paper]](https://doi.org/10.1145/3756681.3756931)
+  [[arXiv]](https://arxiv.org/abs/2312.15101)
+  [[Code]](https://github.com/luludak/FetaFix)
+
+- N. Louloudakis, **P. Gibson**, J. Cano, and A. Rajan, _'Exploring Robustness
+  of Image Recognition Models on Hardware Accelerators'_, in 18th IEEE
+  International Conference on Software Testing, Verification and Validation
+  ([**ICST**](https://conf.researchr.org/home/icst-2025)), Mutation Workshop,
+  April 2025. [[arXiv]](https://arxiv.org/abs/2306.01697)
+
+- A. Ferguson, **P. Gibson**, L. D'Agata, P. McLeod, F. Yaman, A. Das, I.
+  Colbert, and J. Cano, _'Exploiting Unstructured Sparsity in Fully Homomorphic
+  Encrypted DNNs'_, in 5th Workshop on Machine Learning and Systems
+  ([**EuroMLSys**](https://euromlsys.eu/)) co-located with EuroSys, April 2025.
+  doi: 10.1145/3721146.3721948.
+  [[Paper]](https://doi.org/10.1145/3721146.3721948)
+  [[arXiv]](https://arxiv.org/abs/2503.09291)
+
+- **P. Gibson**, J. Cano, E. J. Crowley, A. Storkey, and M. O'Boyle, _'DLAS: A
+  Conceptual Model for Across-Stack Deep Learning Acceleration'_, ACM
+  Transactions on Architecture and Code Optimization (**TACO**), vol. 22, no. 1,
+  pp. 1–28, March 2025. doi: 10.1145/3688609.
+  [[Paper]](https://dl.acm.org/doi/full/10.1145/3688609)
+  [[arXiv]](https://arxiv.org/abs/2311.08909)
+
 ### 2024
 
 - N. Agostini, J. Haris, **P. Gibson**, Malith Jayaweera, Norm Rubin, Antonino
   Tumeo, José L. Abellán, José Cano, and David Kaeli _'AXI4MLIR: User-Driven
-  Automatic Host Code Generation for Custom AXI-Based Accelerators'_, to appear
-  in IEEE International Symposium on Code Generation and Optimization
+  Automatic Host Code Generation for Custom AXI-Based Accelerators'_, in IEEE
+  International Symposium on Code Generation and Optimization
   [(**CGO**)](https://conf.researchr.org/home/cgo-2024).
   [[arXiv]](https://arxiv.org/abs/2312.14821)
   <span class="custom-image"><img src="/assets/pics/acm_artifacts_evaluated_reusable_v1_1.png" style="height: 1em;">
