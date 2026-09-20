@@ -9,3 +9,9 @@ Gemfile.lock
 .DS_Store
 node_modules/
 *.gem
+
+# secrets: never commit
+.key
+.secret
+.env
+*.pem
