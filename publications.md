@@ -32,7 +32,9 @@ file]({{ site.baseurl }}/publications.tex).
   of Image Recognition Models on Hardware Accelerators'_, in 18th IEEE
   International Conference on Software Testing, Verification and Validation
   ([**ICST**](https://conf.researchr.org/home/icst-2025)), Mutation Workshop,
-  April 2025. [[arXiv]](https://arxiv.org/abs/2306.01697)
+  April 2025. doi: 10.1109/ICSTW64639.2025.10962531.
+  [[Paper]](https://doi.org/10.1109/ICSTW64639.2025.10962531)
+  [[arXiv]](https://arxiv.org/abs/2306.01697)
 
 - A. Ferguson, **P. Gibson**, L. D'Agata, P. McLeod, F. Yaman, A. Das, I.
   Colbert, and J. Cano, _'Exploiting Unstructured Sparsity in Fully Homomorphic
@@ -40,7 +42,7 @@ file]({{ site.baseurl }}/publications.tex).
   ([**EuroMLSys**](https://euromlsys.eu/)) co-located with EuroSys, April 2025.
   doi: 10.1145/3721146.3721948.
   [[Paper]](https://doi.org/10.1145/3721146.3721948)
-  [[arXiv]](https://arxiv.org/abs/2503.09291)
+  [[arXiv]](https://arxiv.org/abs/2503.09184)
 
 - **P. Gibson**, J. Cano, E. J. Crowley, A. Storkey, and M. O'Boyle, _'DLAS: A
   Conceptual Model for Across-Stack Deep Learning Acceleration'_, ACM
@@ -55,7 +57,9 @@ file]({{ site.baseurl }}/publications.tex).
   Tumeo, José L. Abellán, José Cano, and David Kaeli _'AXI4MLIR: User-Driven
   Automatic Host Code Generation for Custom AXI-Based Accelerators'_, in IEEE
   International Symposium on Code Generation and Optimization
-  [(**CGO**)](https://conf.researchr.org/home/cgo-2024).
+  [(**CGO**)](https://conf.researchr.org/home/cgo-2024), March 2024. doi:
+  10.1109/CGO57630.2024.10444801.
+  [[Paper]](https://doi.org/10.1109/CGO57630.2024.10444801)
   [[arXiv]](https://arxiv.org/abs/2312.14821)
   <span class="custom-image"><img src="/assets/pics/acm_artifacts_evaluated_reusable_v1_1.png" style="height: 1em;">
   </span><span class="custom-image">
@@ -80,9 +84,12 @@ file]({{ site.baseurl }}/publications.tex).
   [[Paper]](https://openreview.net/forum?id=fWYKVtf7lu)
 
 - N. Louloudakis, **P. Gibson**, J. Cano, and A. Rajan _'Fault Localization for
-  Buggy Deep Learning Framework Conversions in Image Recognition'_, to appear in
-  IEEE/ACM International Conference on Automated Software Engineering
-  ([**ASE**](https://conf.researchr.org/home/ase-2023)).
+  Buggy Deep Learning Framework Conversions in Image Recognition'_, in IEEE/ACM
+  International Conference on Automated Software Engineering
+  ([**ASE**](https://conf.researchr.org/home/ase-2023)), September 2023. doi:
+  10.1109/ASE56229.2023.00147.
+  [[Paper]](https://doi.org/10.1109/ASE56229.2023.00147)
+  [[arXiv]](https://arxiv.org/abs/2306.06157)
 
 - J. Haris, **P. Gibson**, J. Cano, N. Bohm Agostini, and D. Kaeli,
   _‘SECDA-TFLite: A toolkit for efficient development of FPGA-based DNN
@@ -121,6 +128,12 @@ file]({{ site.baseurl }}/publications.tex).
   June 2022.
   [[Paper]](https://accml.dcs.gla.ac.uk/papers/2022/4thAccML_paper_2(16).pdf)
 
+- J. Haris, **P. Gibson**, J. Cano, N. Bohm Agostini, and D. Kaeli,
+  _'Hardware/Software Co-Design of Edge DNN Accelerators with TFLite'_, in 18th
+  International Summer School on Advanced Computer Architecture and Compilation
+  for High-Performance and Embedded Systems (**ACACES**), July 2022.
+  [[Paper]](https://www.dcs.gla.ac.uk/~josecr/pub/2022_acaces.pdf)
+
 ### 2021
 
 - J. Haris, **P. Gibson**, J. Cano, N. B. Agostini, and D. Kaeli, _‘SECDA:
@@ -148,3 +161,9 @@ file]({{ site.baseurl }}/publications.tex).
   pp. 229–230. doi: 10.1109/ISPASS48437.2020.00042.
   [[Paper]](https://ieeexplore.ieee.org/document/9238597)
   [[arXiv]](https://arxiv.org/abs/2007.13648)
+
+- **P. Gibson**, J. Cano, J. Turner, E. J. Crowley, M. O'Boyle, and A. Storkey,
+  _'Evaluating Grouped Spatial Pack Convolutions on Edge CPUs'_, in 16th
+  International Summer School on Advanced Computer Architecture and Compilation
+  for High-Performance and Embedded Systems (**ACACES**), 2020.
+  [[Paper]](https://www.dcs.gla.ac.uk/~josecr/pub/2020_acaces_GSPC.pdf)
